@@ -1,0 +1,7 @@
+variant,train_samples,dev_samples,epochs_completed,selected_epoch,dev_ce,dev_top1,official_val_top1,official_val_top5,status,notes
+rgb,,,,,,,,,pending,
+ll,,,,,,,,,pending,
+ll_lh,,,,,,,,,pending,
+ll_hl,,,,,,,,,pending,
+ll_hh,,,,,,,,,pending,
+all,,,,,,,,,pending,
