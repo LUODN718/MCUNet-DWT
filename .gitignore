@@ -1,5 +1,7 @@
 data/
 runs/
+splits/tiny_*.json
+splits/tiny_*.samples.csv
 weights/*.pth
 weights/*.tflite
 *.pyc

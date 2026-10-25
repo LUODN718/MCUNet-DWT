@@ -1,0 +1,2 @@
+# Keep verified experiment bytes identical across Windows and Linux checkouts.
+results/tiny_imagenet/** -text

@@ -1,0 +1,12 @@
+{
+  "dataset": "tiny-imagenet",
+  "variant": "rgb",
+  "samples": 10000,
+  "available_samples": 10000,
+  "limited": false,
+  "top1": 66.47,
+  "top5": 87.78,
+  "checkpoint": "results/tiny_imagenet/rgb/best.pt",
+  "selected_epoch": 18,
+  "scope": "tiny-imagenet preliminary"
+}

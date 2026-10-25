@@ -1,0 +1,12 @@
+{
+  "dataset": "tiny-imagenet",
+  "variant": "ll",
+  "samples": 10000,
+  "available_samples": 10000,
+  "limited": false,
+  "top1": 66.4,
+  "top5": 87.59,
+  "checkpoint": "results/tiny_imagenet/ll/best.pt",
+  "selected_epoch": 18,
+  "scope": "tiny-imagenet preliminary"
+}

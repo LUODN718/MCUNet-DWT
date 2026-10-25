@@ -1,0 +1,7 @@
+variant,train_samples,dev_samples,epochs_completed,selected_epoch,dev_ce,dev_top1,dev_top5,tiny_val_samples,tiny_val_top1,tiny_val_top5,official_val_top1,official_val_top5,seed,status,notes,top1_delta_vs_rgb_pp
+rgb,95000,5000,20,19,1.3020933033943176,66.26,87.9,10000,66.47,87.78,,,2026,complete_tiny_imagenet_preliminary,200 classes; selected_epoch is 1-based; no ImageNet-1K evaluation,0.0
+ll,95000,5000,20,19,1.308684363269806,66.08,87.74,10000,66.4,87.59,,,2026,complete_tiny_imagenet_preliminary,200 classes; selected_epoch is 1-based; no ImageNet-1K evaluation,-0.07
+ll_lh,95000,5000,20,19,1.305168886947632,66.52,87.62,10000,66.34,87.62,,,2026,complete_tiny_imagenet_preliminary,200 classes; selected_epoch is 1-based; no ImageNet-1K evaluation,-0.13
+ll_hl,95000,5000,20,19,1.3001911080360413,66.64,87.68,10000,66.62,87.65,,,2026,complete_tiny_imagenet_preliminary,200 classes; selected_epoch is 1-based; no ImageNet-1K evaluation,0.15
+ll_hh,95000,5000,20,19,1.3040876801490784,66.44,87.68,10000,66.51,87.38,,,2026,complete_tiny_imagenet_preliminary,200 classes; selected_epoch is 1-based; no ImageNet-1K evaluation,0.04
+all,95000,5000,20,19,1.3010123366355897,66.32,87.84,10000,66.5,87.53,,,2026,complete_tiny_imagenet_preliminary,200 classes; selected_epoch is 1-based; no ImageNet-1K evaluation,0.03

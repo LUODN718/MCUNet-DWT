@@ -19,7 +19,8 @@ def _import_mcunet():
     return ProxylessNASNets, ConvLayer
 
 
-def load_model(config_path: str | Path, weight_path: str | Path, variant: str):
+def load_model(config_path: str | Path, weight_path: str | Path, variant: str,
+               num_classes: int | None = None, classifier_seed: int = 2026):
     ProxylessNASNets, ConvLayer = _import_mcunet()
     config = json.loads(Path(config_path).read_text(encoding="utf-8"))
     model = ProxylessNASNets.build_from_config(config)
@@ -28,6 +29,14 @@ def load_model(config_path: str | Path, weight_path: str | Path, variant: str):
     missing, unexpected = model.load_state_dict(state_dict, strict=False)
     if missing or unexpected:
         raise RuntimeError(f"unexpected pretrained checkpoint mismatch: missing={missing}, unexpected={unexpected}")
+    if num_classes is not None and num_classes != model.classifier.out_features:
+        classifier_config = dict(model.classifier.config)
+        classifier_config.pop("name")
+        classifier_config["out_features"] = num_classes
+        # Keep the new head identical across variants despite different stem sizes.
+        with torch.random.fork_rng(devices=[]):
+            torch.manual_seed(classifier_seed)
+            model.classifier = type(model.classifier).build_from_config(classifier_config)
     if variant != "rgb":
         subband_counts = {"ll": 1, "ll_lh": 2, "ll_hl": 2, "ll_hh": 2, "all": 4}
         model = adapt_first_conv(model, 3 * subband_counts[variant], ConvLayer)

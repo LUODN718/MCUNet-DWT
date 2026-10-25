@@ -1,0 +1,21 @@
+dataset=tiny-imagenet classes=200 train=95000 dev=5000 device=NVIDIA GeForce RTX 3060 Laptop GPU input=80
+epoch=000 lr=0.001 train_n=95000 dev_n=5000 train_loss=3.6787 train_top1=21.74 dev_loss=2.1033 dev_top1=48.58 dev_top5=75.94
+epoch=001 lr=0.00099384417 train_n=95000 dev_n=5000 train_loss=2.6381 train_top1=38.78 dev_loss=1.7337 dev_top1=57.44 dev_top5=81.28
+epoch=002 lr=0.00097552826 train_n=95000 dev_n=5000 train_loss=2.3986 train_top1=43.55 dev_loss=1.6069 dev_top1=58.82 dev_top5=83.46
+epoch=003 lr=0.00094550326 train_n=95000 dev_n=5000 train_loss=2.2769 train_top1=46.13 dev_loss=1.5503 dev_top1=60.50 dev_top5=84.14
+epoch=004 lr=0.0009045085 train_n=95000 dev_n=5000 train_loss=2.1964 train_top1=47.60 dev_loss=1.4788 dev_top1=61.78 dev_top5=84.86
+epoch=005 lr=0.00085355339 train_n=95000 dev_n=5000 train_loss=2.1277 train_top1=49.14 dev_loss=1.4478 dev_top1=62.54 dev_top5=85.82
+epoch=006 lr=0.00079389263 train_n=95000 dev_n=5000 train_loss=2.0801 train_top1=50.01 dev_loss=1.4447 dev_top1=63.12 dev_top5=85.84
+epoch=007 lr=0.00072699525 train_n=95000 dev_n=5000 train_loss=2.0411 train_top1=50.86 dev_loss=1.4028 dev_top1=63.84 dev_top5=86.56
+epoch=008 lr=0.0006545085 train_n=95000 dev_n=5000 train_loss=2.0063 train_top1=51.68 dev_loss=1.4084 dev_top1=63.54 dev_top5=86.36
+epoch=009 lr=0.00057821723 train_n=95000 dev_n=5000 train_loss=1.9752 train_top1=52.36 dev_loss=1.3721 dev_top1=64.20 dev_top5=86.54
+epoch=010 lr=0.0005 train_n=95000 dev_n=5000 train_loss=1.9442 train_top1=52.95 dev_loss=1.3701 dev_top1=64.58 dev_top5=86.70
+epoch=011 lr=0.00042178277 train_n=95000 dev_n=5000 train_loss=1.9240 train_top1=53.28 dev_loss=1.3562 dev_top1=64.86 dev_top5=86.92
+epoch=012 lr=0.0003454915 train_n=95000 dev_n=5000 train_loss=1.8982 train_top1=53.83 dev_loss=1.3460 dev_top1=65.08 dev_top5=87.34
+epoch=013 lr=0.00027300475 train_n=95000 dev_n=5000 train_loss=1.8681 train_top1=54.48 dev_loss=1.3259 dev_top1=65.86 dev_top5=87.24
+epoch=014 lr=0.00020610737 train_n=95000 dev_n=5000 train_loss=1.8532 train_top1=54.91 dev_loss=1.3217 dev_top1=65.82 dev_top5=87.56
+epoch=015 lr=0.00014644661 train_n=95000 dev_n=5000 train_loss=1.8365 train_top1=55.26 dev_loss=1.3170 dev_top1=65.90 dev_top5=87.94
+epoch=016 lr=9.5491503e-05 train_n=95000 dev_n=5000 train_loss=1.8295 train_top1=55.44 dev_loss=1.3084 dev_top1=65.60 dev_top5=88.00
+epoch=017 lr=5.4496738e-05 train_n=95000 dev_n=5000 train_loss=1.8203 train_top1=55.69 dev_loss=1.3039 dev_top1=66.04 dev_top5=87.70
+epoch=018 lr=2.4471742e-05 train_n=95000 dev_n=5000 train_loss=1.8114 train_top1=55.87 dev_loss=1.3010 dev_top1=66.32 dev_top5=87.84
+epoch=019 lr=6.1558297e-06 train_n=95000 dev_n=5000 train_loss=1.8016 train_top1=56.12 dev_loss=1.3094 dev_top1=66.04 dev_top5=87.80

@@ -1,5 +1,32 @@
 # MCUNet DWT ImageNet Baseline
 
+## Completed Tiny ImageNet Experiment
+
+All six groups completed 20 epochs on Tiny ImageNet (200 classes), using
+95,000 training images, 5,000 held-out development images and the separate
+10,000-image validation set. Best checkpoints were selected by development
+cross-entropy. These are preliminary Tiny ImageNet results, not ImageNet-1K results.
+
+| Input | Validation Top-1 (%) | Validation Top-5 (%) | Top-1 vs RGB (pp) |
+|---|---:|---:|---:|
+| RGB | 66.47 | **87.78** | 0.00 |
+| LL | 66.40 | 87.59 | -0.07 |
+| LL + LH | 66.34 | 87.62 | -0.13 |
+| LL + HL | **66.62** | 87.65 | +0.15 |
+| LL + HH | 66.51 | 87.38 | +0.04 |
+| All subbands | 66.50 | 87.53 | +0.03 |
+
+![Validation accuracy and differences](results/tiny_imagenet/figures/validation_comparison.png)
+
+![Six-group learning curves](results/tiny_imagenet/figures/learning_curves.png)
+
+See the [full result report](results/tiny_imagenet/README.md) for per-epoch
+logs, CSV results, model checkpoints, sample lists, per-image predictions
+and reproduction commands. One seed was used; differences this small do not
+establish a repeatable improvement.
+
+## ImageNet-1K Baseline
+
 This repository contains the ImageNet-1K fine-tuning baseline for comparing
 raw RGB input with one-level orthonormal Haar subband inputs. The six groups
 are `rgb`, `ll`, `ll_lh`, `ll_hl`, `ll_hh` and `all`.
@@ -20,6 +47,10 @@ coefficients use `band/0.5`. These choices are recorded in every run's
 `config.json`.
 
 ## Setup
+
+For the small 200-class development dataset, see [TINY_IMAGENET.md](TINY_IMAGENET.md).
+Its online-DWT pipeline test and full Tiny training commands are separate from
+the ImageNet-1K benchmark below.
 
 The repository is intentionally kept separate from the upstream MCUNet source.
 From this directory, set:
