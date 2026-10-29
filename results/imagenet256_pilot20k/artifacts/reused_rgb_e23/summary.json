@@ -1,0 +1,18 @@
+{
+  "variant": "rgb_e23",
+  "train_images": 16000,
+  "dev_images": 4000,
+  "epochs_completed": 20,
+  "selected_epoch": 20,
+  "dev_ce": 2.0294808359146117,
+  "dev_top1": 53.3,
+  "dev_top5": 77.75,
+  "successful_updates": 10000,
+  "attempted_updates": 10000,
+  "failed_attempts": 0,
+  "training_exposures": 320000,
+  "attempted_training_exposures": 320000,
+  "elapsed_seconds": 3348.2810000000027,
+  "stop_reason": "max20epochs",
+  "scope": "resized-image 20k pilot; dev only; no official validation accuracy"
+}

@@ -1,0 +1,55 @@
+{
+  "manifest_sha256": "927c40c229256733dfd91d42eea6d8ef82b2f64e8eeea9354c3363144e4483da",
+  "selection_sha256": "f81b2dcd34f46063cbca2fc089abad23d79ffeb7d71923b3286585493771eed4",
+  "precision": "fp32",
+  "tf32": false,
+  "batch": 32,
+  "steps_per_epoch": 500,
+  "total_epochs": 20,
+  "source_commit": "ce31c1da28c8f41d81ae01d64fd30c6ad96cf439",
+  "source_files": {
+    "scripts/train_route_pilot.py": "e05aea4d4f7fd9b737ed1544fc9e7f4e5039917faeed21c67e7e54c06c4a23a3",
+    "experiments/w80_pilot/routes.py": "05371abb9627995823b2bbb932c53774dcf8f96f06a1cfb79438d8549feeae32",
+    "experiments/w80_pilot/data.py": "9ef247c688f7f4d7006b3d72891b67e80eed5a6c8d4659137e3a0d89da943de4",
+    "experiments/w80_pilot/atomic_io.py": "a677fae623ac6ef3c420bcd36fb632317f2e4f59c7495b720012feb7c6e5d579",
+    "experiments/w80_pilot/recovery.py": "69909159d1078a0b2ba3df400df919a3fe811f00ac2c4cafc65c66990a16aea8"
+  },
+  "train_images": 16000,
+  "dev_images": 4000,
+  "variants": [
+    "ll_hl"
+  ],
+  "route": "spatial_s2",
+  "seed": 2026,
+  "loss": "CE only",
+  "micro_batch": 32,
+  "bn_batch": 32,
+  "accumulation": 1,
+  "momentum": 0.9,
+  "weight_decay": 4e-05,
+  "backbone_head_peak_lr": 0.001,
+  "new_stem_peak_lr": 0.005,
+  "warmup_epochs": 2,
+  "total_epochs_including_warmup": 20,
+  "minimum_epochs": 6,
+  "stopping": "4 epochs without CE improvement >.001 AND last4 |OLS slope|<=.001 AND range<=.005",
+  "checkpoint_selection": "strict minimum complete dev CE, first exact tie",
+  "scope": "Two-route resized ImageNet 16k/4k pilot; development only",
+  "workers": 0,
+  "resource_policy": {
+    "mode": "unattended_actual_allocation_recovery",
+    "telemetry_thread": false,
+    "speculative_ram_pause": false,
+    "pin_memory": false,
+    "checkpoint_updates": 100,
+    "optional_status": true
+  },
+  "versions": {
+    "torch": "2.5.1+cu121",
+    "torchvision": "0.20.1+cu121",
+    "python": "3.10.20",
+    "Pillow": "12.2.0",
+    "numpy": "2.2.6"
+  },
+  "variant": "ll_hl"
+}

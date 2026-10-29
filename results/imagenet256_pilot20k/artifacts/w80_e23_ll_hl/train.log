@@ -1,0 +1,120 @@
+2026-10-29 06:07:50,118 ll_hl epoch=1 batch=100/500 CE=7.5835 updates=100 exposures=3200
+2026-10-29 06:08:25,186 ll_hl epoch=1 batch=200/500 CE=6.8024 updates=200 exposures=6400
+2026-10-29 06:09:01,107 ll_hl epoch=1 batch=300/500 CE=6.1938 updates=300 exposures=9600
+2026-10-29 06:09:39,655 ll_hl epoch=1 batch=400/500 CE=5.7338 updates=400 exposures=12800
+2026-10-29 06:10:14,600 ll_hl epoch=1 batch=500/500 CE=5.4267 updates=500 exposures=16000
+2026-10-29 06:10:40,725 ll_hl epoch=1 train_ce=5.42671 dev_ce=3.22972 dev_top1=33.23 best=True stop=False
+2026-10-29 06:11:19,029 ll_hl epoch=2 batch=100/500 CE=3.8597 updates=600 exposures=19200
+2026-10-29 06:12:01,047 ll_hl epoch=2 batch=200/500 CE=3.7512 updates=700 exposures=22400
+2026-10-29 06:12:39,638 ll_hl epoch=2 batch=300/500 CE=3.6768 updates=800 exposures=25600
+2026-10-29 06:13:14,168 ll_hl epoch=2 batch=400/500 CE=3.6284 updates=900 exposures=28800
+2026-10-29 06:13:48,743 ll_hl epoch=2 batch=500/500 CE=3.5983 updates=1000 exposures=32000
+2026-10-29 06:14:08,364 ll_hl epoch=2 train_ce=3.59826 dev_ce=2.75498 dev_top1=40.45 best=True stop=False
+2026-10-29 06:14:44,079 ll_hl epoch=3 batch=100/500 CE=3.2699 updates=1100 exposures=35200
+2026-10-29 06:15:18,056 ll_hl epoch=3 batch=200/500 CE=3.2663 updates=1200 exposures=38400
+2026-10-29 06:15:53,714 ll_hl epoch=3 batch=300/500 CE=3.2494 updates=1300 exposures=41600
+2026-10-29 06:16:29,696 ll_hl epoch=3 batch=400/500 CE=3.2215 updates=1400 exposures=44800
+2026-10-29 06:17:05,626 ll_hl epoch=3 batch=500/500 CE=3.1948 updates=1500 exposures=48000
+2026-10-29 06:17:24,084 ll_hl epoch=3 train_ce=3.19478 dev_ce=2.45944 dev_top1=44.50 best=True stop=False
+2026-10-29 06:17:55,033 ll_hl epoch=4 batch=100/500 CE=2.9303 updates=1600 exposures=51200
+2026-10-29 06:18:35,817 ll_hl epoch=4 batch=200/500 CE=2.9333 updates=1700 exposures=54400
+2026-10-29 06:19:08,173 ll_hl epoch=4 batch=300/500 CE=2.9487 updates=1800 exposures=57600
+2026-10-29 06:19:44,307 ll_hl epoch=4 batch=400/500 CE=2.9570 updates=1900 exposures=60800
+2026-10-29 06:20:18,611 ll_hl epoch=4 batch=500/500 CE=2.9685 updates=2000 exposures=64000
+2026-10-29 06:20:37,096 ll_hl epoch=4 train_ce=2.96848 dev_ce=2.51966 dev_top1=44.12 best=False stop=False
+2026-10-29 06:21:11,044 ll_hl epoch=5 batch=100/500 CE=2.8013 updates=2100 exposures=67200
+2026-10-29 06:21:48,834 ll_hl epoch=5 batch=200/500 CE=2.8056 updates=2200 exposures=70400
+2026-10-29 06:22:26,121 ll_hl epoch=5 batch=300/500 CE=2.7937 updates=2300 exposures=73600
+2026-10-29 06:22:59,604 ll_hl epoch=5 batch=400/500 CE=2.7946 updates=2400 exposures=76800
+2026-10-29 06:23:37,520 ll_hl epoch=5 batch=500/500 CE=2.8083 updates=2500 exposures=80000
+2026-10-29 06:23:57,270 ll_hl epoch=5 train_ce=2.80825 dev_ce=2.46196 dev_top1=45.35 best=False stop=False
+2026-10-29 06:24:32,348 ll_hl epoch=6 batch=100/500 CE=2.7105 updates=2600 exposures=83200
+2026-10-29 06:25:06,554 ll_hl epoch=6 batch=200/500 CE=2.7122 updates=2700 exposures=86400
+2026-10-29 06:25:41,415 ll_hl epoch=6 batch=300/500 CE=2.7023 updates=2800 exposures=89600
+2026-10-29 06:26:15,090 ll_hl epoch=6 batch=400/500 CE=2.7270 updates=2900 exposures=92800
+2026-10-29 06:26:48,408 ll_hl epoch=6 batch=500/500 CE=2.7220 updates=3000 exposures=96000
+2026-10-29 06:27:07,853 ll_hl epoch=6 train_ce=2.72196 dev_ce=2.38285 dev_top1=47.20 best=True stop=False
+2026-10-29 06:27:41,175 ll_hl epoch=7 batch=100/500 CE=2.5649 updates=3100 exposures=99200
+2026-10-29 06:28:13,136 ll_hl epoch=7 batch=200/500 CE=2.5753 updates=3200 exposures=102400
+2026-10-29 06:28:47,394 ll_hl epoch=7 batch=300/500 CE=2.6055 updates=3300 exposures=105600
+2026-10-29 06:29:22,762 ll_hl epoch=7 batch=400/500 CE=2.6161 updates=3400 exposures=108800
+2026-10-29 06:30:01,066 ll_hl epoch=7 batch=500/500 CE=2.6341 updates=3500 exposures=112000
+2026-10-29 06:30:18,569 ll_hl epoch=7 train_ce=2.63407 dev_ce=2.28897 dev_top1=47.30 best=True stop=False
+2026-10-29 06:30:53,729 ll_hl epoch=8 batch=100/500 CE=2.5212 updates=3600 exposures=115200
+2026-10-29 06:31:26,156 ll_hl epoch=8 batch=200/500 CE=2.5504 updates=3700 exposures=118400
+2026-10-29 06:32:01,669 ll_hl epoch=8 batch=300/500 CE=2.5406 updates=3800 exposures=121600
+2026-10-29 06:32:35,132 ll_hl epoch=8 batch=400/500 CE=2.5302 updates=3900 exposures=124800
+2026-10-29 06:33:07,791 ll_hl epoch=8 batch=500/500 CE=2.5313 updates=4000 exposures=128000
+2026-10-29 06:33:30,212 ll_hl epoch=8 train_ce=2.53130 dev_ce=2.26420 dev_top1=47.33 best=True stop=False
+2026-10-29 06:34:07,578 ll_hl epoch=9 batch=100/500 CE=2.4766 updates=4100 exposures=131200
+2026-10-29 06:34:42,401 ll_hl epoch=9 batch=200/500 CE=2.4500 updates=4200 exposures=134400
+2026-10-29 06:35:17,241 ll_hl epoch=9 batch=300/500 CE=2.4335 updates=4300 exposures=137600
+2026-10-29 06:35:51,300 ll_hl epoch=9 batch=400/500 CE=2.4330 updates=4400 exposures=140800
+2026-10-29 06:36:35,742 ll_hl epoch=9 batch=500/500 CE=2.4441 updates=4500 exposures=144000
+2026-10-29 06:36:52,585 ll_hl epoch=9 train_ce=2.44409 dev_ce=2.27851 dev_top1=47.30 best=False stop=False
+2026-10-29 06:37:24,132 ll_hl epoch=10 batch=100/500 CE=2.3609 updates=4600 exposures=147200
+2026-10-29 06:38:08,392 ll_hl epoch=10 batch=200/500 CE=2.3874 updates=4700 exposures=150400
+2026-10-29 06:38:42,523 ll_hl epoch=10 batch=300/500 CE=2.3896 updates=4800 exposures=153600
+2026-10-29 06:39:27,012 ll_hl epoch=10 batch=400/500 CE=2.3973 updates=4900 exposures=156800
+2026-10-29 06:40:15,543 ll_hl epoch=10 batch=500/500 CE=2.4072 updates=5000 exposures=160000
+2026-10-29 06:40:33,897 ll_hl epoch=10 train_ce=2.40718 dev_ce=2.31488 dev_top1=47.48 best=False stop=False
+2026-10-29 06:41:21,479 ll_hl epoch=11 batch=100/500 CE=2.2867 updates=5100 exposures=163200
+2026-10-29 06:42:01,589 ll_hl epoch=11 batch=200/500 CE=2.3074 updates=5200 exposures=166400
+2026-10-29 06:42:33,400 ll_hl epoch=11 batch=300/500 CE=2.3326 updates=5300 exposures=169600
+2026-10-29 06:43:08,915 ll_hl epoch=11 batch=400/500 CE=2.3395 updates=5400 exposures=172800
+2026-10-29 06:43:41,670 ll_hl epoch=11 batch=500/500 CE=2.3385 updates=5500 exposures=176000
+2026-10-29 06:43:59,292 ll_hl epoch=11 train_ce=2.33854 dev_ce=2.24134 dev_top1=49.00 best=True stop=False
+2026-10-29 06:44:33,737 ll_hl epoch=12 batch=100/500 CE=2.2922 updates=5600 exposures=179200
+2026-10-29 06:45:08,520 ll_hl epoch=12 batch=200/500 CE=2.3198 updates=5700 exposures=182400
+2026-10-29 06:45:42,358 ll_hl epoch=12 batch=300/500 CE=2.3048 updates=5800 exposures=185600
+2026-10-29 06:46:20,995 ll_hl epoch=12 batch=400/500 CE=2.2930 updates=5900 exposures=188800
+2026-10-29 06:46:58,887 ll_hl epoch=12 batch=500/500 CE=2.2855 updates=6000 exposures=192000
+2026-10-29 06:47:18,360 ll_hl epoch=12 train_ce=2.28551 dev_ce=2.21412 dev_top1=49.70 best=True stop=False
+2026-10-29 06:47:50,154 ll_hl epoch=13 batch=100/500 CE=2.1957 updates=6100 exposures=195200
+2026-10-29 06:48:29,021 ll_hl epoch=13 batch=200/500 CE=2.2266 updates=6200 exposures=198400
+2026-10-29 06:49:03,299 ll_hl epoch=13 batch=300/500 CE=2.2303 updates=6300 exposures=201600
+2026-10-29 06:49:37,174 ll_hl epoch=13 batch=400/500 CE=2.2469 updates=6400 exposures=204800
+2026-10-29 06:50:10,730 ll_hl epoch=13 batch=500/500 CE=2.2343 updates=6500 exposures=208000
+2026-10-29 06:50:29,245 ll_hl epoch=13 train_ce=2.23428 dev_ce=2.20183 dev_top1=49.50 best=True stop=False
+2026-10-29 06:51:01,466 ll_hl epoch=14 batch=100/500 CE=2.1743 updates=6600 exposures=211200
+2026-10-29 06:51:34,572 ll_hl epoch=14 batch=200/500 CE=2.1946 updates=6700 exposures=214400
+2026-10-29 06:52:08,660 ll_hl epoch=14 batch=300/500 CE=2.1876 updates=6800 exposures=217600
+2026-10-29 06:52:46,275 ll_hl epoch=14 batch=400/500 CE=2.1900 updates=6900 exposures=220800
+2026-10-29 06:53:29,070 ll_hl epoch=14 batch=500/500 CE=2.1871 updates=7000 exposures=224000
+2026-10-29 06:53:48,509 ll_hl epoch=14 train_ce=2.18706 dev_ce=2.19789 dev_top1=49.17 best=True stop=False
+2026-10-29 06:54:21,780 ll_hl epoch=15 batch=100/500 CE=2.1963 updates=7100 exposures=227200
+2026-10-29 06:54:56,199 ll_hl epoch=15 batch=200/500 CE=2.1690 updates=7200 exposures=230400
+2026-10-29 06:55:31,983 ll_hl epoch=15 batch=300/500 CE=2.1658 updates=7300 exposures=233600
+2026-10-29 06:56:05,160 ll_hl epoch=15 batch=400/500 CE=2.1532 updates=7400 exposures=236800
+2026-10-29 06:56:50,236 ll_hl epoch=15 batch=500/500 CE=2.1492 updates=7500 exposures=240000
+2026-10-29 06:57:07,436 ll_hl epoch=15 train_ce=2.14916 dev_ce=2.20002 dev_top1=49.62 best=False stop=False
+2026-10-29 06:57:46,232 ll_hl epoch=16 batch=100/500 CE=2.1330 updates=7600 exposures=243200
+2026-10-29 06:58:19,757 ll_hl epoch=16 batch=200/500 CE=2.1239 updates=7700 exposures=246400
+2026-10-29 06:58:53,807 ll_hl epoch=16 batch=300/500 CE=2.1357 updates=7800 exposures=249600
+2026-10-29 06:59:29,759 ll_hl epoch=16 batch=400/500 CE=2.1182 updates=7900 exposures=252800
+2026-10-29 07:00:06,222 ll_hl epoch=16 batch=500/500 CE=2.1291 updates=8000 exposures=256000
+2026-10-29 07:00:22,074 ll_hl epoch=16 train_ce=2.12907 dev_ce=2.17761 dev_top1=49.80 best=True stop=False
+2026-10-29 07:00:58,242 ll_hl epoch=17 batch=100/500 CE=2.0997 updates=8100 exposures=259200
+2026-10-29 07:01:33,980 ll_hl epoch=17 batch=200/500 CE=2.1136 updates=8200 exposures=262400
+2026-10-29 07:02:09,701 ll_hl epoch=17 batch=300/500 CE=2.1043 updates=8300 exposures=265600
+2026-10-29 07:02:43,653 ll_hl epoch=17 batch=400/500 CE=2.0925 updates=8400 exposures=268800
+2026-10-29 07:03:20,960 ll_hl epoch=17 batch=500/500 CE=2.1061 updates=8500 exposures=272000
+2026-10-29 07:03:38,837 ll_hl epoch=17 train_ce=2.10607 dev_ce=2.18131 dev_top1=49.73 best=False stop=False
+2026-10-29 07:04:10,477 ll_hl epoch=18 batch=100/500 CE=2.1012 updates=8600 exposures=275200
+2026-10-29 07:04:47,040 ll_hl epoch=18 batch=200/500 CE=2.1126 updates=8700 exposures=278400
+2026-10-29 07:05:19,929 ll_hl epoch=18 batch=300/500 CE=2.0953 updates=8800 exposures=281600
+2026-10-29 07:06:01,890 ll_hl epoch=18 batch=400/500 CE=2.0878 updates=8900 exposures=284800
+2026-10-29 07:06:40,050 ll_hl epoch=18 batch=500/500 CE=2.0988 updates=9000 exposures=288000
+2026-10-29 07:06:58,202 ll_hl epoch=18 train_ce=2.09884 dev_ce=2.18430 dev_top1=50.02 best=False stop=False
+2026-10-29 07:07:31,589 ll_hl epoch=19 batch=100/500 CE=2.0897 updates=9100 exposures=291200
+2026-10-29 07:08:03,759 ll_hl epoch=19 batch=200/500 CE=2.0841 updates=9200 exposures=294400
+2026-10-29 07:08:41,813 ll_hl epoch=19 batch=300/500 CE=2.0814 updates=9300 exposures=297600
+2026-10-29 07:09:16,563 ll_hl epoch=19 batch=400/500 CE=2.0919 updates=9400 exposures=300800
+2026-10-29 07:09:53,522 ll_hl epoch=19 batch=500/500 CE=2.0841 updates=9500 exposures=304000
+2026-10-29 07:10:10,310 ll_hl epoch=19 train_ce=2.08415 dev_ce=2.17771 dev_top1=49.80 best=False stop=False
+2026-10-29 07:10:45,178 ll_hl epoch=20 batch=100/500 CE=2.1206 updates=9600 exposures=307200
+2026-10-29 07:11:20,363 ll_hl epoch=20 batch=200/500 CE=2.0879 updates=9700 exposures=310400
+2026-10-29 07:12:07,005 ll_hl epoch=20 batch=300/500 CE=2.0873 updates=9800 exposures=313600
+2026-10-29 07:12:44,031 ll_hl epoch=20 batch=400/500 CE=2.0805 updates=9900 exposures=316800
+2026-10-29 07:13:16,513 ll_hl epoch=20 batch=500/500 CE=2.0815 updates=10000 exposures=320000
+2026-10-29 07:13:35,500 ll_hl epoch=20 train_ce=2.08146 dev_ce=2.16965 dev_top1=49.35 best=True stop=False

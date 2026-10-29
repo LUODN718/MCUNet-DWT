@@ -1,0 +1,52 @@
+{
+  "verified_at_utc": "2026-10-28T19:45:34.070576+00:00",
+  "regression_tests_passed": 13,
+  "recovery_tests": 8,
+  "windows_snapshot_io_tests": 5,
+  "real_subprocess_recoverable_exit_restart_verified": true,
+  "cuda_jobs_passed": 9,
+  "cuda_checks_at_utc": "2026-10-28T19:41:47.261464+00:00",
+  "cuda_source_hashes": {
+    "experiments/w80_pilot/routes.py": "05371abb9627995823b2bbb932c53774dcf8f96f06a1cfb79438d8549feeae32",
+    "scripts/train_route_pilot.py": "e05aea4d4f7fd9b737ed1544fc9e7f4e5039917faeed21c67e7e54c06c4a23a3",
+    "experiments/w80_pilot/atomic_io.py": "a677fae623ac6ef3c420bcd36fb632317f2e4f59c7495b720012feb7c6e5d579",
+    "experiments/w80_pilot/recovery.py": "69909159d1078a0b2ba3df400df919a3fe811f00ac2c4cafc65c66990a16aea8"
+  },
+  "resumed_from_updates": 9334,
+  "observed_training_status": {
+    "stage": "training",
+    "pid": 16988,
+    "updated_at": "2026-10-28T19:44:52.234328+00:00",
+    "scope": "Two-route resized ImageNet 16k/4k pilot; development only",
+    "unattended": true,
+    "variant": "ll_lh",
+    "epoch": 20,
+    "batch_cursor": 0,
+    "successful_updates": 9500
+  },
+  "queue": {
+    "stage": "running",
+    "pid": 128532,
+    "at": "2026-10-28T19:43:14.537655+00:00",
+    "position": 3,
+    "total": 9,
+    "job": "spatial_s2_ll_lh",
+    "child_pid": 16988,
+    "restart_count": 0
+  },
+  "checkpoint_hashes_verified": {
+    "latest": true,
+    "best": true,
+    "previous": true
+  },
+  "checkpoint_refs": {
+    "best": "60a2fd8fb407616717f7d73770b0b21c5f55f25f63762df0a8565ff89aff8e1b.pt",
+    "latest": "60a2fd8fb407616717f7d73770b0b21c5f55f25f63762df0a8565ff89aff8e1b.pt",
+    "previous": "7780bba8e3f3af56351ac656d5f118c8477ca700e8c29dee95cf0cd2e961921c.pt",
+    "updated": 1793216692.189735
+  },
+  "display_is_optional": true,
+  "continuous_training_requires_no_viewer": true,
+  "forced_shutdown_or_hardware_failure_not_guaranteed": true,
+  "permanent_fault_retries_bounded": true
+}

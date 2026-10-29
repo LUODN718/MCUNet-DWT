@@ -1,0 +1,154 @@
+{
+  "repository": "https://api.github.com/repos/LumiaBlack51/tinyml-progressive-inference",
+  "commit": "c8b4f13cbe64d19b7f404f61a6213aea541226f2",
+  "files": [
+    {
+      "path": "AGENTS.md",
+      "status": 200,
+      "bytes": 1839,
+      "sha256": "c19a749c6a60463ebb186ad44b4ffecc447ec2fdfe1cb5254a49c45a1141fb9f"
+    },
+    {
+      "path": "experiments/AGENTS.md",
+      "status": 404
+    },
+    {
+      "path": "experiments/w80_e23/README.md",
+      "status": 200,
+      "bytes": 9725,
+      "sha256": "641a3c4592f550e93a498e296823348450cc0f9396fb716a49785471e523aa38"
+    },
+    {
+      "path": "experiments/w80_e23/TRAINING.md",
+      "status": 200,
+      "bytes": 9819,
+      "sha256": "d6ea09bbce183ed7d210fbfcb43a7f4040c98c1ce059952544a3e535cde2586f"
+    },
+    {
+      "path": "experiments/w80_e23/__init__.py",
+      "status": 200,
+      "bytes": 85,
+      "sha256": "27b6d47cd463fe9495ef9a2da30e93610c8ac088fd24371ee506c6b1960c18f9"
+    },
+    {
+      "path": "experiments/w80_e23/admission.py",
+      "status": 200,
+      "bytes": 2857,
+      "sha256": "606c817b6beb326568a7135dcbbcb86af368da44e7b5982a2d529b667b658c17"
+    },
+    {
+      "path": "experiments/w80_e23/calibrate.py",
+      "status": 200,
+      "bytes": 2467,
+      "sha256": "e00742be8e224a94025bacd285655f714fcafda86238ea0ca3d3772b8104e971"
+    },
+    {
+      "path": "experiments/w80_e23/content_audit.py",
+      "status": 200,
+      "bytes": 2712,
+      "sha256": "44215d368e208895b21cfa2a46c758259f2630a56a51f3c2a3b5916d5c9767c1"
+    },
+    {
+      "path": "experiments/w80_e23/cuda_checks.py",
+      "status": 200,
+      "bytes": 5872,
+      "sha256": "1e553bac63c83c0b7c6d2d68f35486b08a9bf40c1eb93c70659f6ff9c2521f92"
+    },
+    {
+      "path": "experiments/w80_e23/data.py",
+      "status": 200,
+      "bytes": 8717,
+      "sha256": "95333a6619b3729f457cf9986264707a478856e58f6ffc73b1cd6b3e2fb378a3"
+    },
+    {
+      "path": "experiments/w80_e23/execution.py",
+      "status": 200,
+      "bytes": 3860,
+      "sha256": "04afcae1daa3b3685d50b687a47b9a7c8bafd66fbdd77c3e6117314b46a5497f"
+    },
+    {
+      "path": "experiments/w80_e23/model.py",
+      "status": 200,
+      "bytes": 12323,
+      "sha256": "3c5ad41656f7663047c1fc2ddbb537499e1f62920d0b95f0395072dba37a1e11"
+    },
+    {
+      "path": "experiments/w80_e23/pipeline.py",
+      "status": 200,
+      "bytes": 4819,
+      "sha256": "54ebd30260ac75713dcf5d899615d44a9cb89133f7331ad6bf35eaab4af55f05"
+    },
+    {
+      "path": "experiments/w80_e23/preflight.py",
+      "status": 200,
+      "bytes": 4082,
+      "sha256": "7c08be90438fb2ef829d10bbe7d5a791ef6fc154e24d8435f8fbd8027b97985e"
+    },
+    {
+      "path": "experiments/w80_e23/prepare.py",
+      "status": 200,
+      "bytes": 5970,
+      "sha256": "dd4733c3a5b0db62d7fe4304eb2c6d6a9acb0510180f85c71533a657a90a7321"
+    },
+    {
+      "path": "experiments/w80_e23/protocol.json",
+      "status": 200,
+      "bytes": 3662,
+      "sha256": "e61ee838e95295f1efebf87508aea7c4787676e972fc701b699db6caffad7e50"
+    },
+    {
+      "path": "experiments/w80_e23/protocol_v1_frozen.json",
+      "status": 200,
+      "bytes": 5166,
+      "sha256": "0f414ee9a709cbca507b29d36f6cc77cf77b47a0039b8aad1474211d2f8d33b8"
+    },
+    {
+      "path": "experiments/w80_e23/report.py",
+      "status": 200,
+      "bytes": 3467,
+      "sha256": "bd8dab95e3cca105790fdfc8c6ec37521afd289c08fc6f34dea18fcd1900392c"
+    },
+    {
+      "path": "experiments/w80_e23/resources.py",
+      "status": 200,
+      "bytes": 5311,
+      "sha256": "be17a46b7959823e488ddf514da6f795dd858e1fa2ce33488699584a540dfad1"
+    },
+    {
+      "path": "experiments/w80_e23/review.py",
+      "status": 200,
+      "bytes": 2569,
+      "sha256": "23e6c8d0b8d8772f44dd6de40888726d17012b4589015e25a5765c8eb4976910"
+    },
+    {
+      "path": "experiments/w80_e23/runtime.py",
+      "status": 200,
+      "bytes": 9289,
+      "sha256": "1fd57e505168ce2bbed7bc501d705c88f7b9deefd8a4a1d06be0b5eeee8090b2"
+    },
+    {
+      "path": "experiments/w80_e23/tests.py",
+      "status": 200,
+      "bytes": 14633,
+      "sha256": "5bfa36a5854b8881095dbebcea769fbd611247d8490ae612f501a706bca67b88"
+    },
+    {
+      "path": "experiments/w80_e23/train.py",
+      "status": 200,
+      "bytes": 11868,
+      "sha256": "fa8a07a360e16f46206d7ccd138212f16614431917825f5d6261b94a7725c330"
+    },
+    {
+      "path": "experiments/w80_e23/results/data_proposal.json",
+      "status": 200,
+      "bytes": 3349,
+      "sha256": "dae29536fc7106bf2c1844a0703e3dee941fc3a5632d2f471c1cf61414bd689c"
+    },
+    {
+      "path": "experiments/w80_e23/results/implementation_audit.json",
+      "status": 200,
+      "bytes": 3816,
+      "sha256": "ebad2ea2e88264bbe31661a07a8ad43e4dba6a32a1faf9fdab2fd426e6c921c0"
+    }
+  ]
+}

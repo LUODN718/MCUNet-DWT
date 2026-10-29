@@ -1,5 +1,20 @@
 # MCUNet DWT ImageNet Baseline
 
+## ImageNet256 preliminary validation (2026-10-29)
+
+The [two-route pilot report and W80 protocol audit](results/imagenet256_pilot20k/README.md)
+contains completed results, curves, logs, per-image development predictions,
+sample lists, source snapshots and checkpoint hashes for 1,000 classes:
+16,000 training / 4,000 development images, seed2026, 20 epochs per arm.
+Nine queue jobs completed; one matching local compressed RGB160 control is reused.
+These are preliminary results from a 256px center-cropped ImageNet mirror subset,
+not full ImageNet-1K or official validation results. Data, update budget,
+dependencies, RNG and operational differences from the teammate's original-image
+128k/20k protocol are disclosed. Binary checkpoints remain local and are not
+included in this publication. Tiny ImageNet results below remain separate.
+
+![ImageNet256 pilot comparison](results/imagenet256_pilot20k/figures/comparison.png)
+
 ## Completed Tiny ImageNet Experiment
 
 All six groups completed 20 epochs on Tiny ImageNet (200 classes), using

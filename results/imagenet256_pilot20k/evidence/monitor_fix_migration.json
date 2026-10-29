@@ -1,0 +1,41 @@
+{
+  "at": "2026-10-28T14:19:16.159546+00:00",
+  "reason": "WinError5 resource.json replacement killed sampling thread; stale telemetry stopped queue",
+  "backup": "C:\\Users\\33581\\Desktop\\fyp\\MCUNet-DWT\\reports\\recovery_20261028_2215",
+  "changes": "Retry atomic JSON replacement; survive resource display write errors; save before actual telemetry protection stop",
+  "unchanged": "Model, optimizer, scheduler, scaler, RNG, data, augmentation, BN/batch, precision, LR, early-stop rules",
+  "old_protocol_sha256": "992018aafe4af81650993fab148d59fe94a90a1feb265e50e83d70d6ed9dc106",
+  "old_queue_sha256": "46bd0693606d610418c15bcdd32eed8e27e8a8f0875ad13a7ba182839e12c5df",
+  "new_sources": {
+    "scripts/train_route_pilot.py": "e405780e67e14e2ec6f2ce44e79a0510f28401e4a4ba6dd3124b4d6d2b6ecda9",
+    "experiments/w80_pilot/routes.py": "05371abb9627995823b2bbb932c53774dcf8f96f06a1cfb79438d8549feeae32",
+    "experiments/w80_pilot/data.py": "9ef247c688f7f4d7006b3d72891b67e80eed5a6c8d4659137e3a0d89da943de4",
+    "experiments/w80_pilot/atomic_io.py": "58a419a561fc00219e5053b8a84e1b5cbe05d76b4dbd0439764a5874e897ba2f"
+  },
+  "generations": [
+    {
+      "original": "2134207e02acd1743f45ad813cb02502a343b84f2d379ab23c69698153aca7ad.pt",
+      "migrated": "48701597a7a363e3336fc0abf56fe18299c5f9160985af91202917c2fb77b582.pt",
+      "successful_updates": 2750,
+      "epoch": 5,
+      "cursor": 250,
+      "all_non_contract_state_exactly_preserved": true
+    },
+    {
+      "original": "a937f17883081e66af3a29cb06ea920df26ea7d38f93dc1f0eef7ad1332d2d2a.pt",
+      "migrated": "6838b52fe59d719e4fe303071d0e194bdc4a80680d5002dc75a6540b41fbecc3.pt",
+      "successful_updates": 2500,
+      "epoch": 5,
+      "cursor": 0,
+      "all_non_contract_state_exactly_preserved": true
+    }
+  ],
+  "resume_updates": 2750,
+  "log_confirmed_original_updates_at_least": 2800,
+  "uncommitted_updates_replayed_at_least": 50,
+  "physical_replay_exposures_at_least": 1600,
+  "exact_precrash_updates_unknown": true,
+  "original_files_preserved": true,
+  "new_protocol_sha256": "b6f8fe33c448d091773174e9ea3e2ab4ab18ae2a693aad34dfb3a6bcf7a97ad2",
+  "new_queue_sha256": "2e8984129956859ea13c986bec8f25ba9b2e7f4efba98a646ecc937f4103b290"
+}

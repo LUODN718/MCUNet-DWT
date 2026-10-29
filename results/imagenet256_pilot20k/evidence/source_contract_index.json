@@ -1,0 +1,56 @@
+[
+  {
+    "original_path": "scripts/train_route_pilot.py",
+    "sha256": "e405780e67e14e2ec6f2ce44e79a0510f28401e4a4ba6dd3124b4d6d2b6ecda9",
+    "archived_path": null,
+    "exact_historical_source_available": false
+  },
+  {
+    "original_path": "experiments/w80_pilot/routes.py",
+    "sha256": "05371abb9627995823b2bbb932c53774dcf8f96f06a1cfb79438d8549feeae32",
+    "archived_path": "source_history/05371abb9627995823b2bbb932c53774dcf8f96f06a1cfb79438d8549feeae32/routes.py",
+    "exact_historical_source_available": true
+  },
+  {
+    "original_path": "experiments/w80_pilot/data.py",
+    "sha256": "9ef247c688f7f4d7006b3d72891b67e80eed5a6c8d4659137e3a0d89da943de4",
+    "archived_path": "source_history/9ef247c688f7f4d7006b3d72891b67e80eed5a6c8d4659137e3a0d89da943de4/data.py",
+    "exact_historical_source_available": true
+  },
+  {
+    "original_path": "experiments/w80_pilot/atomic_io.py",
+    "sha256": "58a419a561fc00219e5053b8a84e1b5cbe05d76b4dbd0439764a5874e897ba2f",
+    "archived_path": null,
+    "exact_historical_source_available": false
+  },
+  {
+    "original_path": "scripts/train_route_pilot.py",
+    "sha256": "e05aea4d4f7fd9b737ed1544fc9e7f4e5039917faeed21c67e7e54c06c4a23a3",
+    "archived_path": "source_history/e05aea4d4f7fd9b737ed1544fc9e7f4e5039917faeed21c67e7e54c06c4a23a3/train_route_pilot.py",
+    "exact_historical_source_available": true
+  },
+  {
+    "original_path": "experiments/w80_pilot/atomic_io.py",
+    "sha256": "a677fae623ac6ef3c420bcd36fb632317f2e4f59c7495b720012feb7c6e5d579",
+    "archived_path": "source_history/a677fae623ac6ef3c420bcd36fb632317f2e4f59c7495b720012feb7c6e5d579/atomic_io.py",
+    "exact_historical_source_available": true
+  },
+  {
+    "original_path": "experiments/w80_pilot/recovery.py",
+    "sha256": "69909159d1078a0b2ba3df400df919a3fe811f00ac2c4cafc65c66990a16aea8",
+    "archived_path": "source_history/69909159d1078a0b2ba3df400df919a3fe811f00ac2c4cafc65c66990a16aea8/recovery.py",
+    "exact_historical_source_available": true
+  },
+  {
+    "original_path": "scripts/train_w80_pilot.py",
+    "sha256": "83a20dff284d23c75394547920e1c4ff048d554d2586646c255f4ab90a3e1598",
+    "archived_path": "source_history/83a20dff284d23c75394547920e1c4ff048d554d2586646c255f4ab90a3e1598/train_w80_pilot.py",
+    "exact_historical_source_available": true
+  },
+  {
+    "original_path": "scripts/check_w80_pilot_cuda.py",
+    "sha256": "f64c793ed818a103f67bbf19d81c6c570f66b401910c3824c63a7f0d539f0d1d",
+    "archived_path": "source_history/f64c793ed818a103f67bbf19d81c6c570f66b401910c3824c63a7f0d539f0d1d/check_w80_pilot_cuda.py",
+    "exact_historical_source_available": true
+  }
+]

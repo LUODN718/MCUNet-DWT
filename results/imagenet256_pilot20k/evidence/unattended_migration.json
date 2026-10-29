@@ -1,0 +1,66 @@
+{
+  "at": "2026-10-28T19:42:55.464529+00:00",
+  "backup": "C:\\Users\\33581\\Desktop\\fyp\\MCUNet-DWT\\reports\\recovery_20261029_unattended",
+  "cause": "Windows observation overwrite conflicts and speculative RAM pause interrupted unattended progress",
+  "changes": [
+    "optional immutable display snapshots",
+    "no telemetry thread or RAM watermark pause",
+    "pin_memory=False",
+    "100-update checkpoints",
+    "bounded actual-error restart",
+    "best export cannot overwrite latest training state",
+    "offline optional plotting",
+    "prevent idle sleep while queue owns execution request"
+  ],
+  "generations": [
+    {
+      "original": "1c79a45fb6e7b42b8aa47517e1ed96d24082a282227af0c3e35c124d6591e0d0.pt",
+      "migrated": "4a03305ba5eb145d77a5b90e53b4b3e882fd96acd9783245a4d30e7051ccbdd3.pt",
+      "updates": 6000,
+      "epoch": 12,
+      "cursor": 0,
+      "non_contract_state_exact": true
+    },
+    {
+      "original": "dbcfe8ee096f3d7a0633c62f88994a65c3014c6a52a471a1d4e17f6a90bb8a80.pt",
+      "migrated": "7b4cdc94c9b8df2eb086423368ef215b2a4c03e4c4c32cbd8d45aa7d21d3c2fe.pt",
+      "updates": 9334,
+      "epoch": 18,
+      "cursor": 334,
+      "non_contract_state_exact": true
+    },
+    {
+      "original": "e54fc36d5157f79be4b7e9371f72514167d877ceacf54f59c97dadd07a4cccb4.pt",
+      "migrated": "001aafc72f6ab4fbe4a06db21738f3618989b6b56b7555636bf579ecaba91c5d.pt",
+      "updates": 9250,
+      "epoch": 18,
+      "cursor": 250,
+      "non_contract_state_exact": true
+    }
+  ],
+  "resume_from_updates": 9334,
+  "model_optimizer_scheduler_bn_rng_exact": true,
+  "data_augmentation_precision_batch_lr_stopping_unchanged": true,
+  "completed_jobs_not_migrated_or_retrained": [
+    "spatial_s2_ll",
+    "w80_e23_ll"
+  ],
+  "timing_not_identical_due_to_operational_policy": true,
+  "new_queue_sources": {
+    "scripts/run_route_queue.py": "6a3f5b4505eb52c5741b893a0b759c097e2e5bf5d64ac59aa54c8d359180de7a",
+    "scripts/train_route_pilot.py": "e05aea4d4f7fd9b737ed1544fc9e7f4e5039917faeed21c67e7e54c06c4a23a3",
+    "experiments/w80_pilot/routes.py": "05371abb9627995823b2bbb932c53774dcf8f96f06a1cfb79438d8549feeae32",
+    "experiments/w80_pilot/data.py": "9ef247c688f7f4d7006b3d72891b67e80eed5a6c8d4659137e3a0d89da943de4",
+    "experiments/w80_pilot/atomic_io.py": "a677fae623ac6ef3c420bcd36fb632317f2e4f59c7495b720012feb7c6e5d579",
+    "experiments/w80_pilot/recovery.py": "69909159d1078a0b2ba3df400df919a3fe811f00ac2c4cafc65c66990a16aea8"
+  },
+  "new_protocol_sources": {
+    "scripts/train_route_pilot.py": "e05aea4d4f7fd9b737ed1544fc9e7f4e5039917faeed21c67e7e54c06c4a23a3",
+    "experiments/w80_pilot/routes.py": "05371abb9627995823b2bbb932c53774dcf8f96f06a1cfb79438d8549feeae32",
+    "experiments/w80_pilot/data.py": "9ef247c688f7f4d7006b3d72891b67e80eed5a6c8d4659137e3a0d89da943de4",
+    "experiments/w80_pilot/atomic_io.py": "a677fae623ac6ef3c420bcd36fb632317f2e4f59c7495b720012feb7c6e5d579",
+    "experiments/w80_pilot/recovery.py": "69909159d1078a0b2ba3df400df919a3fe811f00ac2c4cafc65c66990a16aea8"
+  },
+  "new_queue_sha256": "b054f9a2b47fb2721fd61740ca2f5d29f3bf0366705e43497b4bdc5339fa4b60",
+  "new_protocol_sha256": "ffadf9c834f56d8293124b1a223d7015242895085c19cb26227870141601f208"
+}

@@ -1,0 +1,11 @@
+{
+  "repository": "https://github.com/LumiaBlack51/tinyml-progressive-inference",
+  "commit": "ce31c1da28c8f41d81ae01d64fd30c6ad96cf439",
+  "source_directory": "experiments/w80_e23",
+  "files_sha256": {
+    "model.py": "3c5ad41656f7663047c1fc2ddbb537499e1f62920d0b95f0395072dba37a1e11",
+    "data.py": "5d37614901adb6679fd43ceca548e33c63b6dcb82b2f5bca3d6e8e285082a7ba",
+    "runtime.py": "39961e34629a3ecce77b1f9d2f98def1435fbe644715cb53f9a467454edbfbc9"
+  },
+  "note": "Unmodified model/data/runtime components; pilot trainer and resized-image dataset are separate."
+}

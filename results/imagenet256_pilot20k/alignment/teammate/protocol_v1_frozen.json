@@ -1,0 +1,128 @@
+{
+  "accumulation": 1,
+  "additional_seeds": "only dev-best 1-2 wavelet arms after all four round1 outcomes; matched compressed RGB seeds",
+  "agent_review_seconds": 1800,
+  "augmentation_randomness": "seed, epoch, original relative image identity; independent of arm/workers",
+  "backbone_head_peak_lr": 0.001,
+  "baseline_owner": "LUODN718",
+  "baseline_sync_status": "requested in issue7; no collaborator acknowledgement; user explicitly authorized proceeding",
+  "bn_batch": 32,
+  "board_or_flashing": false,
+  "calibration_count": 1024,
+  "calibration_selection": "one TRAIN identity per class plus 24 hash-ranked remaining TRAIN identities",
+  "channel_calibration_parent": "uncompressed pretrained RGB; eval mode; once for all arms",
+  "channel_rule": "first two actual MBConv untouched; remaining nearest multiple of 8 to 2/3, ties half-up; stable index tie break",
+  "channel_score": "mean absolute activation immediately before projection times projection column L1 norm",
+  "checkpoint_crash_semantics": "replay uncheckpointed computations from saved RNG/sampler; no duplicate committed logical updates; physical replay attempts and seconds remain in ledger",
+  "checkpoint_interval_seconds": 60,
+  "checkpoint_interval_updates": 100,
+  "checkpoint_selection": "lowest complete dev CE; first occurrence on exact tie; separate from early-stop improvement threshold",
+  "classes": 1000,
+  "compressed_rgb": "same pruned backbone and pretrained head; original RGB stride2 stem; reuse only exact match",
+  "compressed_rgb_disposition": "own matching compressed RGB after four wavelet arms unless an exact reusable result is verified first; no uncompressed RGB retraining",
+  "confidence_interval": "paired image bootstrap; seeds averaged within image; seed variation separately reported",
+  "coordination_issue": "https://github.com/LumiaBlack51/tinyml-progressive-inference/issues/7",
+  "dataset": "original ImageNet-1K TRAIN",
+  "dev_calibration_transform": {
+    "antialias": true,
+    "center_crop": 160,
+    "interpolation": "bicubic",
+    "short_edge": 182
+  },
+  "dev_per_class": 20,
+  "early_stop": {
+    "max_abs_ols_slope": 0.001,
+    "max_ce_range": 0.005,
+    "min_ce_improvement": 0.001,
+    "patience": 4,
+    "plateau_window": 4
+  },
+  "effective_batch": 32,
+  "environment_reason": "match the historical inventory decoded-RGB identity; original pretrained/data/augmentation/science unchanged; pre-training correction",
+  "execution_environment": {
+    "Pillow": "11.2.1",
+    "jpeg": "6.2",
+    "python": "3.12.3",
+    "torch": "2.7.1+cu128",
+    "torchvision": "0.22.1+cu128"
+  },
+  "hardware_scope": "local CUDA GPU only; no cluster submission, no unrelated process control",
+  "head": "inherited 160->1000",
+  "hf_init": "zero learnable PW columns; DW copied from corresponding LL",
+  "input_size": 160,
+  "int8_calibration": "same fixed 1024 TRAIN identities only; quantization recipe frozen before test",
+  "loss": "cross_entropy_only",
+  "maximum_epochs": 20,
+  "maximum_training_exposures": 2560000,
+  "maximum_updates": 80000,
+  "micro_batch": 32,
+  "minimum_epochs_before_early_stop": 6,
+  "momentum": 0.9,
+  "new_stem_peak_lr": 0.005,
+  "optimizer": "SGD",
+  "precision": "fp32",
+  "pretrained_sha256": "63565b5773a8aa70d75baf5a349f5f384da649804c48a5e7af1f655460158c7d",
+  "reference_commit": "871c330558848ac1d42e95bcfe059bbe55915c69",
+  "renode": "optional fixed CPU/compiler/options/operator library and validated outputs; instructions not cycles/latency/energy",
+  "resource_policy": {
+    "cache_bytes": 0,
+    "concurrency": 1,
+    "disk_reserve_gib": 10,
+    "gpu_high_mib": 1536,
+    "gpu_low_mib": 512,
+    "healthy_wait_seconds": 120,
+    "host_high_gib": 4,
+    "host_low_gib": 2,
+    "increase_cooldown_seconds": 300,
+    "oom_resume": "same batch32 only, sustained high water plus free GPU exceeds failed-attempt observed free by256MiB",
+    "prefetch_range": [
+      1,
+      2
+    ],
+    "workers_range": [
+      0,
+      2
+    ]
+  },
+  "review_age_pause": false,
+  "round1_extra_ablations": false,
+  "seed": 2026,
+  "status": "frozen_user_authorized_without_waiting_baseline",
+  "stem": "DW3x3 s1 -> PW1x1 16 -> original BN -> ReLU6; no intermediate activation",
+  "stem_init": "per-input-channel rank-1 SVD approximation; explicitly lossy",
+  "target": {
+    "guaranteed": false,
+    "mac_reduction_approx": 0.3,
+    "max_accuracy_loss_pp": 0.5
+  },
+  "test_policy": "freeze before official val / V2 MatchedFrequency; historical reuse disclosed; no feedback into selection",
+  "tf32": false,
+  "train_per_class": 128,
+  "train_transform": {
+    "antialias": true,
+    "crop": "RandomResizedCrop",
+    "horizontal_flip": 0.5,
+    "interpolation": "bicubic",
+    "ratio": [
+      0.75,
+      1.3333333333333333
+    ],
+    "scale": [
+      0.08,
+      1.0
+    ]
+  },
+  "updates_per_epoch": 4000,
+  "user_authorization": "\u5f00\u59cb\u8bad\u7ec3\u5427\uff0c\u4e0d\u7528\u7b49\u5bf9\u65b9\u5b8c\u6210",
+  "variants": [
+    "ll",
+    "ll_lh",
+    "ll_hl",
+    "ll_hh",
+    "rgb_e23"
+  ],
+  "version": "W80-E23-v1-frozen-user-authorized-20261028",
+  "warmup_epochs": 2,
+  "watchdog_seconds": 30,
+  "weight_decay": 4e-05
+}

@@ -1,0 +1,573 @@
+{
+  "as_of_utc": "2026-10-29T05:27:54.849080+00:00",
+  "classification": "preliminary_validation_not_formal_protocol_match",
+  "teammate_repository": "LumiaBlack51/tinyml-progressive-inference",
+  "teammate_branch": "experiment/w80-e23-imagenet-20261028",
+  "teammate_commit": "c8b4f13cbe64d19b7f404f61a6213aea541226f2",
+  "local_implementation_parent": "ce31c1da28c8f41d81ae01d64fd30c6ad96cf439",
+  "model_file_byte_identical_to_latest": true,
+  "training_recipe": {
+    "seed": {
+      "local": 2026,
+      "teammate": 2026,
+      "equal": true
+    },
+    "precision": {
+      "local": "fp32",
+      "teammate": "fp32",
+      "equal": true
+    },
+    "tf32": {
+      "local": false,
+      "teammate": false,
+      "equal": true
+    },
+    "micro_batch": {
+      "local": 32,
+      "teammate": 32,
+      "equal": true
+    },
+    "bn_batch": {
+      "local": 32,
+      "teammate": 32,
+      "equal": true
+    },
+    "accumulation": {
+      "local": 1,
+      "teammate": 1,
+      "equal": true
+    },
+    "momentum": {
+      "local": 0.9,
+      "teammate": 0.9,
+      "equal": true
+    },
+    "weight_decay": {
+      "local": 4e-05,
+      "teammate": 4e-05,
+      "equal": true
+    },
+    "backbone_head_peak_lr": {
+      "local": 0.001,
+      "teammate": 0.001,
+      "equal": true
+    },
+    "new_stem_peak_lr": {
+      "local": 0.005,
+      "teammate": 0.005,
+      "equal": true
+    },
+    "warmup_epochs": {
+      "local": 2,
+      "teammate": 2,
+      "equal": true
+    }
+  },
+  "pretrained_sha256": "63565b5773a8aa70d75baf5a349f5f384da649804c48a5e7af1f655460158c7d",
+  "manifest_sha256": "927c40c229256733dfd91d42eea6d8ef82b2f64e8eeea9354c3363144e4483da",
+  "classes_sha256": "5e738e464c43c92037bbb4252eeb6ba2c306091861443ae7e182e28c9662324e",
+  "indices_file_sha256": "f81b2dcd34f46063cbca2fc089abad23d79ffeb7d71923b3286585493771eed4",
+  "indices_content_sha256": "38acd8904d3784ee93ad6fb9a731556f4d0ada7b226a8fb1dec624fdc295474e",
+  "calibration_count": 1024,
+  "calibration_is_train_only": true,
+  "all_local_w80_and_rgb_use_same_indices": true,
+  "exact_reusable_for_teammate_formal_rgb": false,
+  "reused_rgb_seed_record": "2026 fixed in hash-indexed trainer source; seed field absent in its older JSON contract",
+  "differences": {
+    "data": "256px center-cropped mirror versus original TRAIN; membership and identity exclusions differ",
+    "size": "16000/4000 versus 128000/20000",
+    "updates": "500/epoch,10000 total versus 4000/epoch,80000 maximum",
+    "calibration": "same algorithm/count, different image cohort, no shared production indices",
+    "dependencies": {
+      "local": {
+        "torch": "2.5.1+cu121",
+        "torchvision": "0.20.1+cu121",
+        "python": "3.10.20",
+        "Pillow": "12.2.0",
+        "numpy": "2.2.6"
+      },
+      "teammate": {
+        "Pillow": "11.2.1",
+        "jpeg": "6.2",
+        "python": "3.12.3",
+        "torch": "2.7.1+cu128",
+        "torchvision": "0.22.1+cu128"
+      }
+    },
+    "determinism": "local cudnn deterministic only; teammate deterministic_algorithms and CUBLAS_WORKSPACE_CONFIG",
+    "loader_rng": "local torch.manual_seed touches CUDA at workers0; latest teammate seeds CPU generator only",
+    "dev_ce_reduction": "local FP32 sum per batch; latest teammate sums per-image CE in FP64",
+    "operations": "local snapshots/bounded restart/no RAM pause versus teammate watchdog/hysteresis/physical attempt ledger",
+    "scope": "extra spatial_s2/RGB80 route is local pilot; not teammate W80 protocol"
+  },
+  "loader_rng_check": {
+    "cuda_available": true,
+    "cpu_rng_preserved": true,
+    "cuda_rng_changed_by_worker0_loader": true
+  },
+  "all_arms": [
+    {
+      "job": "spatial_s2_ll",
+      "minimum_dev_ce_verified": true,
+      "prediction_images": 4000,
+      "predictions_reproduce_top1_top5": true,
+      "checkpoints": [
+        {
+          "kind": "best",
+          "sha256": "8a4f912a1039c707f5e418762a2ec22d9f109fe96190135f27e0ca5ee93b0708",
+          "bytes": 6044618,
+          "distribution": "retained locally; weights not uploaded to Git",
+          "contains": [
+            "model",
+            "BN",
+            "optimizer",
+            "scheduler",
+            "scaler",
+            "RNG",
+            "progress",
+            "contract"
+          ]
+        },
+        {
+          "kind": "last",
+          "sha256": "8c2f58e6701d15345be2e215d46a2ca26d10e36a8c1496594e16d570b8e1c1e4",
+          "bytes": 6044682,
+          "distribution": "retained locally; weights not uploaded to Git",
+          "contains": [
+            "model",
+            "BN",
+            "optimizer",
+            "scheduler",
+            "scaler",
+            "RNG",
+            "progress",
+            "contract"
+          ]
+        }
+      ],
+      "final_train_top1": 49.0375,
+      "final_dev_top1": 43.6,
+      "final_train_ce": 2.284299753665924,
+      "final_dev_ce": 2.6102499933242798
+    },
+    {
+      "job": "w80_e23_ll",
+      "minimum_dev_ce_verified": true,
+      "prediction_images": 4000,
+      "predictions_reproduce_top1_top5": true,
+      "checkpoints": [
+        {
+          "kind": "best",
+          "sha256": "f113771ea1dc9938522970462a17822e0c89daa86f8fd60598677824e8982cbe",
+          "bytes": 4528064,
+          "distribution": "retained locally; weights not uploaded to Git",
+          "contains": [
+            "model",
+            "BN",
+            "optimizer",
+            "scheduler",
+            "scaler",
+            "RNG",
+            "progress",
+            "contract"
+          ]
+        },
+        {
+          "kind": "last",
+          "sha256": "1633565a9008bf0cadf128479157498377128eead435e0bc020d021357f05875",
+          "bytes": 4528064,
+          "distribution": "retained locally; weights not uploaded to Git",
+          "contains": [
+            "model",
+            "BN",
+            "optimizer",
+            "scheduler",
+            "scaler",
+            "RNG",
+            "progress",
+            "contract"
+          ]
+        }
+      ],
+      "final_train_top1": 52.28125,
+      "final_dev_top1": 48.925,
+      "final_train_ce": 2.1326465899944305,
+      "final_dev_ce": 2.236065417766571
+    },
+    {
+      "job": "spatial_s2_ll_lh",
+      "minimum_dev_ce_verified": true,
+      "prediction_images": 4000,
+      "predictions_reproduce_top1_top5": true,
+      "checkpoints": [
+        {
+          "kind": "best",
+          "sha256": "a254b463e03a20b3c374e8fab9f98b4edc79e7cc741080b2309ac821c8a845d8",
+          "bytes": 6048266,
+          "distribution": "retained locally; weights not uploaded to Git",
+          "contains": [
+            "model",
+            "BN",
+            "optimizer",
+            "scheduler",
+            "scaler",
+            "RNG",
+            "progress",
+            "contract"
+          ]
+        },
+        {
+          "kind": "last",
+          "sha256": "baab46c3c82fadb0af5b05dc3090d0a5206327104289ca4d5550479b35fa1edd",
+          "bytes": 6048266,
+          "distribution": "retained locally; weights not uploaded to Git",
+          "contains": [
+            "model",
+            "BN",
+            "optimizer",
+            "scheduler",
+            "scaler",
+            "RNG",
+            "progress",
+            "contract"
+          ]
+        }
+      ],
+      "final_train_top1": 49.0625,
+      "final_dev_top1": 43.775,
+      "final_train_ce": 2.277123692750931,
+      "final_dev_ce": 2.606140784263611
+    },
+    {
+      "job": "w80_e23_ll_lh",
+      "minimum_dev_ce_verified": true,
+      "prediction_images": 4000,
+      "predictions_reproduce_top1_top5": true,
+      "checkpoints": [
+        {
+          "kind": "best",
+          "sha256": "0700883a8cf12e0dbb93b182a6146d248bdae6503603df9ff8e5b22e6c5b3672",
+          "bytes": 4528896,
+          "distribution": "retained locally; weights not uploaded to Git",
+          "contains": [
+            "model",
+            "BN",
+            "optimizer",
+            "scheduler",
+            "scaler",
+            "RNG",
+            "progress",
+            "contract"
+          ]
+        },
+        {
+          "kind": "last",
+          "sha256": "6e434cd5ce31604f008e7affa15ef3b65ddb9a47ad10c722cd2ab7c05eed4df2",
+          "bytes": 4528896,
+          "distribution": "retained locally; weights not uploaded to Git",
+          "contains": [
+            "model",
+            "BN",
+            "optimizer",
+            "scheduler",
+            "scaler",
+            "RNG",
+            "progress",
+            "contract"
+          ]
+        }
+      ],
+      "final_train_top1": 52.55625,
+      "final_dev_top1": 49.275,
+      "final_train_ce": 2.120465198755264,
+      "final_dev_ce": 2.2092686223983766
+    },
+    {
+      "job": "spatial_s2_ll_hl",
+      "minimum_dev_ce_verified": true,
+      "prediction_images": 4000,
+      "predictions_reproduce_top1_top5": true,
+      "checkpoints": [
+        {
+          "kind": "best",
+          "sha256": "ba5cd490d46b7a3ec421e91c009180de972058f450422af1d066d488e1aa0bf0",
+          "bytes": 6048074,
+          "distribution": "retained locally; weights not uploaded to Git",
+          "contains": [
+            "model",
+            "BN",
+            "optimizer",
+            "scheduler",
+            "scaler",
+            "RNG",
+            "progress",
+            "contract"
+          ]
+        },
+        {
+          "kind": "last",
+          "sha256": "43d9a6dfa25cfa90e7ccb7b4f235ba8fb09832c8b782c561a3bf65ba2897cb91",
+          "bytes": 6048138,
+          "distribution": "retained locally; weights not uploaded to Git",
+          "contains": [
+            "model",
+            "BN",
+            "optimizer",
+            "scheduler",
+            "scaler",
+            "RNG",
+            "progress",
+            "contract"
+          ]
+        }
+      ],
+      "final_train_top1": 49.39375,
+      "final_dev_top1": 43.4,
+      "final_train_ce": 2.279827590465546,
+      "final_dev_ce": 2.6168492288589476
+    },
+    {
+      "job": "w80_e23_ll_hl",
+      "minimum_dev_ce_verified": true,
+      "prediction_images": 4000,
+      "predictions_reproduce_top1_top5": true,
+      "checkpoints": [
+        {
+          "kind": "best",
+          "sha256": "c917070afadb1d82b2a088d37fdd8c2a3606ece42a4144734588511c36536eb8",
+          "bytes": 4528896,
+          "distribution": "retained locally; weights not uploaded to Git",
+          "contains": [
+            "model",
+            "BN",
+            "optimizer",
+            "scheduler",
+            "scaler",
+            "RNG",
+            "progress",
+            "contract"
+          ]
+        },
+        {
+          "kind": "last",
+          "sha256": "ba21e911ffc66dbb70f2ea98a195db2a9d29a389aaf117460ec0c5bb3efd7a16",
+          "bytes": 4528896,
+          "distribution": "retained locally; weights not uploaded to Git",
+          "contains": [
+            "model",
+            "BN",
+            "optimizer",
+            "scheduler",
+            "scaler",
+            "RNG",
+            "progress",
+            "contract"
+          ]
+        }
+      ],
+      "final_train_top1": 53.725,
+      "final_dev_top1": 49.35,
+      "final_train_ce": 2.0814608039855957,
+      "final_dev_ce": 2.1696473145484925
+    },
+    {
+      "job": "spatial_s2_ll_hh",
+      "minimum_dev_ce_verified": true,
+      "prediction_images": 4000,
+      "predictions_reproduce_top1_top5": true,
+      "checkpoints": [
+        {
+          "kind": "best",
+          "sha256": "1e55d726d26201f336e4ba7e77c70c42077ba37aad9666cc55a04eae742e63db",
+          "bytes": 6048074,
+          "distribution": "retained locally; weights not uploaded to Git",
+          "contains": [
+            "model",
+            "BN",
+            "optimizer",
+            "scheduler",
+            "scaler",
+            "RNG",
+            "progress",
+            "contract"
+          ]
+        },
+        {
+          "kind": "last",
+          "sha256": "437f4003a5dcfb1adf9d2a090272084c8a91573c8dde4af96e214f62f71af688",
+          "bytes": 6048138,
+          "distribution": "retained locally; weights not uploaded to Git",
+          "contains": [
+            "model",
+            "BN",
+            "optimizer",
+            "scheduler",
+            "scaler",
+            "RNG",
+            "progress",
+            "contract"
+          ]
+        }
+      ],
+      "final_train_top1": 49.28125,
+      "final_dev_top1": 43.625,
+      "final_train_ce": 2.2773818101882934,
+      "final_dev_ce": 2.61455622959137
+    },
+    {
+      "job": "w80_e23_ll_hh",
+      "minimum_dev_ce_verified": true,
+      "prediction_images": 4000,
+      "predictions_reproduce_top1_top5": true,
+      "checkpoints": [
+        {
+          "kind": "best",
+          "sha256": "f11996654edfef0f1c91cc2112f3d8fc46e46083a6264c7e7b82643a9a13084c",
+          "bytes": 4528896,
+          "distribution": "retained locally; weights not uploaded to Git",
+          "contains": [
+            "model",
+            "BN",
+            "optimizer",
+            "scheduler",
+            "scaler",
+            "RNG",
+            "progress",
+            "contract"
+          ]
+        },
+        {
+          "kind": "last",
+          "sha256": "f75be684d09485f31566c1fa1fbcab5319e27f29305b9755f60ff5faf0719609",
+          "bytes": 4528896,
+          "distribution": "retained locally; weights not uploaded to Git",
+          "contains": [
+            "model",
+            "BN",
+            "optimizer",
+            "scheduler",
+            "scaler",
+            "RNG",
+            "progress",
+            "contract"
+          ]
+        }
+      ],
+      "final_train_top1": 52.975,
+      "final_dev_top1": 49.15,
+      "final_train_ce": 2.1126043102741243,
+      "final_dev_ce": 2.208526351928711
+    },
+    {
+      "job": "spatial_s2_rgb80",
+      "minimum_dev_ce_verified": true,
+      "prediction_images": 4000,
+      "predictions_reproduce_top1_top5": true,
+      "checkpoints": [
+        {
+          "kind": "best",
+          "sha256": "8abf6c2dcb07035ec283cf4fc041d6b590fd9df24896d1105b8e220fd1ddc3e5",
+          "bytes": 6044490,
+          "distribution": "retained locally; weights not uploaded to Git",
+          "contains": [
+            "model",
+            "BN",
+            "optimizer",
+            "scheduler",
+            "scaler",
+            "RNG",
+            "progress",
+            "contract"
+          ]
+        },
+        {
+          "kind": "last",
+          "sha256": "8b714bbbcc58e6565ba5e87b8493a10a8d77a40cf38d07907513143944d00ad6",
+          "bytes": 6044490,
+          "distribution": "retained locally; weights not uploaded to Git",
+          "contains": [
+            "model",
+            "BN",
+            "optimizer",
+            "scheduler",
+            "scaler",
+            "RNG",
+            "progress",
+            "contract"
+          ]
+        }
+      ],
+      "final_train_top1": 49.15625,
+      "final_dev_top1": 43.8,
+      "final_train_ce": 2.278127969503403,
+      "final_dev_ce": 2.611319876670837
+    },
+    {
+      "job": "reused_rgb_e23",
+      "minimum_dev_ce_verified": true,
+      "prediction_images": 4000,
+      "predictions_reproduce_top1_top5": true,
+      "checkpoints": [
+        {
+          "kind": "best",
+          "sha256": "0c3103e7a34c4b60acf112d6fc1176ab47fef78227ef7c4c105071cc452e5777",
+          "bytes": 4530186,
+          "distribution": "retained locally; weights not uploaded to Git",
+          "contains": [
+            "model",
+            "BN",
+            "optimizer",
+            "scheduler",
+            "scaler",
+            "RNG",
+            "progress",
+            "contract"
+          ]
+        },
+        {
+          "kind": "last",
+          "sha256": "68111df496f8dd2bf3df179a296582ae5a196ffa59be24b31a620cf2075474b2",
+          "bytes": 4530186,
+          "distribution": "retained locally; weights not uploaded to Git",
+          "contains": [
+            "model",
+            "BN",
+            "optimizer",
+            "scheduler",
+            "scaler",
+            "RNG",
+            "progress",
+            "contract"
+          ]
+        }
+      ],
+      "final_train_top1": 56.125,
+      "final_dev_top1": 53.3,
+      "final_train_ce": 1.9483957817554474,
+      "final_dev_ce": 2.0294808359146117
+    }
+  ],
+  "missing_historical_source_versions": [
+    {
+      "original_path": "scripts/train_route_pilot.py",
+      "sha256": "e405780e67e14e2ec6f2ce44e79a0510f28401e4a4ba6dd3124b4d6d2b6ecda9",
+      "archived_path": null,
+      "exact_historical_source_available": false
+    },
+    {
+      "original_path": "experiments/w80_pilot/atomic_io.py",
+      "sha256": "58a419a561fc00219e5053b8a84e1b5cbe05d76b4dbd0439764a5874e897ba2f",
+      "archived_path": null,
+      "exact_historical_source_available": false
+    }
+  ],
+  "earlier_replay": "At least50 extra physical updates/1600 exposures in first spatial_LL recovery; exact total uncommitted replay unknown. Counters are committed logical work.",
+  "online_materials": "code, curves, histories, logs, predictions, manifests, indices, hashes; binary checkpoints retained locally",
+  "official_val_or_v2_used": false,
+  "no_new_training_started": true,
+  "latest_runtime_numerical_functions_ast_equal": {
+    "lr_factor": true,
+    "EarlyStop": true,
+    "transactional_step": true
+  }
+}

@@ -1,0 +1,11 @@
+job,route,variant,train_images,dev_images,completed_epochs,selected_epoch,dev_ce,dev_top1,dev_top5,conv_linear_macs,committed_updates,committed_exposures,elapsed_seconds,official_val_top1,official_val_top5,scope
+spatial_s2_ll,spatial_s2,ll,16000,4000,20,19,2.601423439025879,43.775,68.675,18021824,10000,320000,3433.9530000000086,,,preliminary resized-mirror dev only; single seed2026
+w80_e23_ll,w80_e23,ll,16000,4000,20,20,2.236065417766571,48.925,74.275,45638400,10000,320000,3908.5160000000033,,,preliminary resized-mirror dev only; single seed2026
+spatial_s2_ll_lh,spatial_s2,ll_lh,16000,4000,20,19,2.5962049474716187,43.45,68.125,18713024,10000,320000,3997.8139999999985,,,preliminary resized-mirror dev only; single seed2026
+w80_e23_ll_lh,w80_e23,ll_lh,16000,4000,20,20,2.2092686223983766,49.275,74.675,46118400,10000,320000,4180.764999999999,,,preliminary resized-mirror dev only; single seed2026
+spatial_s2_ll_hl,spatial_s2,ll_hl,16000,4000,20,19,2.6088422136306764,43.525,68.675,18713024,10000,320000,4051.5939999999973,,,preliminary resized-mirror dev only; single seed2026
+w80_e23_ll_hl,w80_e23,ll_hl,16000,4000,20,20,2.1696473145484925,49.35,75.625,46118400,10000,320000,3982.672000000006,,,preliminary resized-mirror dev only; single seed2026
+spatial_s2_ll_hh,spatial_s2,ll_hh,16000,4000,20,19,2.608288889884949,43.675,67.925,18713024,10000,320000,3952.5160000000033,,,preliminary resized-mirror dev only; single seed2026
+w80_e23_ll_hh,w80_e23,ll_hh,16000,4000,20,20,2.208526351928711,49.15,75.475,46118400,10000,320000,4047.1249999999854,,,preliminary resized-mirror dev only; single seed2026
+spatial_s2_rgb80,spatial_s2,rgb80,16000,4000,20,16,2.60105620098114,43.425,68.225,18021824,10000,320000,4036.4679999999935,,,preliminary resized-mirror dev only; single seed2026
+reused_rgb_e23,w80_e23,rgb_e23,16000,4000,20,20,2.0294808359146117,53.3,77.75,47923200,10000,320000,3348.2810000000027,,,preliminary resized-mirror dev only; single seed2026

@@ -1,0 +1,56 @@
+{
+  "at": "2026-10-28T19:20:21.154539+00:00",
+  "cause": "fixed status/resource JSON replacement was denied while read; status write then terminated paused job",
+  "backup": "C:\\Users\\33581\\Desktop\\fyp\\MCUNet-DWT\\reports\\recovery_20261029_snapshot_io",
+  "old_queue_sha256": "2e8984129956859ea13c986bec8f25ba9b2e7f4efba98a646ecc937f4103b290",
+  "old_protocol_sha256": "377a06cd58a585039e8a143167c7f78bdcc15da2d5214cd63d99a412ba6e9171",
+  "new_queue_sources": {
+    "scripts/run_route_queue.py": "a3a6f369d4ecfe1fd7fb9df03e48bdd7d25af1f7cbf5502c89b8c853606d8d9c",
+    "scripts/train_route_pilot.py": "563c0d7daec21d947d0e7a4bc4e265c761144e96d561c0137fe8ffcadbd81494",
+    "experiments/w80_pilot/routes.py": "05371abb9627995823b2bbb932c53774dcf8f96f06a1cfb79438d8549feeae32",
+    "experiments/w80_pilot/data.py": "9ef247c688f7f4d7006b3d72891b67e80eed5a6c8d4659137e3a0d89da943de4",
+    "experiments/w80_pilot/atomic_io.py": "a677fae623ac6ef3c420bcd36fb632317f2e4f59c7495b720012feb7c6e5d579"
+  },
+  "new_job_sources": {
+    "scripts/train_route_pilot.py": "563c0d7daec21d947d0e7a4bc4e265c761144e96d561c0137fe8ffcadbd81494",
+    "experiments/w80_pilot/routes.py": "05371abb9627995823b2bbb932c53774dcf8f96f06a1cfb79438d8549feeae32",
+    "experiments/w80_pilot/data.py": "9ef247c688f7f4d7006b3d72891b67e80eed5a6c8d4659137e3a0d89da943de4",
+    "experiments/w80_pilot/atomic_io.py": "a677fae623ac6ef3c420bcd36fb632317f2e4f59c7495b720012feb7c6e5d579"
+  },
+  "snapshot_layout": "status_snapshots and resource_snapshots contain immutable timestamped JSON files; dashboard reads latest snapshot",
+  "retries": "No overwrite of live status/resource observations; unique snapshots avoid Windows reader-delete sharing conflicts",
+  "generations": [
+    {
+      "original": "1c3dea06fd2c7768b77520c6e2707244777149a0143596e707bf3675fe12aaf7.pt",
+      "migrated": "1c79a45fb6e7b42b8aa47517e1ed96d24082a282227af0c3e35c124d6591e0d0.pt",
+      "updates": 6000,
+      "epoch": 12,
+      "cursor": 0,
+      "model_optimizer_scheduler_bn_rng_exact": true
+    },
+    {
+      "original": "8e8dcdcf8f4e9e2c8435a731136c2b803a7edc37a28c54fa42b050682b8fd043.pt",
+      "migrated": "c458f80419d4b87ab9e9b5ff26371a2f21909f4b3cb0921b2c5ef4c3e659386e.pt",
+      "updates": 8863,
+      "epoch": 17,
+      "cursor": 363,
+      "model_optimizer_scheduler_bn_rng_exact": true
+    },
+    {
+      "original": "eae2a8e75f17a5fe7c9b078b2e35bd8180f781db751b0c4b4fb935241b9c3758.pt",
+      "migrated": "dcc08894eae541ee9692cc21c3a90a3d21dd9cadc484c8c5f1a51073a6b5a558.pt",
+      "updates": 8750,
+      "epoch": 17,
+      "cursor": 250,
+      "model_optimizer_scheduler_bn_rng_exact": true
+    }
+  ],
+  "resume_from_updates": 8863,
+  "last_logged_updates": 8863,
+  "at_least_replayed_updates": 0,
+  "at_least_replayed_exposures": 0,
+  "exact_uncommitted_updates_unknown": true,
+  "model_data_augmentation_bn_batch_precision_lr_scheduler_unchanged": true,
+  "new_queue_sha256": "4f364ff3d591c88fef8dc85898da609f62ba031a57fed6aab2a615cc20465e53",
+  "new_protocol_sha256": "0c5e9560a87d0dcd3369aa1f50df80868b62941f8fbc73aa0e97d08e00d5ac87"
+}

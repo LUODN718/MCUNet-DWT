@@ -1,0 +1,237 @@
+2026-10-28 20:11:59,216 ll epoch=1 batch=100/500 CE=3.9214 updates=100 exposures=3200
+2026-10-28 20:12:46,233 ll epoch=1 batch=200/500 CE=3.8641 updates=200 exposures=6400
+2026-10-28 20:13:17,616 ll epoch=1 batch=300/500 CE=3.7969 updates=300 exposures=9600
+2026-10-28 20:13:42,393 ll epoch=1 batch=400/500 CE=3.7363 updates=400 exposures=12800
+2026-10-28 20:20:18,527 ll epoch=1 batch=500/500 CE=3.7184 updates=500 exposures=16000
+2026-10-28 20:20:29,646 ll epoch=1 train_ce=3.71845 dev_ce=3.09745 dev_top1=38.90 best=True stop=False
+2026-10-28 20:20:52,121 ll epoch=2 batch=100/500 CE=3.4719 updates=600 exposures=19200
+2026-10-28 20:21:13,748 ll epoch=2 batch=200/500 CE=3.4750 updates=700 exposures=22400
+2026-10-28 20:21:35,364 ll epoch=2 batch=300/500 CE=3.4643 updates=800 exposures=25600
+2026-10-28 20:21:57,003 ll epoch=2 batch=400/500 CE=3.4832 updates=900 exposures=28800
+2026-10-28 20:22:18,879 ll epoch=2 batch=500/500 CE=3.4995 updates=1000 exposures=32000
+2026-10-28 20:22:29,520 ll epoch=2 train_ce=3.49955 dev_ce=3.11751 dev_top1=36.83 best=False stop=False
+2026-10-28 20:22:54,761 ll epoch=3 batch=100/500 CE=3.3329 updates=1100 exposures=35200
+2026-10-28 20:23:27,461 ll epoch=3 batch=200/500 CE=3.3408 updates=1200 exposures=38400
+2026-10-28 20:24:01,474 ll epoch=3 batch=300/500 CE=3.3268 updates=1300 exposures=41600
+2026-10-28 20:24:39,624 ll epoch=3 batch=400/500 CE=3.2980 updates=1400 exposures=44800
+2026-10-28 20:25:04,073 ll epoch=3 batch=500/500 CE=3.2805 updates=1500 exposures=48000
+2026-10-28 20:25:17,313 ll epoch=3 train_ce=3.28050 dev_ce=2.81779 dev_top1=39.60 best=True stop=False
+2026-10-28 20:25:39,908 ll epoch=4 batch=100/500 CE=2.9967 updates=1600 exposures=51200
+2026-10-28 20:26:01,498 ll epoch=4 batch=200/500 CE=2.9912 updates=1700 exposures=54400
+2026-10-28 20:26:24,149 ll epoch=4 batch=300/500 CE=3.0302 updates=1800 exposures=57600
+2026-10-28 20:26:45,773 ll epoch=4 batch=400/500 CE=3.0393 updates=1900 exposures=60800
+2026-10-28 20:27:06,817 ll epoch=4 batch=500/500 CE=3.0520 updates=2000 exposures=64000
+2026-10-28 20:27:18,066 ll epoch=4 train_ce=3.05198 dev_ce=2.68490 dev_top1=41.73 best=True stop=False
+2026-10-28 20:27:39,612 ll epoch=5 batch=100/500 CE=2.9179 updates=2100 exposures=67200
+2026-10-28 20:28:03,486 ll epoch=5 batch=200/500 CE=2.9202 updates=2200 exposures=70400
+2026-10-28 20:28:24,907 ll epoch=5 batch=300/500 CE=2.9154 updates=2300 exposures=73600
+2026-10-28 20:28:46,847 ll epoch=5 batch=400/500 CE=2.9211 updates=2400 exposures=76800
+2026-10-28 20:29:08,832 ll epoch=5 batch=500/500 CE=2.9362 updates=2500 exposures=80000
+2026-10-28 20:29:19,687 ll epoch=5 train_ce=2.93616 dev_ce=2.67527 dev_top1=42.62 best=True stop=False
+2026-10-28 20:29:43,178 ll epoch=6 batch=100/500 CE=2.8118 updates=2600 exposures=83200
+2026-10-28 20:30:08,115 ll epoch=6 batch=200/500 CE=2.8118 updates=2700 exposures=86400
+2026-10-28 20:30:30,897 ll epoch=6 batch=300/500 CE=2.8215 updates=2800 exposures=89600
+2026-10-28 20:30:33,141 Pilot stopped; inspect error before resuming
+Traceback (most recent call last):
+  File "C:\Users\33581\Desktop\fyp\MCUNet-DWT\scripts\train_route_pilot.py", line 294, in main
+    wait_resource()
+  File "C:\Users\33581\Desktop\fyp\MCUNet-DWT\scripts\train_route_pilot.py", line 269, in wait_resource
+    raise RuntimeError('resource telemetry failed or stale; checkpoint retained')
+RuntimeError: resource telemetry failed or stale; checkpoint retained
+2026-10-28 22:19:42,162 Resume ll epoch=5 cursor=250 updates=2750
+2026-10-28 22:19:55,216 ll epoch=6 batch=300/500 CE=2.8215 updates=2800 exposures=89600
+2026-10-28 22:20:24,671 ll epoch=6 batch=400/500 CE=2.8522 updates=2900 exposures=92800
+2026-10-28 22:20:55,239 ll epoch=6 batch=500/500 CE=2.8576 updates=3000 exposures=96000
+2026-10-28 22:21:13,254 ll epoch=6 train_ce=2.85759 dev_ce=2.69467 dev_top1=41.83 best=False stop=False
+2026-10-28 22:21:37,991 ll epoch=7 batch=100/500 CE=2.7373 updates=3100 exposures=99200
+2026-10-28 22:22:06,265 ll epoch=7 batch=200/500 CE=2.7287 updates=3200 exposures=102400
+2026-10-28 22:22:29,971 ll epoch=7 batch=300/500 CE=2.7691 updates=3300 exposures=105600
+2026-10-28 22:22:55,384 ll epoch=7 batch=400/500 CE=2.7794 updates=3400 exposures=108800
+2026-10-28 22:23:23,250 ll epoch=7 batch=500/500 CE=2.7886 updates=3500 exposures=112000
+2026-10-28 22:23:36,785 ll epoch=7 train_ce=2.78863 dev_ce=2.64404 dev_top1=41.95 best=True stop=False
+2026-10-28 22:24:03,734 ll epoch=8 batch=100/500 CE=2.6746 updates=3600 exposures=115200
+2026-10-28 22:24:24,432 Resource display JSON write failed; live telemetry continues
+Traceback (most recent call last):
+  File "C:\Users\33581\Desktop\fyp\MCUNet-DWT\scripts\train_route_pilot.py", line 70, in watch
+    write_json(self.root / 'resource.json', dict(at=now(), **self.sample))
+  File "C:\Users\33581\Desktop\fyp\MCUNet-DWT\experiments\w80_pilot\atomic_io.py", line 21, in write_json
+    temporary.replace(path)
+  File "C:\Users\33581\anaconda3\envs\dgfnet\lib\pathlib.py", line 1247, in replace
+    self._accessor.replace(self, target)
+PermissionError: [WinError 5] 拒绝访问。: 'C:\\Users\\33581\\Desktop\\fyp\\MCUNet-DWT\\runs\\two_route_pilot20k\\spatial_s2_ll\\resource.json.3527044ca583499c9b020a786d84db72.tmp' -> 'C:\\Users\\33581\\Desktop\\fyp\\MCUNet-DWT\\runs\\two_route_pilot20k\\spatial_s2_ll\\resource.json'
+2026-10-28 22:24:35,081 Resource display JSON write failed; live telemetry continues
+Traceback (most recent call last):
+  File "C:\Users\33581\Desktop\fyp\MCUNet-DWT\scripts\train_route_pilot.py", line 70, in watch
+    write_json(self.root / 'resource.json', dict(at=now(), **self.sample))
+  File "C:\Users\33581\Desktop\fyp\MCUNet-DWT\experiments\w80_pilot\atomic_io.py", line 21, in write_json
+    temporary.replace(path)
+  File "C:\Users\33581\anaconda3\envs\dgfnet\lib\pathlib.py", line 1247, in replace
+    self._accessor.replace(self, target)
+PermissionError: [WinError 5] 拒绝访问。: 'C:\\Users\\33581\\Desktop\\fyp\\MCUNet-DWT\\runs\\two_route_pilot20k\\spatial_s2_ll\\resource.json.b6921ee2a9e94989b330f670ca65d8cf.tmp' -> 'C:\\Users\\33581\\Desktop\\fyp\\MCUNet-DWT\\runs\\two_route_pilot20k\\spatial_s2_ll\\resource.json'
+2026-10-28 22:24:40,078 ll epoch=8 batch=200/500 CE=2.6941 updates=3700 exposures=118400
+2026-10-28 22:25:03,435 ll epoch=8 batch=300/500 CE=2.6980 updates=3800 exposures=121600
+2026-10-28 22:25:27,322 ll epoch=8 batch=400/500 CE=2.6916 updates=3900 exposures=124800
+2026-10-28 22:25:52,125 Resource display JSON write failed; live telemetry continues
+Traceback (most recent call last):
+  File "C:\Users\33581\Desktop\fyp\MCUNet-DWT\scripts\train_route_pilot.py", line 70, in watch
+    write_json(self.root / 'resource.json', dict(at=now(), **self.sample))
+  File "C:\Users\33581\Desktop\fyp\MCUNet-DWT\experiments\w80_pilot\atomic_io.py", line 21, in write_json
+    temporary.replace(path)
+  File "C:\Users\33581\anaconda3\envs\dgfnet\lib\pathlib.py", line 1247, in replace
+    self._accessor.replace(self, target)
+PermissionError: [WinError 5] 拒绝访问。: 'C:\\Users\\33581\\Desktop\\fyp\\MCUNet-DWT\\runs\\two_route_pilot20k\\spatial_s2_ll\\resource.json.2384390c13f54b319054f1bf3ecacea8.tmp' -> 'C:\\Users\\33581\\Desktop\\fyp\\MCUNet-DWT\\runs\\two_route_pilot20k\\spatial_s2_ll\\resource.json'
+2026-10-28 22:26:00,010 ll epoch=8 batch=500/500 CE=2.6917 updates=4000 exposures=128000
+2026-10-28 22:26:12,448 ll epoch=8 train_ce=2.69168 dev_ce=2.62785 dev_top1=42.88 best=True stop=False
+2026-10-28 22:26:34,379 ll epoch=9 batch=100/500 CE=2.6097 updates=4100 exposures=131200
+2026-10-28 22:26:57,299 ll epoch=9 batch=200/500 CE=2.6119 updates=4200 exposures=134400
+2026-10-28 22:27:19,586 ll epoch=9 batch=300/500 CE=2.6035 updates=4300 exposures=137600
+2026-10-28 22:27:43,055 ll epoch=9 batch=400/500 CE=2.6021 updates=4400 exposures=140800
+2026-10-28 22:28:05,448 ll epoch=9 batch=500/500 CE=2.6199 updates=4500 exposures=144000
+2026-10-28 22:28:16,596 ll epoch=9 train_ce=2.61986 dev_ce=2.66028 dev_top1=42.33 best=False stop=False
+2026-10-28 22:28:39,064 ll epoch=10 batch=100/500 CE=2.5077 updates=4600 exposures=147200
+2026-10-28 22:29:01,341 ll epoch=10 batch=200/500 CE=2.5538 updates=4700 exposures=150400
+2026-10-28 22:29:35,525 ll epoch=10 batch=300/500 CE=2.5429 updates=4800 exposures=153600
+2026-10-28 22:29:58,548 ll epoch=10 batch=400/500 CE=2.5656 updates=4900 exposures=156800
+2026-10-28 22:30:21,128 ll epoch=10 batch=500/500 CE=2.5734 updates=5000 exposures=160000
+2026-10-28 22:30:32,418 ll epoch=10 train_ce=2.57337 dev_ce=2.63910 dev_top1=42.67 best=False stop=False
+2026-10-28 22:30:54,553 ll epoch=11 batch=100/500 CE=2.4476 updates=5100 exposures=163200
+2026-10-28 22:31:16,525 ll epoch=11 batch=200/500 CE=2.4802 updates=5200 exposures=166400
+2026-10-28 22:31:38,960 ll epoch=11 batch=300/500 CE=2.4947 updates=5300 exposures=169600
+2026-10-28 22:32:01,335 ll epoch=11 batch=400/500 CE=2.5042 updates=5400 exposures=172800
+2026-10-28 22:32:23,465 ll epoch=11 batch=500/500 CE=2.5073 updates=5500 exposures=176000
+2026-10-28 22:32:34,565 ll epoch=11 train_ce=2.50727 dev_ce=2.62644 dev_top1=42.50 best=True stop=False
+2026-10-28 22:32:56,605 ll epoch=12 batch=100/500 CE=2.4836 updates=5600 exposures=179200
+2026-10-28 22:33:18,694 ll epoch=12 batch=200/500 CE=2.4945 updates=5700 exposures=182400
+2026-10-28 22:33:43,946 ll epoch=12 batch=300/500 CE=2.4956 updates=5800 exposures=185600
+2026-10-28 22:34:06,246 ll epoch=12 batch=400/500 CE=2.4884 updates=5900 exposures=188800
+2026-10-28 22:34:29,112 ll epoch=12 batch=500/500 CE=2.4649 updates=6000 exposures=192000
+2026-10-28 22:34:41,705 ll epoch=12 train_ce=2.46493 dev_ce=2.60273 dev_top1=43.10 best=True stop=False
+2026-10-28 22:35:05,255 ll epoch=13 batch=100/500 CE=2.4040 updates=6100 exposures=195200
+2026-10-28 22:35:29,328 ll epoch=13 batch=200/500 CE=2.3983 updates=6200 exposures=198400
+2026-10-28 22:35:52,480 ll epoch=13 batch=300/500 CE=2.3988 updates=6300 exposures=201600
+2026-10-28 22:36:15,317 ll epoch=13 batch=400/500 CE=2.4165 updates=6400 exposures=204800
+2026-10-28 22:36:37,644 ll epoch=13 batch=500/500 CE=2.4060 updates=6500 exposures=208000
+2026-10-28 22:36:49,284 ll epoch=13 train_ce=2.40596 dev_ce=2.61908 dev_top1=42.52 best=False stop=False
+2026-10-28 22:37:11,997 ll epoch=14 batch=100/500 CE=2.3756 updates=6600 exposures=211200
+2026-10-28 22:37:33,888 ll epoch=14 batch=200/500 CE=2.3542 updates=6700 exposures=214400
+2026-10-28 22:37:53,114 Resource display JSON write failed; live telemetry continues
+Traceback (most recent call last):
+  File "C:\Users\33581\Desktop\fyp\MCUNet-DWT\scripts\train_route_pilot.py", line 70, in watch
+    write_json(self.root / 'resource.json', dict(at=now(), **self.sample))
+  File "C:\Users\33581\Desktop\fyp\MCUNet-DWT\experiments\w80_pilot\atomic_io.py", line 21, in write_json
+    temporary.replace(path)
+  File "C:\Users\33581\anaconda3\envs\dgfnet\lib\pathlib.py", line 1247, in replace
+    self._accessor.replace(self, target)
+PermissionError: [WinError 5] 拒绝访问。: 'C:\\Users\\33581\\Desktop\\fyp\\MCUNet-DWT\\runs\\two_route_pilot20k\\spatial_s2_ll\\resource.json.dc0469ea8e3a4abcae166e01a079e79c.tmp' -> 'C:\\Users\\33581\\Desktop\\fyp\\MCUNet-DWT\\runs\\two_route_pilot20k\\spatial_s2_ll\\resource.json'
+2026-10-28 22:38:06,506 ll epoch=14 batch=300/500 CE=2.3423 updates=6800 exposures=217600
+2026-10-28 22:38:28,611 ll epoch=14 batch=400/500 CE=2.3594 updates=6900 exposures=220800
+2026-10-28 22:38:50,539 ll epoch=14 batch=500/500 CE=2.3672 updates=7000 exposures=224000
+2026-10-28 22:39:05,609 ll epoch=14 train_ce=2.36720 dev_ce=2.63496 dev_top1=42.88 best=False stop=False
+2026-10-28 22:39:27,803 ll epoch=15 batch=100/500 CE=2.3464 updates=7100 exposures=227200
+2026-10-28 22:39:49,923 ll epoch=15 batch=200/500 CE=2.3272 updates=7200 exposures=230400
+2026-10-28 22:40:13,132 ll epoch=15 batch=300/500 CE=2.3265 updates=7300 exposures=233600
+2026-10-28 22:40:36,842 ll epoch=15 batch=400/500 CE=2.3258 updates=7400 exposures=236800
+2026-10-28 22:41:02,905 ll epoch=15 batch=500/500 CE=2.3239 updates=7500 exposures=240000
+2026-10-28 22:41:19,906 ll epoch=15 train_ce=2.32390 dev_ce=2.62015 dev_top1=43.33 best=False stop=False
+2026-10-28 22:41:53,122 ll epoch=16 batch=100/500 CE=2.3326 updates=7600 exposures=243200
+2026-10-28 22:42:26,900 ll epoch=16 batch=200/500 CE=2.3160 updates=7700 exposures=246400
+2026-10-28 22:43:00,305 ll epoch=16 batch=300/500 CE=2.3261 updates=7800 exposures=249600
+2026-10-28 22:43:32,116 ll epoch=16 batch=400/500 CE=2.3076 updates=7900 exposures=252800
+2026-10-28 22:44:09,472 ll epoch=16 batch=500/500 CE=2.3204 updates=8000 exposures=256000
+2026-10-28 22:44:16,121 Resource display JSON write failed; live telemetry continues
+Traceback (most recent call last):
+  File "C:\Users\33581\Desktop\fyp\MCUNet-DWT\scripts\train_route_pilot.py", line 70, in watch
+    write_json(self.root / 'resource.json', dict(at=now(), **self.sample))
+  File "C:\Users\33581\Desktop\fyp\MCUNet-DWT\experiments\w80_pilot\atomic_io.py", line 21, in write_json
+    temporary.replace(path)
+  File "C:\Users\33581\anaconda3\envs\dgfnet\lib\pathlib.py", line 1247, in replace
+    self._accessor.replace(self, target)
+PermissionError: [WinError 5] 拒绝访问。: 'C:\\Users\\33581\\Desktop\\fyp\\MCUNet-DWT\\runs\\two_route_pilot20k\\spatial_s2_ll\\resource.json.15f9c4b19668403991e558d5440fd3a7.tmp' -> 'C:\\Users\\33581\\Desktop\\fyp\\MCUNet-DWT\\runs\\two_route_pilot20k\\spatial_s2_ll\\resource.json'
+2026-10-28 22:44:36,973 ll epoch=16 train_ce=2.32037 dev_ce=2.60851 dev_top1=43.58 best=False stop=False
+2026-10-28 22:45:12,239 ll epoch=17 batch=100/500 CE=2.2811 updates=8100 exposures=259200
+2026-10-28 22:45:47,233 ll epoch=17 batch=200/500 CE=2.3124 updates=8200 exposures=262400
+2026-10-28 22:46:24,946 ll epoch=17 batch=300/500 CE=2.2925 updates=8300 exposures=265600
+2026-10-28 22:47:01,791 ll epoch=17 batch=400/500 CE=2.2809 updates=8400 exposures=268800
+2026-10-28 22:47:37,907 ll epoch=17 batch=500/500 CE=2.2889 updates=8500 exposures=272000
+2026-10-28 22:47:54,290 ll epoch=17 train_ce=2.28895 dev_ce=2.62225 dev_top1=43.27 best=False stop=False
+2026-10-28 22:48:28,731 ll epoch=18 batch=100/500 CE=2.2800 updates=8600 exposures=275200
+2026-10-28 22:49:02,836 ll epoch=18 batch=200/500 CE=2.2912 updates=8700 exposures=278400
+2026-10-28 22:49:36,494 ll epoch=18 batch=300/500 CE=2.2713 updates=8800 exposures=281600
+2026-10-28 22:50:11,180 ll epoch=18 batch=400/500 CE=2.2694 updates=8900 exposures=284800
+2026-10-28 22:50:45,615 ll epoch=18 batch=500/500 CE=2.2772 updates=9000 exposures=288000
+2026-10-28 22:51:04,572 ll epoch=18 train_ce=2.27716 dev_ce=2.61886 dev_top1=43.67 best=False stop=False
+2026-10-28 22:51:39,553 ll epoch=19 batch=100/500 CE=2.3030 updates=9100 exposures=291200
+2026-10-28 22:52:14,794 ll epoch=19 batch=200/500 CE=2.3014 updates=9200 exposures=294400
+2026-10-28 22:52:49,028 ll epoch=19 batch=300/500 CE=2.2815 updates=9300 exposures=297600
+2026-10-28 22:53:22,420 ll epoch=19 batch=400/500 CE=2.2771 updates=9400 exposures=300800
+2026-10-28 22:53:56,708 ll epoch=19 batch=500/500 CE=2.2740 updates=9500 exposures=304000
+2026-10-28 22:54:16,058 ll epoch=19 train_ce=2.27398 dev_ce=2.60142 dev_top1=43.77 best=True stop=False
+2026-10-28 22:54:53,893 ll epoch=20 batch=100/500 CE=2.3097 updates=9600 exposures=307200
+2026-10-28 22:55:26,956 ll epoch=20 batch=200/500 CE=2.2987 updates=9700 exposures=310400
+2026-10-28 22:55:59,546 ll epoch=20 batch=300/500 CE=2.2858 updates=9800 exposures=313600
+2026-10-28 22:56:32,557 Resource display JSON write failed; live telemetry continues
+Traceback (most recent call last):
+  File "C:\Users\33581\Desktop\fyp\MCUNet-DWT\scripts\train_route_pilot.py", line 70, in watch
+    write_json(self.root / 'resource.json', dict(at=now(), **self.sample))
+  File "C:\Users\33581\Desktop\fyp\MCUNet-DWT\experiments\w80_pilot\atomic_io.py", line 21, in write_json
+    temporary.replace(path)
+  File "C:\Users\33581\anaconda3\envs\dgfnet\lib\pathlib.py", line 1247, in replace
+    self._accessor.replace(self, target)
+PermissionError: [WinError 5] 拒绝访问。: 'C:\\Users\\33581\\Desktop\\fyp\\MCUNet-DWT\\runs\\two_route_pilot20k\\spatial_s2_ll\\resource.json.9a9b7d3f9e554f41bc89f38ac063b7ca.tmp' -> 'C:\\Users\\33581\\Desktop\\fyp\\MCUNet-DWT\\runs\\two_route_pilot20k\\spatial_s2_ll\\resource.json'
+2026-10-28 22:56:38,531 ll epoch=20 batch=400/500 CE=2.2794 updates=9900 exposures=316800
+2026-10-28 22:56:43,914 Resource display JSON write failed; live telemetry continues
+Traceback (most recent call last):
+  File "C:\Users\33581\Desktop\fyp\MCUNet-DWT\scripts\train_route_pilot.py", line 70, in watch
+    write_json(self.root / 'resource.json', dict(at=now(), **self.sample))
+  File "C:\Users\33581\Desktop\fyp\MCUNet-DWT\experiments\w80_pilot\atomic_io.py", line 21, in write_json
+    temporary.replace(path)
+  File "C:\Users\33581\anaconda3\envs\dgfnet\lib\pathlib.py", line 1247, in replace
+    self._accessor.replace(self, target)
+PermissionError: [WinError 5] 拒绝访问。: 'C:\\Users\\33581\\Desktop\\fyp\\MCUNet-DWT\\runs\\two_route_pilot20k\\spatial_s2_ll\\resource.json.84d13c3ece3142709a9198df5a82d699.tmp' -> 'C:\\Users\\33581\\Desktop\\fyp\\MCUNet-DWT\\runs\\two_route_pilot20k\\spatial_s2_ll\\resource.json'
+2026-10-28 22:56:54,608 Resource display JSON write failed; live telemetry continues
+Traceback (most recent call last):
+  File "C:\Users\33581\Desktop\fyp\MCUNet-DWT\scripts\train_route_pilot.py", line 70, in watch
+    write_json(self.root / 'resource.json', dict(at=now(), **self.sample))
+  File "C:\Users\33581\Desktop\fyp\MCUNet-DWT\experiments\w80_pilot\atomic_io.py", line 21, in write_json
+    temporary.replace(path)
+  File "C:\Users\33581\anaconda3\envs\dgfnet\lib\pathlib.py", line 1247, in replace
+    self._accessor.replace(self, target)
+PermissionError: [WinError 5] 拒绝访问。: 'C:\\Users\\33581\\Desktop\\fyp\\MCUNet-DWT\\runs\\two_route_pilot20k\\spatial_s2_ll\\resource.json.d71f72ac04cb47a9be5abb94f1be4880.tmp' -> 'C:\\Users\\33581\\Desktop\\fyp\\MCUNet-DWT\\runs\\two_route_pilot20k\\spatial_s2_ll\\resource.json'
+2026-10-28 22:57:06,520 Resource display JSON write failed; live telemetry continues
+Traceback (most recent call last):
+  File "C:\Users\33581\Desktop\fyp\MCUNet-DWT\scripts\train_route_pilot.py", line 70, in watch
+    write_json(self.root / 'resource.json', dict(at=now(), **self.sample))
+  File "C:\Users\33581\Desktop\fyp\MCUNet-DWT\experiments\w80_pilot\atomic_io.py", line 21, in write_json
+    temporary.replace(path)
+  File "C:\Users\33581\anaconda3\envs\dgfnet\lib\pathlib.py", line 1247, in replace
+    self._accessor.replace(self, target)
+PermissionError: [WinError 5] 拒绝访问。: 'C:\\Users\\33581\\Desktop\\fyp\\MCUNet-DWT\\runs\\two_route_pilot20k\\spatial_s2_ll\\resource.json.9a1b211baba94ed6b5e51627d3c70523.tmp' -> 'C:\\Users\\33581\\Desktop\\fyp\\MCUNet-DWT\\runs\\two_route_pilot20k\\spatial_s2_ll\\resource.json'
+2026-10-28 22:57:18,157 Resource display JSON write failed; live telemetry continues
+Traceback (most recent call last):
+  File "C:\Users\33581\Desktop\fyp\MCUNet-DWT\scripts\train_route_pilot.py", line 70, in watch
+    write_json(self.root / 'resource.json', dict(at=now(), **self.sample))
+  File "C:\Users\33581\Desktop\fyp\MCUNet-DWT\experiments\w80_pilot\atomic_io.py", line 21, in write_json
+    temporary.replace(path)
+  File "C:\Users\33581\anaconda3\envs\dgfnet\lib\pathlib.py", line 1247, in replace
+    self._accessor.replace(self, target)
+PermissionError: [WinError 5] 拒绝访问。: 'C:\\Users\\33581\\Desktop\\fyp\\MCUNet-DWT\\runs\\two_route_pilot20k\\spatial_s2_ll\\resource.json.77c36ff94c6f49c5916e17ba51bedd12.tmp' -> 'C:\\Users\\33581\\Desktop\\fyp\\MCUNet-DWT\\runs\\two_route_pilot20k\\spatial_s2_ll\\resource.json'
+2026-10-28 22:57:28,417 Resource display JSON write failed; live telemetry continues
+Traceback (most recent call last):
+  File "C:\Users\33581\Desktop\fyp\MCUNet-DWT\scripts\train_route_pilot.py", line 70, in watch
+    write_json(self.root / 'resource.json', dict(at=now(), **self.sample))
+  File "C:\Users\33581\Desktop\fyp\MCUNet-DWT\experiments\w80_pilot\atomic_io.py", line 21, in write_json
+    temporary.replace(path)
+  File "C:\Users\33581\anaconda3\envs\dgfnet\lib\pathlib.py", line 1247, in replace
+    self._accessor.replace(self, target)
+PermissionError: [WinError 5] 拒绝访问。: 'C:\\Users\\33581\\Desktop\\fyp\\MCUNet-DWT\\runs\\two_route_pilot20k\\spatial_s2_ll\\resource.json.8b048454f6d14ac7b81ceae42d2f4441.tmp' -> 'C:\\Users\\33581\\Desktop\\fyp\\MCUNet-DWT\\runs\\two_route_pilot20k\\spatial_s2_ll\\resource.json'
+2026-10-28 22:57:39,102 Resource display JSON write failed; live telemetry continues
+Traceback (most recent call last):
+  File "C:\Users\33581\Desktop\fyp\MCUNet-DWT\scripts\train_route_pilot.py", line 70, in watch
+    write_json(self.root / 'resource.json', dict(at=now(), **self.sample))
+  File "C:\Users\33581\Desktop\fyp\MCUNet-DWT\experiments\w80_pilot\atomic_io.py", line 21, in write_json
+    temporary.replace(path)
+  File "C:\Users\33581\anaconda3\envs\dgfnet\lib\pathlib.py", line 1247, in replace
+    self._accessor.replace(self, target)
+PermissionError: [WinError 5] 拒绝访问。: 'C:\\Users\\33581\\Desktop\\fyp\\MCUNet-DWT\\runs\\two_route_pilot20k\\spatial_s2_ll\\resource.json.4bd0b547667348ee91c94dbabcf90269.tmp' -> 'C:\\Users\\33581\\Desktop\\fyp\\MCUNet-DWT\\runs\\two_route_pilot20k\\spatial_s2_ll\\resource.json'
+2026-10-28 22:57:50,814 ll epoch=20 batch=500/500 CE=2.2843 updates=10000 exposures=320000
+2026-10-28 22:58:09,174 ll epoch=20 train_ce=2.28430 dev_ce=2.61025 dev_top1=43.60 best=False stop=False

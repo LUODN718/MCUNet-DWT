@@ -1,0 +1,10 @@
+test_display_write_error_does_not_kill_guard (test_route_io.ResourceIOTests.test_display_write_error_does_not_kill_guard) ... ok
+test_failed_replace_keeps_previous_file_and_cleans_temp (test_route_io.ResourceIOTests.test_failed_replace_keeps_previous_file_and_cleans_temp) ... ok
+test_immutable_snapshots_allow_concurrent_readers (test_route_io.ResourceIOTests.test_immutable_snapshots_allow_concurrent_readers) ... ok
+test_real_windows_reader_lock_cannot_block_new_snapshots (test_route_io.ResourceIOTests.test_real_windows_reader_lock_cannot_block_new_snapshots) ... ok
+test_transient_replace_conflict_retries (test_route_io.ResourceIOTests.test_transient_replace_conflict_retries) ... ok
+
+----------------------------------------------------------------------
+Ran 5 tests in 13.489s
+
+OK

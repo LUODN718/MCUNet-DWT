@@ -1,0 +1,13 @@
+test_display_failure_is_nonfatal (test_unattended_recovery.UnattendedTests.test_display_failure_is_nonfatal) ... ok
+test_explicit_stop_prevents_restart (test_unattended_recovery.UnattendedTests.test_explicit_stop_prevents_restart) ... ok
+test_invalid_model_or_data_is_not_retried (test_unattended_recovery.UnattendedTests.test_invalid_model_or_data_is_not_retried) ... ok
+test_new_checkpoint_name_without_update_is_not_progress (test_unattended_recovery.UnattendedTests.test_new_checkpoint_name_without_update_is_not_progress) ... ok
+test_real_child_exit75_then_resume (test_unattended_recovery.UnattendedTests.test_real_child_exit75_then_resume) ... ok
+test_recoverable_exit_restarts_and_completes (test_unattended_recovery.UnattendedTests.test_recoverable_exit_restarts_and_completes) ... ok
+test_repeated_same_checkpoint_failure_is_bounded (test_unattended_recovery.UnattendedTests.test_repeated_same_checkpoint_failure_is_bounded) ... ok
+test_retry_only_operational_errors (test_unattended_recovery.UnattendedTests.test_retry_only_operational_errors) ... ok
+
+----------------------------------------------------------------------
+Ran 8 tests in 0.502s
+
+OK

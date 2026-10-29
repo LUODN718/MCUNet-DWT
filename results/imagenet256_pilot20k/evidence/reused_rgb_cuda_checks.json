@@ -1,0 +1,75 @@
+{
+  "as_of_utc": "2026-10-28T10:43:58.590899+00:00",
+  "contract": {
+    "manifest_sha256": "927c40c229256733dfd91d42eea6d8ef82b2f64e8eeea9354c3363144e4483da",
+    "selection_sha256": "f81b2dcd34f46063cbca2fc089abad23d79ffeb7d71923b3286585493771eed4",
+    "precision": "fp32",
+    "tf32": false,
+    "batch": 32,
+    "steps_per_epoch": 500,
+    "total_epochs": 20
+  },
+  "variants": [
+    {
+      "variant": "ll",
+      "real_cuda_batch": 32,
+      "output_classes": 1000,
+      "fp32": true,
+      "finite_ce": true,
+      "disk_resume_exact": true,
+      "controlled_after_bn_oom_rollback": true,
+      "partial_optimizer_rollback": true,
+      "peak_allocated_mib": 628.11
+    },
+    {
+      "variant": "ll_lh",
+      "real_cuda_batch": 32,
+      "output_classes": 1000,
+      "fp32": true,
+      "finite_ce": true,
+      "disk_resume_exact": true,
+      "controlled_after_bn_oom_rollback": true,
+      "partial_optimizer_rollback": true,
+      "peak_allocated_mib": 634.02
+    },
+    {
+      "variant": "ll_hl",
+      "real_cuda_batch": 32,
+      "output_classes": 1000,
+      "fp32": true,
+      "finite_ce": true,
+      "disk_resume_exact": true,
+      "controlled_after_bn_oom_rollback": true,
+      "partial_optimizer_rollback": true,
+      "peak_allocated_mib": 634.02
+    },
+    {
+      "variant": "ll_hh",
+      "real_cuda_batch": 32,
+      "output_classes": 1000,
+      "fp32": true,
+      "finite_ce": true,
+      "disk_resume_exact": true,
+      "controlled_after_bn_oom_rollback": true,
+      "partial_optimizer_rollback": true,
+      "peak_allocated_mib": 634.02
+    },
+    {
+      "variant": "rgb_e23",
+      "real_cuda_batch": 32,
+      "output_classes": 1000,
+      "fp32": true,
+      "finite_ce": true,
+      "disk_resume_exact": true,
+      "controlled_after_bn_oom_rollback": true,
+      "partial_optimizer_rollback": true,
+      "peak_allocated_mib": 632.92
+    }
+  ],
+  "passed": true,
+  "scope": "resized-image pilot CUDA integration; not teammate original-TRAIN production admission",
+  "source_commit": "ce31c1da28c8f41d81ae01d64fd30c6ad96cf439",
+  "physical_device_oom_induced": false,
+  "watchdog_integration_verified": false,
+  "official_val_or_v2_used": false
+}

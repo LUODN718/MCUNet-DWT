@@ -1,0 +1,26 @@
+{
+  "source": "C:\\Users\\33581\\Desktop\\fyp\\MCUNet-DWT\\runs\\w80_e23_pilot20k_v2\\rgb_e23",
+  "summary": {
+    "variant": "rgb_e23",
+    "train_images": 16000,
+    "dev_images": 4000,
+    "epochs_completed": 20,
+    "selected_epoch": 20,
+    "dev_ce": 2.0294808359146117,
+    "dev_top1": 53.3,
+    "dev_top5": 77.75,
+    "successful_updates": 10000,
+    "attempted_updates": 10000,
+    "failed_attempts": 0,
+    "training_exposures": 320000,
+    "attempted_training_exposures": 320000,
+    "elapsed_seconds": 3348.2810000000027,
+    "stop_reason": "max20epochs",
+    "scope": "resized-image 20k pilot; dev only; no official validation accuracy"
+  },
+  "protocol_sha256": "a4ea90235d598a173a3fbf99884a9271f3afefa9607e410d4cdefe95280159ed",
+  "best_sha256": "0c3103e7a34c4b60acf112d6fc1176ab47fef78227ef7c4c105071cc452e5777",
+  "last_sha256": "68111df496f8dd2bf3df179a296582ae5a196ffa59be24b31a620cf2075474b2",
+  "training_recipe_reused": true,
+  "operational_policy_differs": true
+}

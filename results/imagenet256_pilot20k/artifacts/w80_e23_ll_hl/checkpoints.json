@@ -1,0 +1,34 @@
+[
+  {
+    "kind": "best",
+    "sha256": "c917070afadb1d82b2a088d37fdd8c2a3606ece42a4144734588511c36536eb8",
+    "bytes": 4528896,
+    "distribution": "retained locally; weights not uploaded to Git",
+    "contains": [
+      "model",
+      "BN",
+      "optimizer",
+      "scheduler",
+      "scaler",
+      "RNG",
+      "progress",
+      "contract"
+    ]
+  },
+  {
+    "kind": "last",
+    "sha256": "ba21e911ffc66dbb70f2ea98a195db2a9d29a389aaf117460ec0c5bb3efd7a16",
+    "bytes": 4528896,
+    "distribution": "retained locally; weights not uploaded to Git",
+    "contains": [
+      "model",
+      "BN",
+      "optimizer",
+      "scheduler",
+      "scaler",
+      "RNG",
+      "progress",
+      "contract"
+    ]
+  }
+]

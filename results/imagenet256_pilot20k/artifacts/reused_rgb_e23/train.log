@@ -1,0 +1,120 @@
+2026-10-28 18:54:41,395 rgb_e23 epoch=1 batch=100/500 CE=3.6614 updates=100 exposures=3200
+2026-10-28 18:55:05,106 rgb_e23 epoch=1 batch=200/500 CE=3.6236 updates=200 exposures=6400
+2026-10-28 18:55:29,259 rgb_e23 epoch=1 batch=300/500 CE=3.5443 updates=300 exposures=9600
+2026-10-28 18:55:53,032 rgb_e23 epoch=1 batch=400/500 CE=3.4690 updates=400 exposures=12800
+2026-10-28 18:56:27,148 rgb_e23 epoch=1 batch=500/500 CE=3.4428 updates=500 exposures=16000
+2026-10-28 18:56:40,109 rgb_e23 epoch=1 train_ce=3.44284 dev_ce=2.28184 dev_top1=48.10 best=True stop=False
+2026-10-28 18:57:05,487 rgb_e23 epoch=2 batch=100/500 CE=3.1166 updates=600 exposures=19200
+2026-10-28 18:57:32,855 rgb_e23 epoch=2 batch=200/500 CE=3.0656 updates=700 exposures=22400
+2026-10-28 18:57:57,160 rgb_e23 epoch=2 batch=300/500 CE=3.0523 updates=800 exposures=25600
+2026-10-28 18:58:22,228 rgb_e23 epoch=2 batch=400/500 CE=3.0508 updates=900 exposures=28800
+2026-10-28 18:58:46,586 rgb_e23 epoch=2 batch=500/500 CE=3.0546 updates=1000 exposures=32000
+2026-10-28 18:58:57,952 rgb_e23 epoch=2 train_ce=3.05456 dev_ce=2.18266 dev_top1=49.30 best=True stop=False
+2026-10-28 18:59:25,821 rgb_e23 epoch=3 batch=100/500 CE=2.9009 updates=1100 exposures=35200
+2026-10-28 18:59:51,707 rgb_e23 epoch=3 batch=200/500 CE=2.9037 updates=1200 exposures=38400
+2026-10-28 19:00:21,010 rgb_e23 epoch=3 batch=300/500 CE=2.9016 updates=1300 exposures=41600
+2026-10-28 19:00:46,639 rgb_e23 epoch=3 batch=400/500 CE=2.8836 updates=1400 exposures=44800
+2026-10-28 19:01:10,412 rgb_e23 epoch=3 batch=500/500 CE=2.8711 updates=1500 exposures=48000
+2026-10-28 19:01:22,997 rgb_e23 epoch=3 train_ce=2.87110 dev_ce=2.12560 dev_top1=50.48 best=True stop=False
+2026-10-28 19:01:47,011 rgb_e23 epoch=4 batch=100/500 CE=2.6648 updates=1600 exposures=51200
+2026-10-28 19:02:12,407 rgb_e23 epoch=4 batch=200/500 CE=2.6659 updates=1700 exposures=54400
+2026-10-28 19:02:36,447 rgb_e23 epoch=4 batch=300/500 CE=2.6898 updates=1800 exposures=57600
+2026-10-28 19:03:00,331 rgb_e23 epoch=4 batch=400/500 CE=2.6961 updates=1900 exposures=60800
+2026-10-28 19:03:24,203 rgb_e23 epoch=4 batch=500/500 CE=2.7071 updates=2000 exposures=64000
+2026-10-28 19:03:35,849 rgb_e23 epoch=4 train_ce=2.70709 dev_ce=2.11267 dev_top1=50.55 best=True stop=False
+2026-10-28 19:03:59,937 rgb_e23 epoch=5 batch=100/500 CE=2.5582 updates=2100 exposures=67200
+2026-10-28 19:04:25,480 rgb_e23 epoch=5 batch=200/500 CE=2.5783 updates=2200 exposures=70400
+2026-10-28 19:04:48,515 rgb_e23 epoch=5 batch=300/500 CE=2.5772 updates=2300 exposures=73600
+2026-10-28 19:05:14,573 rgb_e23 epoch=5 batch=400/500 CE=2.5813 updates=2400 exposures=76800
+2026-10-28 19:05:43,820 rgb_e23 epoch=5 batch=500/500 CE=2.5942 updates=2500 exposures=80000
+2026-10-28 19:05:54,742 rgb_e23 epoch=5 train_ce=2.59424 dev_ce=2.11504 dev_top1=51.08 best=False stop=False
+2026-10-28 19:06:26,259 rgb_e23 epoch=6 batch=100/500 CE=2.5127 updates=2600 exposures=83200
+2026-10-28 19:06:59,874 rgb_e23 epoch=6 batch=200/500 CE=2.5159 updates=2700 exposures=86400
+2026-10-28 19:07:29,386 rgb_e23 epoch=6 batch=300/500 CE=2.4987 updates=2800 exposures=89600
+2026-10-28 19:07:59,348 rgb_e23 epoch=6 batch=400/500 CE=2.5271 updates=2900 exposures=92800
+2026-10-28 19:08:32,876 rgb_e23 epoch=6 batch=500/500 CE=2.5203 updates=3000 exposures=96000
+2026-10-28 19:08:52,869 rgb_e23 epoch=6 train_ce=2.52025 dev_ce=2.07914 dev_top1=51.55 best=True stop=False
+2026-10-28 19:09:27,642 rgb_e23 epoch=7 batch=100/500 CE=2.4000 updates=3100 exposures=99200
+2026-10-28 19:10:02,170 rgb_e23 epoch=7 batch=200/500 CE=2.3983 updates=3200 exposures=102400
+2026-10-28 19:10:36,329 rgb_e23 epoch=7 batch=300/500 CE=2.4351 updates=3300 exposures=105600
+2026-10-28 19:11:08,531 rgb_e23 epoch=7 batch=400/500 CE=2.4427 updates=3400 exposures=108800
+2026-10-28 19:11:39,017 rgb_e23 epoch=7 batch=500/500 CE=2.4529 updates=3500 exposures=112000
+2026-10-28 19:11:53,468 rgb_e23 epoch=7 train_ce=2.45293 dev_ce=2.06883 dev_top1=52.10 best=True stop=False
+2026-10-28 19:12:24,386 rgb_e23 epoch=8 batch=100/500 CE=2.3351 updates=3600 exposures=115200
+2026-10-28 19:12:55,901 rgb_e23 epoch=8 batch=200/500 CE=2.3659 updates=3700 exposures=118400
+2026-10-28 19:13:25,453 rgb_e23 epoch=8 batch=300/500 CE=2.3580 updates=3800 exposures=121600
+2026-10-28 19:13:54,512 rgb_e23 epoch=8 batch=400/500 CE=2.3486 updates=3900 exposures=124800
+2026-10-28 19:14:28,566 rgb_e23 epoch=8 batch=500/500 CE=2.3523 updates=4000 exposures=128000
+2026-10-28 19:14:46,168 rgb_e23 epoch=8 train_ce=2.35233 dev_ce=2.06671 dev_top1=51.65 best=True stop=False
+2026-10-28 19:15:16,414 rgb_e23 epoch=9 batch=100/500 CE=2.2833 updates=4100 exposures=131200
+2026-10-28 19:15:47,730 rgb_e23 epoch=9 batch=200/500 CE=2.2643 updates=4200 exposures=134400
+2026-10-28 19:16:21,417 rgb_e23 epoch=9 batch=300/500 CE=2.2547 updates=4300 exposures=137600
+2026-10-28 19:16:51,470 rgb_e23 epoch=9 batch=400/500 CE=2.2560 updates=4400 exposures=140800
+2026-10-28 19:17:20,243 rgb_e23 epoch=9 batch=500/500 CE=2.2660 updates=4500 exposures=144000
+2026-10-28 19:17:38,069 rgb_e23 epoch=9 train_ce=2.26600 dev_ce=2.05898 dev_top1=51.20 best=True stop=False
+2026-10-28 19:18:11,355 rgb_e23 epoch=10 batch=100/500 CE=2.1791 updates=4600 exposures=147200
+2026-10-28 19:18:44,384 rgb_e23 epoch=10 batch=200/500 CE=2.2139 updates=4700 exposures=150400
+2026-10-28 19:19:13,457 rgb_e23 epoch=10 batch=300/500 CE=2.2199 updates=4800 exposures=153600
+2026-10-28 19:19:42,249 rgb_e23 epoch=10 batch=400/500 CE=2.2373 updates=4900 exposures=156800
+2026-10-28 19:20:09,423 rgb_e23 epoch=10 batch=500/500 CE=2.2475 updates=5000 exposures=160000
+2026-10-28 19:20:29,613 rgb_e23 epoch=10 train_ce=2.24751 dev_ce=2.05283 dev_top1=51.80 best=True stop=False
+2026-10-28 19:20:59,684 rgb_e23 epoch=11 batch=100/500 CE=2.1232 updates=5100 exposures=163200
+2026-10-28 19:21:31,281 rgb_e23 epoch=11 batch=200/500 CE=2.1464 updates=5200 exposures=166400
+2026-10-28 19:22:03,667 rgb_e23 epoch=11 batch=300/500 CE=2.1802 updates=5300 exposures=169600
+2026-10-28 19:22:38,211 rgb_e23 epoch=11 batch=400/500 CE=2.1883 updates=5400 exposures=172800
+2026-10-28 19:23:08,061 rgb_e23 epoch=11 batch=500/500 CE=2.1869 updates=5500 exposures=176000
+2026-10-28 19:23:24,819 rgb_e23 epoch=11 train_ce=2.18693 dev_ce=2.04717 dev_top1=52.02 best=True stop=False
+2026-10-28 19:23:55,131 rgb_e23 epoch=12 batch=100/500 CE=2.1610 updates=5600 exposures=179200
+2026-10-28 19:24:26,608 rgb_e23 epoch=12 batch=200/500 CE=2.1794 updates=5700 exposures=182400
+2026-10-28 19:24:59,795 rgb_e23 epoch=12 batch=300/500 CE=2.1686 updates=5800 exposures=185600
+2026-10-28 19:25:29,377 rgb_e23 epoch=12 batch=400/500 CE=2.1571 updates=5900 exposures=188800
+2026-10-28 19:26:00,346 rgb_e23 epoch=12 batch=500/500 CE=2.1469 updates=6000 exposures=192000
+2026-10-28 19:26:16,350 rgb_e23 epoch=12 train_ce=2.14694 dev_ce=2.04699 dev_top1=52.62 best=True stop=False
+2026-10-28 19:26:47,373 rgb_e23 epoch=13 batch=100/500 CE=2.0760 updates=6100 exposures=195200
+2026-10-28 19:27:19,274 rgb_e23 epoch=13 batch=200/500 CE=2.0811 updates=6200 exposures=198400
+2026-10-28 19:27:56,564 rgb_e23 epoch=13 batch=300/500 CE=2.0762 updates=6300 exposures=201600
+2026-10-28 19:28:29,240 rgb_e23 epoch=13 batch=400/500 CE=2.0876 updates=6400 exposures=204800
+2026-10-28 19:29:01,875 rgb_e23 epoch=13 batch=500/500 CE=2.0775 updates=6500 exposures=208000
+2026-10-28 19:29:22,285 rgb_e23 epoch=13 train_ce=2.07755 dev_ce=2.05489 dev_top1=52.67 best=False stop=False
+2026-10-28 19:29:57,786 rgb_e23 epoch=14 batch=100/500 CE=2.0288 updates=6600 exposures=211200
+2026-10-28 19:30:30,219 rgb_e23 epoch=14 batch=200/500 CE=2.0454 updates=6700 exposures=214400
+2026-10-28 19:31:01,757 rgb_e23 epoch=14 batch=300/500 CE=2.0386 updates=6800 exposures=217600
+2026-10-28 19:31:34,941 rgb_e23 epoch=14 batch=400/500 CE=2.0409 updates=6900 exposures=220800
+2026-10-28 19:32:10,501 rgb_e23 epoch=14 batch=500/500 CE=2.0413 updates=7000 exposures=224000
+2026-10-28 19:32:28,452 rgb_e23 epoch=14 train_ce=2.04126 dev_ce=2.04904 dev_top1=52.67 best=False stop=False
+2026-10-28 19:33:02,521 rgb_e23 epoch=15 batch=100/500 CE=2.0512 updates=7100 exposures=227200
+2026-10-28 19:33:31,441 rgb_e23 epoch=15 batch=200/500 CE=2.0265 updates=7200 exposures=230400
+2026-10-28 19:34:01,223 rgb_e23 epoch=15 batch=300/500 CE=2.0187 updates=7300 exposures=233600
+2026-10-28 19:34:32,957 rgb_e23 epoch=15 batch=400/500 CE=2.0095 updates=7400 exposures=236800
+2026-10-28 19:35:13,491 rgb_e23 epoch=15 batch=500/500 CE=2.0062 updates=7500 exposures=240000
+2026-10-28 19:35:27,785 rgb_e23 epoch=15 train_ce=2.00624 dev_ce=2.05305 dev_top1=52.73 best=False stop=False
+2026-10-28 19:35:56,948 rgb_e23 epoch=16 batch=100/500 CE=2.0294 updates=7600 exposures=243200
+2026-10-28 19:36:27,076 rgb_e23 epoch=16 batch=200/500 CE=2.0012 updates=7700 exposures=246400
+2026-10-28 19:36:55,873 rgb_e23 epoch=16 batch=300/500 CE=2.0026 updates=7800 exposures=249600
+2026-10-28 19:37:26,446 rgb_e23 epoch=16 batch=400/500 CE=1.9861 updates=7900 exposures=252800
+2026-10-28 19:37:59,551 rgb_e23 epoch=16 batch=500/500 CE=1.9972 updates=8000 exposures=256000
+2026-10-28 19:38:20,776 rgb_e23 epoch=16 train_ce=1.99716 dev_ce=2.03583 dev_top1=53.10 best=True stop=False
+2026-10-28 19:38:49,909 rgb_e23 epoch=17 batch=100/500 CE=1.9848 updates=8100 exposures=259200
+2026-10-28 19:39:19,547 rgb_e23 epoch=17 batch=200/500 CE=1.9834 updates=8200 exposures=262400
+2026-10-28 19:39:48,448 rgb_e23 epoch=17 batch=300/500 CE=1.9685 updates=8300 exposures=265600
+2026-10-28 19:40:18,475 rgb_e23 epoch=17 batch=400/500 CE=1.9623 updates=8400 exposures=268800
+2026-10-28 19:40:53,719 rgb_e23 epoch=17 batch=500/500 CE=1.9760 updates=8500 exposures=272000
+2026-10-28 19:41:10,741 rgb_e23 epoch=17 train_ce=1.97602 dev_ce=2.04046 dev_top1=53.27 best=False stop=False
+2026-10-28 19:41:43,424 rgb_e23 epoch=18 batch=100/500 CE=1.9617 updates=8600 exposures=275200
+2026-10-28 19:42:15,521 rgb_e23 epoch=18 batch=200/500 CE=1.9668 updates=8700 exposures=278400
+2026-10-28 19:42:47,232 rgb_e23 epoch=18 batch=300/500 CE=1.9588 updates=8800 exposures=281600
+2026-10-28 19:43:16,383 rgb_e23 epoch=18 batch=400/500 CE=1.9524 updates=8900 exposures=284800
+2026-10-28 19:43:44,904 rgb_e23 epoch=18 batch=500/500 CE=1.9649 updates=9000 exposures=288000
+2026-10-28 19:44:00,933 rgb_e23 epoch=18 train_ce=1.96494 dev_ce=2.04001 dev_top1=52.83 best=False stop=False
+2026-10-28 19:44:33,507 rgb_e23 epoch=19 batch=100/500 CE=1.9544 updates=9100 exposures=291200
+2026-10-28 19:45:04,059 rgb_e23 epoch=19 batch=200/500 CE=1.9548 updates=9200 exposures=294400
+2026-10-28 19:45:33,291 rgb_e23 epoch=19 batch=300/500 CE=1.9527 updates=9300 exposures=297600
+2026-10-28 19:46:04,136 rgb_e23 epoch=19 batch=400/500 CE=1.9616 updates=9400 exposures=300800
+2026-10-28 19:46:36,270 rgb_e23 epoch=19 batch=500/500 CE=1.9590 updates=9500 exposures=304000
+2026-10-28 19:46:54,483 rgb_e23 epoch=19 train_ce=1.95901 dev_ce=2.03219 dev_top1=53.08 best=True stop=False
+2026-10-28 19:47:29,225 rgb_e23 epoch=20 batch=100/500 CE=1.9735 updates=9600 exposures=307200
+2026-10-28 19:48:03,182 rgb_e23 epoch=20 batch=200/500 CE=1.9481 updates=9700 exposures=310400
+2026-10-28 19:48:37,176 rgb_e23 epoch=20 batch=300/500 CE=1.9520 updates=9800 exposures=313600
+2026-10-28 19:49:11,726 rgb_e23 epoch=20 batch=400/500 CE=1.9482 updates=9900 exposures=316800
+2026-10-28 19:49:44,194 rgb_e23 epoch=20 batch=500/500 CE=1.9484 updates=10000 exposures=320000
+2026-10-28 19:50:03,285 rgb_e23 epoch=20 train_ce=1.94840 dev_ce=2.02948 dev_top1=53.30 best=True stop=False

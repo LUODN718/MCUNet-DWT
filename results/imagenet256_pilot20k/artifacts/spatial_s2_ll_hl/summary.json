@@ -1,0 +1,19 @@
+{
+  "route": "spatial_s2",
+  "variant": "ll_hl",
+  "train_images": 16000,
+  "dev_images": 4000,
+  "epochs_completed": 20,
+  "selected_epoch": 19,
+  "dev_ce": 2.6088422136306764,
+  "dev_top1": 43.525,
+  "dev_top5": 68.675,
+  "successful_updates": 10000,
+  "attempted_updates": 10000,
+  "failed_attempts": 0,
+  "training_exposures": 320000,
+  "attempted_training_exposures": 320000,
+  "elapsed_seconds": 4051.5939999999973,
+  "stop_reason": "max20epochs",
+  "scope": "resized-image 20k pilot; dev only; no official validation accuracy"
+}

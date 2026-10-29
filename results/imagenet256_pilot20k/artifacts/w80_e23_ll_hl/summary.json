@@ -1,0 +1,19 @@
+{
+  "route": "w80_e23",
+  "variant": "ll_hl",
+  "train_images": 16000,
+  "dev_images": 4000,
+  "epochs_completed": 20,
+  "selected_epoch": 20,
+  "dev_ce": 2.1696473145484925,
+  "dev_top1": 49.35,
+  "dev_top5": 75.625,
+  "successful_updates": 10000,
+  "attempted_updates": 10000,
+  "failed_attempts": 0,
+  "training_exposures": 320000,
+  "attempted_training_exposures": 320000,
+  "elapsed_seconds": 3982.672000000006,
+  "stop_reason": "max20epochs",
+  "scope": "resized-image 20k pilot; dev only; no official validation accuracy"
+}
