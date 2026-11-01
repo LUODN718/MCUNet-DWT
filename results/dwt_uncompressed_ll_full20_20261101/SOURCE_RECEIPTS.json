@@ -243,5 +243,33 @@
     "transformation": "exact",
     "original_sha256": "922ff7d6d51b426b9d412516994178424f2fd5d228582177de0caeac9b3d0895",
     "published_sha256": "922ff7d6d51b426b9d412516994178424f2fd5d228582177de0caeac9b3d0895"
+  },
+  {
+    "source": "<FYP>/MCUNet-DWT/scripts/profile_full20_compute.py",
+    "published": "code/profile_full20_compute.py",
+    "transformation": "exact",
+    "original_sha256": "f82fbcd0485ed697a595000ebc4dc255757f531aeb06063a37287aedee2e833b",
+    "published_sha256": "f82fbcd0485ed697a595000ebc4dc255757f531aeb06063a37287aedee2e833b"
+  },
+  {
+    "source": "<FYP>/MCUNet-DWT/experiments/dwt_uncompressed_ll_full20_20261031/compute_audit_20261101/compute_audit.json",
+    "published": "compute_audit/compute_audit.json",
+    "transformation": "exact",
+    "original_sha256": "eb656f94ffd295ad4b89ca8e10cddbaf01dd74ba42a8079d47080611cd7b1210",
+    "published_sha256": "eb656f94ffd295ad4b89ca8e10cddbaf01dd74ba42a8079d47080611cd7b1210"
+  },
+  {
+    "source": "<FYP>/MCUNet-DWT/experiments/dwt_uncompressed_ll_full20_20261031/compute_audit_20261101/compute_summary.csv",
+    "published": "compute_audit/compute_summary.csv",
+    "transformation": "exact",
+    "original_sha256": "cddb7f927a54ebc7cbf3e6dbd088a4613113a9d31b0052a6d9512b7c2e8e2f63",
+    "published_sha256": "cddb7f927a54ebc7cbf3e6dbd088a4613113a9d31b0052a6d9512b7c2e8e2f63"
+  },
+  {
+    "source": "<FYP>/MCUNet-DWT/experiments/dwt_uncompressed_ll_full20_20261031/compute_audit_20261101/README.md",
+    "published": "compute_audit/README.md",
+    "transformation": "exact",
+    "original_sha256": "2b4d9a4b2cb2729de83eb536340d88d34ef5b2a78312514e444af0852c3a79aa",
+    "published_sha256": "2b4d9a4b2cb2729de83eb536340d88d34ef5b2a78312514e444af0852c3a79aa"
   }
 ]

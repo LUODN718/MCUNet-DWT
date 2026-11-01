@@ -12,6 +12,8 @@ Unlike the teammate's W80 groups, this experiment retains all backbone channels.
 At the lowest full-development CE, LL-DWT reaches **59.585% Top-1 / 82.520% Top-5**
 (epoch20, CE1.694531); the matching local RGB160 baseline reaches **65.630% / 86.605%**
 (epoch1, CE1.401725). The Top-1 difference is **-6.045 percentage points**.
+Per-image Conv/Linear MACs are **67.2872M (RGB) vs 65.0024M (DWT)**, only **3.40% lower**, while Top-1 is 6.045 pp lower. The [compute audit](results/dwt_uncompressed_ll_full20_20261101/compute_audit/README.md) reports per-layer counts, separate Haar arithmetic and candidate-structure costs. No latency gain is claimed.
+
 These are development results; official ImageNet val/V2 have not been evaluated.
 Both local runs share image contents and the frozen recipe, but their contents
 do not match the teammate's sealed image manifest. This is not a claim of a DWT benefit

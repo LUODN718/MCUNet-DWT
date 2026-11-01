@@ -24,5 +24,18 @@
   "completed_at": "2026-11-01T07:02:01.845206+08:00",
   "post_fix_resource_samples": 647,
   "post_fix_pause_samples": 0,
-  "post_fix_min_available_gib": 4.73
+  "post_fix_min_available_gib": 4.73,
+  "compute": {
+    "scope": "per-image Conv/Linear MACs; excludes preprocessing and non-MAC operators",
+    "rgb_macs": 67287200,
+    "dwt_macs": 65002400,
+    "reduction_percent": 3.3955938127905427,
+    "rgb_parameters": 729392,
+    "dwt_parameters": 729035,
+    "dwt_transform_arithmetic": {
+      "add_sub": 76800,
+      "multiplies": 19200
+    },
+    "latency_measured": false
+  }
 }

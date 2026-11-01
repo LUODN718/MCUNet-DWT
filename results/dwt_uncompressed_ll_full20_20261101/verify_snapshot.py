@@ -28,3 +28,13 @@ for item in json.loads((root/'SOURCE_RECEIPTS.json').read_text()):
     assert hashlib.sha256(p.read_bytes()).hexdigest()==item['published_sha256']
     if item['transformation']=='exact': assert item['original_sha256']==item['published_sha256']
 print(f'PASS: {count} archived files; 20 epochs; 80000 updates; selected dev metrics and provenance verified.')
+
+audit=json.loads((root/'compute_audit/compute_audit.json').read_text())
+rgb,dwt=audit['rows'][:2]
+assert rgb['parameters']==729392 and dwt['parameters']==729035
+assert rgb['conv_linear_macs']==67287200 and dwt['conv_linear_macs']==65002400
+assert rgb['remaining_conv_linear_macs']==dwt['remaining_conv_linear_macs']==64522400
+for row in audit['rows']:
+    assert sum(layer['macs'] for layer in row['layers'])==row['conv_linear_macs']
+    if not row['trained_and_evaluated']: assert row['metrics'] is None
+print('PASS: per-layer MAC sums; completed model/parameter counts; candidate accuracies remain unmeasured.')
