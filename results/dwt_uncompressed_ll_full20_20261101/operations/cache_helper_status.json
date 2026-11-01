@@ -1,0 +1,13 @@
+{
+  "status": "restored",
+  "reason": "training_completed",
+  "time": "2026-11-01T07:19:33.876601+08:00",
+  "available_gib": 8.545,
+  "system_cache_gib": 7.862,
+  "nonpaged_pool_gib": 1.208,
+  "cache_settings": {
+    "minimum": 1048576,
+    "maximum": 17592186044416,
+    "flags": 0
+  }
+}

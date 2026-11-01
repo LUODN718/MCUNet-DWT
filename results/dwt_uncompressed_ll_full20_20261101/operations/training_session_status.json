@@ -1,0 +1,13 @@
+{
+  "helper_pid": 21060,
+  "controller_pid": 35040,
+  "epoch": 20,
+  "latest_checkpoint_step": 80000,
+  "progress_step": 80000,
+  "available_gib": 6.517,
+  "resource_sample_age_seconds": 22.2,
+  "resource_action": "continue",
+  "status": "completed",
+  "idle_sleep_prevented": false,
+  "time": "2026-11-01T07:02:06.070374+08:00"
+}

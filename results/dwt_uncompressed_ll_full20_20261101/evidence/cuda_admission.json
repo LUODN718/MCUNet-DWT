@@ -1,0 +1,43 @@
+{
+  "actual_input_shape": [
+    32,
+    3,
+    80,
+    80
+  ],
+  "adapter_sha256": "1f8e21469d5a6883becfc286d61c35169f2631e263503287b7bb210b5927c227",
+  "admission_sha256": "f0d1b11b2078b05a93f50425b6d1c4630f564f68816824a235833a3373665a45",
+  "amp": false,
+  "batch": 32,
+  "bn_batch": 32,
+  "channel_indices_sha256": null,
+  "checkpoint_restore_exact": true,
+  "controlled_failure_restores_parameters_bn_rng": true,
+  "dataset_alignment": {
+    "local_manifest_sha256": "0c68acdffbec6ec80835561962d94689eff4fdde5a3428858b5a117dd10653a7",
+    "matches_teammate_content_seal": false,
+    "reference_manifest_sha256": "c3e2d54e9bcd5d5d1e03b96be5f45ad04fa384fad2d1cdf4878296e215f80179",
+    "same_frozen_membership": true,
+    "user_accepted_local_content": true
+  },
+  "first_loss": 7.148918151855469,
+  "manifest_sha256": "0c68acdffbec6ec80835561962d94689eff4fdde5a3428858b5a117dd10653a7",
+  "original_jpeg_storage": "nested tar, no JPEG extraction",
+  "peak_cuda_allocated_MiB": 902.9736328125,
+  "precision": "fp32",
+  "replay_loss_exact": true,
+  "replay_parameters_and_bn_exact": true,
+  "scope": "admission only; 0 formal updates",
+  "seconds": 1.8853657245635986,
+  "status": "passed",
+  "stem_output_shape": [
+    32,
+    16,
+    80,
+    80
+  ],
+  "tf32": false,
+  "trainer_sha256": "4e37e8be51ab33c721259597bb62880a60cc87f5e7c6b7cd22ae815688c1adc8",
+  "uncompressed_backbone_and_head_preserved": true,
+  "variant": "dwt_uncompressed_ll"
+}

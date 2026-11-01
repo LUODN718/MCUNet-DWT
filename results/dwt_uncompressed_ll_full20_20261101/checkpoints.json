@@ -1,0 +1,38 @@
+[
+  {
+    "arm": "dwt",
+    "role": "best",
+    "filename": "a3dc51bdf31f5e53cb00864e0337328e209a5bedab2ad8dac104a64e4ae8d7ec.pt",
+    "bytes": 6071395,
+    "sha256": "a3dc51bdf31f5e53cb00864e0337328e209a5bedab2ad8dac104a64e4ae8d7ec",
+    "published": false,
+    "location": "retained locally; no online download in this snapshot"
+  },
+  {
+    "arm": "dwt",
+    "role": "latest",
+    "filename": "a3dc51bdf31f5e53cb00864e0337328e209a5bedab2ad8dac104a64e4ae8d7ec.pt",
+    "bytes": 6071395,
+    "sha256": "a3dc51bdf31f5e53cb00864e0337328e209a5bedab2ad8dac104a64e4ae8d7ec",
+    "published": false,
+    "location": "retained locally; no online download in this snapshot"
+  },
+  {
+    "arm": "rgb",
+    "role": "best",
+    "filename": "2223e9e69b6ca236cf7f65d0511311f4c493be10ac4213039a97ff17373b1096.pt",
+    "bytes": 6069863,
+    "sha256": "2223e9e69b6ca236cf7f65d0511311f4c493be10ac4213039a97ff17373b1096",
+    "published": false,
+    "location": "retained locally; no online download in this snapshot"
+  },
+  {
+    "arm": "rgb",
+    "role": "latest",
+    "filename": "18f10fa741bd24dd0b7960de22e68de1e8fd1f85d6ec6c8de8c63d4705bbcff8.pt",
+    "bytes": 6072935,
+    "sha256": "18f10fa741bd24dd0b7960de22e68de1e8fd1f85d6ec6c8de8c63d4705bbcff8",
+    "published": false,
+    "location": "retained locally; no online download in this snapshot"
+  }
+]

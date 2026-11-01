@@ -1,0 +1,31 @@
+{
+  "artifacts": {
+    "calibration": "9bbdb15e19390c8625cc94622a59e4c2bac2f93c2847e1ca15c3edbe532c5ca7",
+    "classes": "2559911847dfd9ece3816eaf4f5fb4372dca5f9f61ffc9b09a4f4d96869959f7",
+    "indices": "a5cd3c7a4b941b94bf78ee7ffdd2d17644f6486ad7263cda3bf7cf54702f9ab0",
+    "manifest": "c3e2d54e9bcd5d5d1e03b96be5f45ad04fa384fad2d1cdf4878296e215f80179",
+    "pretrained": "63565b5773a8aa70d75baf5a349f5f384da649804c48a5e7af1f655460158c7d",
+    "protocol": "0f414ee9a709cbca507b29d36f6cc77cf77b47a0039b8aad1474211d2f8d33b8"
+  },
+  "protocol_sha256": "0f414ee9a709cbca507b29d36f6cc77cf77b47a0039b8aad1474211d2f8d33b8",
+  "resource_revision": 2,
+  "resource_revision_scope": "Only per-image read-only POSIX_FADV_DONTNEED; scientific contract unchanged",
+  "resource_revision_time": 1793185413.8251774,
+  "sources": {
+    "__init__.py": "27b6d47cd463fe9495ef9a2da30e93610c8ac088fd24371ee506c6b1960c18f9",
+    "admission.py": "606c817b6beb326568a7135dcbbcb86af368da44e7b5982a2d529b667b658c17",
+    "calibrate.py": "e00742be8e224a94025bacd285655f714fcafda86238ea0ca3d3772b8104e971",
+    "content_audit.py": "44215d368e208895b21cfa2a46c758259f2630a56a51f3c2a3b5916d5c9767c1",
+    "cuda_checks.py": "1e553bac63c83c0b7c6d2d68f35486b08a9bf40c1eb93c70659f6ff9c2521f92",
+    "data.py": "95333a6619b3729f457cf9986264707a478856e58f6ffc73b1cd6b3e2fb378a3",
+    "execution.py": "04afcae1daa3b3685d50b687a47b9a7c8bafd66fbdd77c3e6117314b46a5497f",
+    "model.py": "3c5ad41656f7663047c1fc2ddbb537499e1f62920d0b95f0395072dba37a1e11",
+    "pipeline.py": "54ebd30260ac75713dcf5d899615d44a9cb89133f7331ad6bf35eaab4af55f05",
+    "resources.py": "be17a46b7959823e488ddf514da6f795dd858e1fa2ce33488699584a540dfad1",
+    "review.py": "23e6c8d0b8d8772f44dd6de40888726d17012b4589015e25a5765c8eb4976910",
+    "runtime.py": "1fd57e505168ce2bbed7bc501d705c88f7b9deefd8a4a1d06be0b5eeee8090b2",
+    "train.py": "fa8a07a360e16f46206d7ccd138212f16614431917825f5d6261b94a7725c330"
+  },
+  "time": 1793182860.9877048,
+  "training_updates_at_freeze": 0
+}

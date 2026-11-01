@@ -1,5 +1,28 @@
 # MCUNet DWT ImageNet Baseline
 
+## Original ImageNet LL-DWT full run (2026-11-01)
+
+The [completed 20-epoch LL-DWT report](results/dwt_uncompressed_ll_full20_20261101/README.md)
+archives a full-backbone MCUNet-in2 experiment using original ImageNet TRAIN:
+128,000 training / 20,000 development images, 1,000 classes, seed2026,
+80,000 updates, FP32 and batch32. The new stem uses Haar LL at 80x80 after
+the shared 160x160 RGB crop, followed by depthwise/pointwise convolutions.
+Unlike the teammate's W80 groups, this experiment retains all backbone channels.
+
+At the lowest full-development CE, LL-DWT reaches **59.585% Top-1 / 82.520% Top-5**
+(epoch20, CE1.694531); the matching local RGB160 baseline reaches **65.630% / 86.605%**
+(epoch1, CE1.401725). The Top-1 difference is **-6.045 percentage points**.
+These are development results; official ImageNet val/V2 have not been evaluated.
+Both local runs share image contents and the frozen recipe, but their contents
+do not match the teammate's sealed image manifest. This is not a claim of a DWT benefit
+or a strict content-matched comparison with the teammate.
+
+The report includes all 20 epochs, the RGB reference history/configuration,
+learning curves, training/restore source snapshots, interruption/resource records,
+SHA256 provenance and a standalone verification script. Checkpoints stay local.
+
+![Original ImageNet local comparison](results/dwt_uncompressed_ll_full20_20261101/figures/learning_curves.png)
+
 ## ImageNet256 preliminary validation (2026-10-29)
 
 The [two-route pilot report and W80 protocol audit](results/imagenet256_pilot20k/README.md)

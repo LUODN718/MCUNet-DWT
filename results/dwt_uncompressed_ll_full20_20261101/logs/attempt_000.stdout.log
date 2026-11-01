@@ -1,0 +1,95 @@
+{
+  "classes": 1000,
+  "content_audit": {
+    "Pillow": "11.2.1",
+    "archive": {
+      "bytes": 147897477120,
+      "mtime_ns": 1793352793645938800,
+      "path": "<FYP>\\ILSVRC2012_img_train\\ILSVRC2012_img_train\\ILSVRC2012_img_train.tar"
+    },
+    "byte_identity": "enforced against local manifest at each sample read",
+    "decoded_rgb_identity": "enforced against local manifest at each sample read",
+    "images": 148000,
+    "index_sha256": "84a75782bec465614954d3f391eb83227a1b7ef0ac276e14977705e8fe7c9126",
+    "jpeg": "6.2",
+    "libjpeg_turbo": "2.1.5.1",
+    "limitation": "same frozen sample IDs; raw/RGB content not an exact teammate-matched control",
+    "manifest_sha256": "0c68acdffbec6ec80835561962d94689eff4fdde5a3428858b5a117dd10653a7",
+    "matches_teammate_content_seal": false,
+    "reference_manifest_sha256": "c3e2d54e9bcd5d5d1e03b96be5f45ad04fa384fad2d1cdf4878296e215f80179",
+    "schema": 1,
+    "status": "user_accepted_local_content",
+    "storage": "tar",
+    "user_authorization": "2026-10-30: \u6ca1\u4e8b\u4f60\u5f00\u59cb\u8bad\u7ec3\u5427\uff0c\u5e94\u8be5\u6ca1\u591a\u5927\u533a\u522b",
+    "validation": {
+      "calibration": 1024,
+      "calibration_in_train": true,
+      "calibration_order_matches_seal": true,
+      "classes": 1000,
+      "content_identity": "all local JPEG/RGB identities recorded; teammate content seal differs",
+      "dev": 20000,
+      "dev_per_class": 20,
+      "duplicate_local_byte_and_rgb_identities": 0,
+      "duplicate_paths": 0,
+      "exclusions": "not independently checked; see exclusion_audit.json",
+      "local_byte_and_rgb_historical_exclusions": "not independently re-audited",
+      "matches_teammate_content_seal": false,
+      "train": 128000,
+      "train_dev_overlap": 0,
+      "train_per_class": 128
+    }
+  },
+  "dataset_alignment": {
+    "local_manifest_sha256": "0c68acdffbec6ec80835561962d94689eff4fdde5a3428858b5a117dd10653a7",
+    "matches_teammate_content_seal": false,
+    "reference_manifest_sha256": "c3e2d54e9bcd5d5d1e03b96be5f45ad04fa384fad2d1cdf4878296e215f80179",
+    "same_frozen_membership": true,
+    "user_accepted_local_content": true
+  },
+  "dev": 20000,
+  "manifest_sha256": "0c68acdffbec6ec80835561962d94689eff4fdde5a3428858b5a117dd10653a7",
+  "mcunet_commit": "9c164f8483003a5c6445871d94d30720aecc5918",
+  "membership_validation": {
+    "calibration": 1024,
+    "calibration_in_train": true,
+    "calibration_order_matches_seal": true,
+    "classes": 1000,
+    "content_identity": "all local JPEG/RGB identities recorded; teammate content seal differs",
+    "dev": 20000,
+    "dev_per_class": 20,
+    "duplicate_local_byte_and_rgb_identities": 0,
+    "duplicate_paths": 0,
+    "exclusions": "not independently checked; see exclusion_audit.json",
+    "local_byte_and_rgb_historical_exclusions": "not independently re-audited",
+    "matches_teammate_content_seal": false,
+    "train": 128000,
+    "train_dev_overlap": 0,
+    "train_per_class": 128
+  },
+  "status": "preflight_passed",
+  "storage": {
+    "adapter_sha256": "1f8e21469d5a6883becfc286d61c35169f2631e263503287b7bb210b5927c227",
+    "archive": {
+      "bytes": 147897477120,
+      "mtime_ns": 1793352793645938800,
+      "path": "<FYP>\\ILSVRC2012_img_train\\ILSVRC2012_img_train\\ILSVRC2012_img_train.tar"
+    },
+    "index_sha256": "84a75782bec465614954d3f391eb83227a1b7ef0ac276e14977705e8fe7c9126",
+    "type": "tar"
+  },
+  "train": 128000,
+  "versions": {
+    "Pillow": "11.2.1",
+    "jpeg": "6.2",
+    "python": "3.12.3",
+    "torch": "2.7.1+cu128",
+    "torchvision": "0.22.1+cu128"
+  },
+  "weights_sha256": "63565b5773a8aa70d75baf5a349f5f384da649804c48a5e7af1f655460158c7d"
+}
+epoch 1/20: step=100, images=3200/128000, train_ce=6.841415
+epoch 1/20: step=200, images=6400/128000, train_ce=6.617878
+epoch 1/20: step=300, images=9600/128000, train_ce=6.281014
+epoch 1/20: step=400, images=12800/128000, train_ce=5.964948
+epoch 1/20: step=500, images=16000/128000, train_ce=5.696944
+epoch 1/20: step=600, images=19200/128000, train_ce=5.476947

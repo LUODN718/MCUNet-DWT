@@ -1,0 +1,948 @@
+{
+  "classes": 1000,
+  "content_audit": {
+    "Pillow": "11.2.1",
+    "archive": {
+      "bytes": 147897477120,
+      "mtime_ns": 1793352793645938800,
+      "path": "<FYP>\\ILSVRC2012_img_train\\ILSVRC2012_img_train\\ILSVRC2012_img_train.tar"
+    },
+    "byte_identity": "enforced against local manifest at each sample read",
+    "decoded_rgb_identity": "enforced against local manifest at each sample read",
+    "images": 148000,
+    "index_sha256": "84a75782bec465614954d3f391eb83227a1b7ef0ac276e14977705e8fe7c9126",
+    "jpeg": "6.2",
+    "libjpeg_turbo": "2.1.5.1",
+    "limitation": "same frozen sample IDs; raw/RGB content not an exact teammate-matched control",
+    "manifest_sha256": "0c68acdffbec6ec80835561962d94689eff4fdde5a3428858b5a117dd10653a7",
+    "matches_teammate_content_seal": false,
+    "reference_manifest_sha256": "c3e2d54e9bcd5d5d1e03b96be5f45ad04fa384fad2d1cdf4878296e215f80179",
+    "schema": 1,
+    "status": "user_accepted_local_content",
+    "storage": "tar",
+    "user_authorization": "2026-10-30: \u6ca1\u4e8b\u4f60\u5f00\u59cb\u8bad\u7ec3\u5427\uff0c\u5e94\u8be5\u6ca1\u591a\u5927\u533a\u522b",
+    "validation": {
+      "calibration": 1024,
+      "calibration_in_train": true,
+      "calibration_order_matches_seal": true,
+      "classes": 1000,
+      "content_identity": "all local JPEG/RGB identities recorded; teammate content seal differs",
+      "dev": 20000,
+      "dev_per_class": 20,
+      "duplicate_local_byte_and_rgb_identities": 0,
+      "duplicate_paths": 0,
+      "exclusions": "not independently checked; see exclusion_audit.json",
+      "local_byte_and_rgb_historical_exclusions": "not independently re-audited",
+      "matches_teammate_content_seal": false,
+      "train": 128000,
+      "train_dev_overlap": 0,
+      "train_per_class": 128
+    }
+  },
+  "dataset_alignment": {
+    "local_manifest_sha256": "0c68acdffbec6ec80835561962d94689eff4fdde5a3428858b5a117dd10653a7",
+    "matches_teammate_content_seal": false,
+    "reference_manifest_sha256": "c3e2d54e9bcd5d5d1e03b96be5f45ad04fa384fad2d1cdf4878296e215f80179",
+    "same_frozen_membership": true,
+    "user_accepted_local_content": true
+  },
+  "dev": 20000,
+  "manifest_sha256": "0c68acdffbec6ec80835561962d94689eff4fdde5a3428858b5a117dd10653a7",
+  "mcunet_commit": "9c164f8483003a5c6445871d94d30720aecc5918",
+  "membership_validation": {
+    "calibration": 1024,
+    "calibration_in_train": true,
+    "calibration_order_matches_seal": true,
+    "classes": 1000,
+    "content_identity": "all local JPEG/RGB identities recorded; teammate content seal differs",
+    "dev": 20000,
+    "dev_per_class": 20,
+    "duplicate_local_byte_and_rgb_identities": 0,
+    "duplicate_paths": 0,
+    "exclusions": "not independently checked; see exclusion_audit.json",
+    "local_byte_and_rgb_historical_exclusions": "not independently re-audited",
+    "matches_teammate_content_seal": false,
+    "train": 128000,
+    "train_dev_overlap": 0,
+    "train_per_class": 128
+  },
+  "status": "preflight_passed",
+  "storage": {
+    "adapter_sha256": "1f8e21469d5a6883becfc286d61c35169f2631e263503287b7bb210b5927c227",
+    "archive": {
+      "bytes": 147897477120,
+      "mtime_ns": 1793352793645938800,
+      "path": "<FYP>\\ILSVRC2012_img_train\\ILSVRC2012_img_train\\ILSVRC2012_img_train.tar"
+    },
+    "index_sha256": "84a75782bec465614954d3f391eb83227a1b7ef0ac276e14977705e8fe7c9126",
+    "type": "tar"
+  },
+  "train": 128000,
+  "versions": {
+    "Pillow": "11.2.1",
+    "jpeg": "6.2",
+    "python": "3.12.3",
+    "torch": "2.7.1+cu128",
+    "torchvision": "0.22.1+cu128"
+  },
+  "weights_sha256": "63565b5773a8aa70d75baf5a349f5f384da649804c48a5e7af1f655460158c7d"
+}
+epoch 1/20: step=700, images=22400/128000, train_ce=5.263773
+epoch 1/20: step=800, images=25600/128000, train_ce=5.061735
+epoch 1/20: step=900, images=28800/128000, train_ce=4.888047
+epoch 1/20: step=1000, images=32000/128000, train_ce=4.743437
+epoch 1/20: step=1100, images=35200/128000, train_ce=4.606683
+epoch 1/20: step=1200, images=38400/128000, train_ce=4.489900
+epoch 1/20: step=1300, images=41600/128000, train_ce=4.377855
+epoch 1/20: step=1400, images=44800/128000, train_ce=4.282848
+epoch 1/20: step=1500, images=48000/128000, train_ce=4.193387
+epoch 1/20: step=1531, images=48992/128000, train_ce=4.167910
+epoch 1/20: step=1600, images=51200/128000, train_ce=4.111475
+epoch 1/20: step=1700, images=54400/128000, train_ce=4.039834
+epoch 1/20: step=1800, images=57600/128000, train_ce=3.969260
+epoch 1/20: step=1900, images=60800/128000, train_ce=3.912738
+epoch 1/20: step=2000, images=64000/128000, train_ce=3.857385
+epoch 1/20: step=2100, images=67200/128000, train_ce=3.804158
+epoch 1/20: step=2200, images=70400/128000, train_ce=3.754165
+epoch 1/20: step=2300, images=73600/128000, train_ce=3.708928
+epoch 1/20: step=2400, images=76800/128000, train_ce=3.666630
+epoch 1/20: step=2500, images=80000/128000, train_ce=3.628736
+epoch 1/20: step=2600, images=83200/128000, train_ce=3.593987
+epoch 1/20: step=2700, images=86400/128000, train_ce=3.558510
+epoch 1/20: step=2800, images=89600/128000, train_ce=3.524210
+epoch 1/20: step=2900, images=92800/128000, train_ce=3.494563
+epoch 1/20: step=3000, images=96000/128000, train_ce=3.466161
+epoch 1/20: step=3005, images=96160/128000, train_ce=3.465273
+epoch 1/20: step=3100, images=99200/128000, train_ce=3.437017
+epoch 1/20: step=3200, images=102400/128000, train_ce=3.408629
+epoch 1/20: step=3300, images=105600/128000, train_ce=3.382445
+epoch 1/20: step=3400, images=108800/128000, train_ce=3.359695
+epoch 1/20: step=3500, images=112000/128000, train_ce=3.337628
+epoch 1/20: step=3513, images=112416/128000, train_ce=3.334238
+epoch 1/20: step=3600, images=115200/128000, train_ce=3.313622
+epoch 1/20: step=3700, images=118400/128000, train_ce=3.295084
+epoch 1/20: step=3800, images=121600/128000, train_ce=3.275992
+epoch 1/20: step=3900, images=124800/128000, train_ce=3.257254
+epoch 1/20: step=4000, images=128000/128000, train_ce=3.238877
+completed epoch 1: dev_ce=1.815227, dev_top1=56.835, best=True
+epoch 2/20: step=4001, images=32/128000, train_ce=1.933447
+epoch 2/20: step=4100, images=3200/128000, train_ce=2.501598
+epoch 2/20: step=4200, images=6400/128000, train_ce=2.475824
+epoch 2/20: step=4300, images=9600/128000, train_ce=2.465599
+epoch 2/20: step=4400, images=12800/128000, train_ce=2.475384
+epoch 2/20: step=4500, images=16000/128000, train_ce=2.472942
+epoch 2/20: step=4600, images=19200/128000, train_ce=2.490878
+epoch 2/20: step=4700, images=22400/128000, train_ce=2.495335
+epoch 2/20: step=4800, images=25600/128000, train_ce=2.488092
+epoch 2/20: step=4900, images=28800/128000, train_ce=2.494776
+epoch 2/20: step=5000, images=32000/128000, train_ce=2.490493
+epoch 2/20: step=5100, images=35200/128000, train_ce=2.487339
+epoch 2/20: step=5200, images=38400/128000, train_ce=2.481101
+epoch 2/20: step=5300, images=41600/128000, train_ce=2.478966
+epoch 2/20: step=5400, images=44800/128000, train_ce=2.478203
+epoch 2/20: step=5500, images=48000/128000, train_ce=2.479594
+epoch 2/20: step=5600, images=51200/128000, train_ce=2.475945
+epoch 2/20: step=5700, images=54400/128000, train_ce=2.478942
+epoch 2/20: step=5800, images=57600/128000, train_ce=2.480972
+epoch 2/20: step=5900, images=60800/128000, train_ce=2.479238
+epoch 2/20: step=6000, images=64000/128000, train_ce=2.480322
+epoch 2/20: step=6100, images=67200/128000, train_ce=2.482022
+epoch 2/20: step=6200, images=70400/128000, train_ce=2.484623
+epoch 2/20: step=6300, images=73600/128000, train_ce=2.483364
+epoch 2/20: step=6400, images=76800/128000, train_ce=2.482777
+epoch 2/20: step=6500, images=80000/128000, train_ce=2.483256
+epoch 2/20: step=6600, images=83200/128000, train_ce=2.484234
+epoch 2/20: step=6689, images=86048/128000, train_ce=2.486047
+epoch 2/20: step=6700, images=86400/128000, train_ce=2.486229
+epoch 2/20: step=6800, images=89600/128000, train_ce=2.485233
+epoch 2/20: step=6900, images=92800/128000, train_ce=2.487762
+epoch 2/20: step=7000, images=96000/128000, train_ce=2.488420
+epoch 2/20: step=7100, images=99200/128000, train_ce=2.489542
+epoch 2/20: step=7200, images=102400/128000, train_ce=2.492547
+epoch 2/20: step=7300, images=105600/128000, train_ce=2.493787
+epoch 2/20: step=7400, images=108800/128000, train_ce=2.493305
+epoch 2/20: step=7500, images=112000/128000, train_ce=2.492267
+epoch 2/20: step=7600, images=115200/128000, train_ce=2.492859
+epoch 2/20: step=7700, images=118400/128000, train_ce=2.493701
+epoch 2/20: step=7800, images=121600/128000, train_ce=2.495411
+epoch 2/20: step=7900, images=124800/128000, train_ce=2.493831
+epoch 2/20: step=8000, images=128000/128000, train_ce=2.494515
+completed epoch 2: dev_ce=1.978174, dev_top1=53.815, best=False
+epoch 3/20: step=8001, images=32/128000, train_ce=2.848698
+epoch 3/20: step=8100, images=3200/128000, train_ce=2.414908
+epoch 3/20: step=8200, images=6400/128000, train_ce=2.440277
+epoch 3/20: step=8300, images=9600/128000, train_ce=2.469253
+epoch 3/20: step=8400, images=12800/128000, train_ce=2.484340
+epoch 3/20: step=8500, images=16000/128000, train_ce=2.469983
+epoch 3/20: step=8600, images=19200/128000, train_ce=2.476038
+epoch 3/20: step=8700, images=22400/128000, train_ce=2.484530
+epoch 3/20: step=8800, images=25600/128000, train_ce=2.484208
+epoch 3/20: step=8900, images=28800/128000, train_ce=2.488348
+epoch 3/20: step=9000, images=32000/128000, train_ce=2.486373
+epoch 3/20: step=9100, images=35200/128000, train_ce=2.492270
+epoch 3/20: step=9200, images=38400/128000, train_ce=2.492866
+epoch 3/20: step=9300, images=41600/128000, train_ce=2.493086
+epoch 3/20: step=9400, images=44800/128000, train_ce=2.482127
+epoch 3/20: step=9500, images=48000/128000, train_ce=2.476924
+epoch 3/20: step=9600, images=51200/128000, train_ce=2.475687
+epoch 3/20: step=9700, images=54400/128000, train_ce=2.473126
+epoch 3/20: step=9800, images=57600/128000, train_ce=2.475411
+epoch 3/20: step=9900, images=60800/128000, train_ce=2.472591
+epoch 3/20: step=10000, images=64000/128000, train_ce=2.473410
+epoch 3/20: step=10100, images=67200/128000, train_ce=2.474222
+epoch 3/20: step=10200, images=70400/128000, train_ce=2.479340
+epoch 3/20: step=10300, images=73600/128000, train_ce=2.479914
+epoch 3/20: step=10400, images=76800/128000, train_ce=2.479590
+epoch 3/20: step=10500, images=80000/128000, train_ce=2.481126
+epoch 3/20: step=10600, images=83200/128000, train_ce=2.478622
+epoch 3/20: step=10700, images=86400/128000, train_ce=2.479485
+epoch 3/20: step=10800, images=89600/128000, train_ce=2.480720
+epoch 3/20: step=10900, images=92800/128000, train_ce=2.479356
+epoch 3/20: step=11000, images=96000/128000, train_ce=2.476956
+epoch 3/20: step=11100, images=99200/128000, train_ce=2.474396
+epoch 3/20: step=11200, images=102400/128000, train_ce=2.473583
+epoch 3/20: step=11300, images=105600/128000, train_ce=2.474135
+epoch 3/20: step=11400, images=108800/128000, train_ce=2.471767
+epoch 3/20: step=11500, images=112000/128000, train_ce=2.473663
+epoch 3/20: step=11600, images=115200/128000, train_ce=2.473245
+epoch 3/20: step=11700, images=118400/128000, train_ce=2.470230
+epoch 3/20: step=11800, images=121600/128000, train_ce=2.471322
+epoch 3/20: step=11900, images=124800/128000, train_ce=2.472031
+epoch 3/20: step=12000, images=128000/128000, train_ce=2.471174
+completed epoch 3: dev_ce=1.786205, dev_top1=57.280, best=True
+epoch 4/20: step=12001, images=32/128000, train_ce=1.326979
+epoch 4/20: step=12100, images=3200/128000, train_ce=2.351357
+epoch 4/20: step=12200, images=6400/128000, train_ce=2.341840
+epoch 4/20: step=12300, images=9600/128000, train_ce=2.351906
+epoch 4/20: step=12400, images=12800/128000, train_ce=2.365503
+epoch 4/20: step=12500, images=16000/128000, train_ce=2.375670
+epoch 4/20: step=12600, images=19200/128000, train_ce=2.382848
+epoch 4/20: step=12700, images=22400/128000, train_ce=2.385026
+epoch 4/20: step=12800, images=25600/128000, train_ce=2.390745
+epoch 4/20: step=12900, images=28800/128000, train_ce=2.396008
+epoch 4/20: step=13000, images=32000/128000, train_ce=2.403792
+epoch 4/20: step=13100, images=35200/128000, train_ce=2.403435
+epoch 4/20: step=13200, images=38400/128000, train_ce=2.397507
+epoch 4/20: step=13300, images=41600/128000, train_ce=2.395931
+epoch 4/20: step=13400, images=44800/128000, train_ce=2.391667
+epoch 4/20: step=13500, images=48000/128000, train_ce=2.396387
+epoch 4/20: step=13600, images=51200/128000, train_ce=2.397793
+epoch 4/20: step=13700, images=54400/128000, train_ce=2.399209
+epoch 4/20: step=13800, images=57600/128000, train_ce=2.397637
+epoch 4/20: step=13900, images=60800/128000, train_ce=2.398348
+epoch 4/20: step=14000, images=64000/128000, train_ce=2.398716
+epoch 4/20: step=14100, images=67200/128000, train_ce=2.400834
+epoch 4/20: step=14200, images=70400/128000, train_ce=2.403398
+epoch 4/20: step=14300, images=73600/128000, train_ce=2.405069
+epoch 4/20: step=14400, images=76800/128000, train_ce=2.407830
+epoch 4/20: step=14500, images=80000/128000, train_ce=2.407724
+epoch 4/20: step=14600, images=83200/128000, train_ce=2.409394
+epoch 4/20: step=14700, images=86400/128000, train_ce=2.410660
+epoch 4/20: step=14800, images=89600/128000, train_ce=2.410165
+epoch 4/20: step=14900, images=92800/128000, train_ce=2.410860
+epoch 4/20: step=15000, images=96000/128000, train_ce=2.412728
+epoch 4/20: step=15100, images=99200/128000, train_ce=2.413222
+epoch 4/20: step=15200, images=102400/128000, train_ce=2.413120
+epoch 4/20: step=15300, images=105600/128000, train_ce=2.413782
+epoch 4/20: step=15400, images=108800/128000, train_ce=2.413322
+epoch 4/20: step=15500, images=112000/128000, train_ce=2.412143
+epoch 4/20: step=15600, images=115200/128000, train_ce=2.413577
+epoch 4/20: step=15700, images=118400/128000, train_ce=2.415135
+epoch 4/20: step=15800, images=121600/128000, train_ce=2.418003
+epoch 4/20: step=15900, images=124800/128000, train_ce=2.418926
+epoch 4/20: step=16000, images=128000/128000, train_ce=2.420405
+completed epoch 4: dev_ce=1.845787, dev_top1=56.415, best=False
+epoch 5/20: step=16001, images=32/128000, train_ce=2.365819
+epoch 5/20: step=16100, images=3200/128000, train_ce=2.318887
+epoch 5/20: step=16200, images=6400/128000, train_ce=2.304795
+epoch 5/20: step=16300, images=9600/128000, train_ce=2.300987
+epoch 5/20: step=16400, images=12800/128000, train_ce=2.321950
+epoch 5/20: step=16500, images=16000/128000, train_ce=2.317776
+epoch 5/20: step=16600, images=19200/128000, train_ce=2.322044
+epoch 5/20: step=16700, images=22400/128000, train_ce=2.329285
+epoch 5/20: step=16800, images=25600/128000, train_ce=2.334947
+epoch 5/20: step=16900, images=28800/128000, train_ce=2.335550
+epoch 5/20: step=17000, images=32000/128000, train_ce=2.342220
+epoch 5/20: step=17100, images=35200/128000, train_ce=2.344362
+epoch 5/20: step=17200, images=38400/128000, train_ce=2.352793
+epoch 5/20: step=17272, images=40704/128000, train_ce=2.353386
+epoch 5/20: step=17300, images=41600/128000, train_ce=2.354132
+epoch 5/20: step=17400, images=44800/128000, train_ce=2.352689
+epoch 5/20: step=17500, images=48000/128000, train_ce=2.359898
+epoch 5/20: step=17600, images=51200/128000, train_ce=2.363001
+epoch 5/20: step=17700, images=54400/128000, train_ce=2.364736
+epoch 5/20: step=17800, images=57600/128000, train_ce=2.368515
+epoch 5/20: step=17900, images=60800/128000, train_ce=2.364870
+epoch 5/20: step=18000, images=64000/128000, train_ce=2.367140
+epoch 5/20: step=18100, images=67200/128000, train_ce=2.365446
+epoch 5/20: step=18200, images=70400/128000, train_ce=2.368708
+epoch 5/20: step=18300, images=73600/128000, train_ce=2.370589
+epoch 5/20: step=18400, images=76800/128000, train_ce=2.371486
+epoch 5/20: step=18500, images=80000/128000, train_ce=2.371727
+epoch 5/20: step=18600, images=83200/128000, train_ce=2.371076
+epoch 5/20: step=18700, images=86400/128000, train_ce=2.373036
+epoch 5/20: step=18800, images=89600/128000, train_ce=2.372889
+epoch 5/20: step=18900, images=92800/128000, train_ce=2.372585
+epoch 5/20: step=19000, images=96000/128000, train_ce=2.370817
+epoch 5/20: step=19100, images=99200/128000, train_ce=2.369258
+epoch 5/20: step=19200, images=102400/128000, train_ce=2.368458
+epoch 5/20: step=19300, images=105600/128000, train_ce=2.366912
+epoch 5/20: step=19400, images=108800/128000, train_ce=2.365095
+epoch 5/20: step=19500, images=112000/128000, train_ce=2.364473
+epoch 5/20: step=19600, images=115200/128000, train_ce=2.365113
+epoch 5/20: step=19700, images=118400/128000, train_ce=2.365864
+epoch 5/20: step=19800, images=121600/128000, train_ce=2.365646
+epoch 5/20: step=19900, images=124800/128000, train_ce=2.364696
+epoch 5/20: step=20000, images=128000/128000, train_ce=2.366147
+completed epoch 5: dev_ce=1.804959, dev_top1=56.980, best=False
+epoch 6/20: step=20001, images=32/128000, train_ce=2.701528
+epoch 6/20: step=20100, images=3200/128000, train_ce=2.276678
+epoch 6/20: step=20200, images=6400/128000, train_ce=2.316701
+epoch 6/20: step=20300, images=9600/128000, train_ce=2.328502
+epoch 6/20: step=20400, images=12800/128000, train_ce=2.319445
+epoch 6/20: step=20500, images=16000/128000, train_ce=2.316951
+epoch 6/20: step=20600, images=19200/128000, train_ce=2.317389
+epoch 6/20: step=20700, images=22400/128000, train_ce=2.324500
+epoch 6/20: step=20800, images=25600/128000, train_ce=2.323301
+epoch 6/20: step=20900, images=28800/128000, train_ce=2.317135
+epoch 6/20: step=21000, images=32000/128000, train_ce=2.311085
+epoch 6/20: step=21100, images=35200/128000, train_ce=2.317582
+epoch 6/20: step=21200, images=38400/128000, train_ce=2.315168
+epoch 6/20: step=21300, images=41600/128000, train_ce=2.314889
+epoch 6/20: step=21400, images=44800/128000, train_ce=2.314659
+epoch 6/20: step=21500, images=48000/128000, train_ce=2.317646
+epoch 6/20: step=21600, images=51200/128000, train_ce=2.318586
+epoch 6/20: step=21700, images=54400/128000, train_ce=2.317917
+epoch 6/20: step=21800, images=57600/128000, train_ce=2.318413
+epoch 6/20: step=21900, images=60800/128000, train_ce=2.322522
+epoch 6/20: step=22000, images=64000/128000, train_ce=2.325005
+epoch 6/20: step=22074, images=66368/128000, train_ce=2.326579
+epoch 6/20: step=22100, images=67200/128000, train_ce=2.326021
+epoch 6/20: step=22200, images=70400/128000, train_ce=2.324185
+epoch 6/20: step=22294, images=73408/128000, train_ce=2.326682
+epoch 6/20: step=22300, images=73600/128000, train_ce=2.326609
+epoch 6/20: step=22384, images=76288/128000, train_ce=2.327568
+epoch 6/20: step=22400, images=76800/128000, train_ce=2.326977
+epoch 6/20: step=22500, images=80000/128000, train_ce=2.327356
+epoch 6/20: step=22600, images=83200/128000, train_ce=2.328262
+epoch 6/20: step=22700, images=86400/128000, train_ce=2.327062
+epoch 6/20: step=22800, images=89600/128000, train_ce=2.327998
+epoch 6/20: step=22900, images=92800/128000, train_ce=2.328815
+epoch 6/20: step=23000, images=96000/128000, train_ce=2.327425
+epoch 6/20: step=23100, images=99200/128000, train_ce=2.326497
+epoch 6/20: step=23200, images=102400/128000, train_ce=2.327655
+epoch 6/20: step=23300, images=105600/128000, train_ce=2.328828
+epoch 6/20: step=23400, images=108800/128000, train_ce=2.328237
+epoch 6/20: step=23500, images=112000/128000, train_ce=2.328317
+epoch 6/20: step=23600, images=115200/128000, train_ce=2.330044
+epoch 6/20: step=23700, images=118400/128000, train_ce=2.331406
+epoch 6/20: step=23800, images=121600/128000, train_ce=2.332063
+epoch 6/20: step=23900, images=124800/128000, train_ce=2.331049
+epoch 6/20: step=24000, images=128000/128000, train_ce=2.331630
+completed epoch 6: dev_ce=1.784752, dev_top1=57.525, best=True
+epoch 7/20: step=24001, images=32/128000, train_ce=3.029775
+epoch 7/20: step=24100, images=3200/128000, train_ce=2.267610
+epoch 7/20: step=24200, images=6400/128000, train_ce=2.263309
+epoch 7/20: step=24300, images=9600/128000, train_ce=2.267556
+epoch 7/20: step=24400, images=12800/128000, train_ce=2.261171
+epoch 7/20: step=24500, images=16000/128000, train_ce=2.261107
+epoch 7/20: step=24600, images=19200/128000, train_ce=2.265605
+epoch 7/20: step=24700, images=22400/128000, train_ce=2.267525
+epoch 7/20: step=24800, images=25600/128000, train_ce=2.263831
+epoch 7/20: step=24881, images=28192/128000, train_ce=2.263861
+epoch 7/20: step=24900, images=28800/128000, train_ce=2.263268
+epoch 7/20: step=25000, images=32000/128000, train_ce=2.265343
+epoch 7/20: step=25100, images=35200/128000, train_ce=2.270459
+epoch 7/20: step=25200, images=38400/128000, train_ce=2.278777
+epoch 7/20: step=25300, images=41600/128000, train_ce=2.282050
+epoch 7/20: step=25400, images=44800/128000, train_ce=2.279514
+epoch 7/20: step=25500, images=48000/128000, train_ce=2.283469
+epoch 7/20: step=25600, images=51200/128000, train_ce=2.280953
+epoch 7/20: step=25700, images=54400/128000, train_ce=2.280362
+epoch 7/20: step=25800, images=57600/128000, train_ce=2.279080
+epoch 7/20: step=25900, images=60800/128000, train_ce=2.281619
+epoch 7/20: step=26000, images=64000/128000, train_ce=2.285334
+epoch 7/20: step=26100, images=67200/128000, train_ce=2.285752
+epoch 7/20: step=26200, images=70400/128000, train_ce=2.286583
+epoch 7/20: step=26300, images=73600/128000, train_ce=2.290089
+epoch 7/20: step=26400, images=76800/128000, train_ce=2.287589
+epoch 7/20: step=26500, images=80000/128000, train_ce=2.287646
+epoch 7/20: step=26600, images=83200/128000, train_ce=2.286362
+epoch 7/20: step=26700, images=86400/128000, train_ce=2.286248
+epoch 7/20: step=26800, images=89600/128000, train_ce=2.287812
+epoch 7/20: step=26900, images=92800/128000, train_ce=2.290224
+epoch 7/20: step=27000, images=96000/128000, train_ce=2.289498
+epoch 7/20: step=27100, images=99200/128000, train_ce=2.289600
+epoch 7/20: step=27200, images=102400/128000, train_ce=2.291920
+epoch 7/20: step=27300, images=105600/128000, train_ce=2.294019
+epoch 7/20: step=27400, images=108800/128000, train_ce=2.293009
+epoch 7/20: step=27500, images=112000/128000, train_ce=2.293184
+epoch 7/20: step=27600, images=115200/128000, train_ce=2.293691
+epoch 7/20: step=27700, images=118400/128000, train_ce=2.294383
+epoch 7/20: step=27800, images=121600/128000, train_ce=2.294417
+epoch 7/20: step=27900, images=124800/128000, train_ce=2.292700
+epoch 7/20: step=28000, images=128000/128000, train_ce=2.294175
+completed epoch 7: dev_ce=1.796639, dev_top1=57.490, best=False
+epoch 8/20: step=28001, images=32/128000, train_ce=2.415656
+epoch 8/20: step=28100, images=3200/128000, train_ce=2.270477
+epoch 8/20: step=28200, images=6400/128000, train_ce=2.248695
+epoch 8/20: step=28300, images=9600/128000, train_ce=2.274004
+epoch 8/20: step=28400, images=12800/128000, train_ce=2.270736
+epoch 8/20: step=28500, images=16000/128000, train_ce=2.261017
+epoch 8/20: step=28600, images=19200/128000, train_ce=2.257910
+epoch 8/20: step=28700, images=22400/128000, train_ce=2.261899
+epoch 8/20: step=28799, images=25568/128000, train_ce=2.255272
+epoch 8/20: step=28800, images=25600/128000, train_ce=2.254908
+epoch 8/20: step=28900, images=28800/128000, train_ce=2.251069
+epoch 8/20: step=29000, images=32000/128000, train_ce=2.248882
+epoch 8/20: step=29100, images=35200/128000, train_ce=2.252944
+epoch 8/20: step=29199, images=38368/128000, train_ce=2.254530
+epoch 8/20: step=29200, images=38400/128000, train_ce=2.255022
+epoch 8/20: step=29284, images=41088/128000, train_ce=2.251978
+epoch 8/20: step=29300, images=41600/128000, train_ce=2.253384
+epoch 8/20: step=29382, images=44224/128000, train_ce=2.258248
+epoch 8/20: step=29400, images=44800/128000, train_ce=2.259901
+epoch 8/20: step=29480, images=47360/128000, train_ce=2.260255
+epoch 8/20: step=29500, images=48000/128000, train_ce=2.260384
+epoch 8/20: step=29578, images=50496/128000, train_ce=2.264729
+epoch 8/20: step=29600, images=51200/128000, train_ce=2.265123
+epoch 8/20: step=29700, images=54400/128000, train_ce=2.268103
+epoch 8/20: step=29790, images=57280/128000, train_ce=2.270342
+epoch 8/20: step=29800, images=57600/128000, train_ce=2.270321
+epoch 8/20: step=29900, images=60800/128000, train_ce=2.265593
+epoch 8/20: step=30000, images=64000/128000, train_ce=2.264120
+epoch 8/20: step=30100, images=67200/128000, train_ce=2.266637
+epoch 8/20: step=30188, images=70016/128000, train_ce=2.266431
+epoch 8/20: step=30200, images=70400/128000, train_ce=2.267679
+epoch 8/20: step=30300, images=73600/128000, train_ce=2.269043
+epoch 8/20: step=30400, images=76800/128000, train_ce=2.266065
+epoch 8/20: step=30468, images=78976/128000, train_ce=2.265245
+epoch 8/20: step=30500, images=80000/128000, train_ce=2.265380
+epoch 8/20: step=30567, images=82144/128000, train_ce=2.265540
+epoch 8/20: step=30600, images=83200/128000, train_ce=2.265349
+epoch 8/20: step=30694, images=86208/128000, train_ce=2.267966
+epoch 8/20: step=30700, images=86400/128000, train_ce=2.267574
+epoch 8/20: step=30800, images=89600/128000, train_ce=2.268920
+epoch 8/20: step=30889, images=92448/128000, train_ce=2.268433
+epoch 8/20: step=30900, images=92800/128000, train_ce=2.268529
+epoch 8/20: step=30964, images=94848/128000, train_ce=2.266526
+epoch 8/20: step=31000, images=96000/128000, train_ce=2.266786
+epoch 8/20: step=31078, images=98496/128000, train_ce=2.267380
+epoch 8/20: step=31100, images=99200/128000, train_ce=2.267370
+epoch 8/20: step=31183, images=101856/128000, train_ce=2.266198
+epoch 8/20: step=31200, images=102400/128000, train_ce=2.266074
+epoch 8/20: step=31300, images=105600/128000, train_ce=2.268176
+epoch 8/20: step=31400, images=108800/128000, train_ce=2.267239
+epoch 8/20: step=31500, images=112000/128000, train_ce=2.267198
+epoch 8/20: step=31600, images=115200/128000, train_ce=2.267531
+epoch 8/20: step=31700, images=118400/128000, train_ce=2.266073
+epoch 8/20: step=31800, images=121600/128000, train_ce=2.266867
+epoch 8/20: step=31900, images=124800/128000, train_ce=2.269281
+epoch 8/20: step=32000, images=128000/128000, train_ce=2.269373
+completed epoch 8: dev_ce=1.781626, dev_top1=57.740, best=True
+epoch 9/20: step=32001, images=32/128000, train_ce=2.028657
+epoch 9/20: step=32100, images=3200/128000, train_ce=2.199386
+epoch 9/20: step=32200, images=6400/128000, train_ce=2.220584
+epoch 9/20: step=32300, images=9600/128000, train_ce=2.231706
+epoch 9/20: step=32400, images=12800/128000, train_ce=2.227835
+epoch 9/20: step=32468, images=14976/128000, train_ce=2.224930
+epoch 9/20: step=32500, images=16000/128000, train_ce=2.225812
+epoch 9/20: step=32600, images=19200/128000, train_ce=2.221984
+epoch 9/20: step=32700, images=22400/128000, train_ce=2.214800
+epoch 9/20: step=32800, images=25600/128000, train_ce=2.215470
+epoch 9/20: step=32900, images=28800/128000, train_ce=2.216686
+epoch 9/20: step=33000, images=32000/128000, train_ce=2.217070
+epoch 9/20: step=33100, images=35200/128000, train_ce=2.220101
+epoch 9/20: step=33200, images=38400/128000, train_ce=2.214790
+epoch 9/20: step=33300, images=41600/128000, train_ce=2.219032
+epoch 9/20: step=33400, images=44800/128000, train_ce=2.215777
+epoch 9/20: step=33500, images=48000/128000, train_ce=2.216518
+epoch 9/20: step=33600, images=51200/128000, train_ce=2.215068
+epoch 9/20: step=33700, images=54400/128000, train_ce=2.220959
+epoch 9/20: step=33800, images=57600/128000, train_ce=2.220784
+epoch 9/20: step=33900, images=60800/128000, train_ce=2.218972
+epoch 9/20: step=34000, images=64000/128000, train_ce=2.218710
+epoch 9/20: step=34100, images=67200/128000, train_ce=2.218549
+epoch 9/20: step=34200, images=70400/128000, train_ce=2.221082
+epoch 9/20: step=34300, images=73600/128000, train_ce=2.223017
+epoch 9/20: step=34400, images=76800/128000, train_ce=2.223196
+epoch 9/20: step=34500, images=80000/128000, train_ce=2.227391
+epoch 9/20: step=34600, images=83200/128000, train_ce=2.227654
+epoch 9/20: step=34700, images=86400/128000, train_ce=2.227802
+epoch 9/20: step=34800, images=89600/128000, train_ce=2.228162
+epoch 9/20: step=34900, images=92800/128000, train_ce=2.228711
+epoch 9/20: step=35000, images=96000/128000, train_ce=2.230147
+epoch 9/20: step=35100, images=99200/128000, train_ce=2.231632
+epoch 9/20: step=35200, images=102400/128000, train_ce=2.232758
+epoch 9/20: step=35300, images=105600/128000, train_ce=2.231651
+epoch 9/20: step=35400, images=108800/128000, train_ce=2.232479
+epoch 9/20: step=35500, images=112000/128000, train_ce=2.232950
+epoch 9/20: step=35600, images=115200/128000, train_ce=2.231931
+epoch 9/20: step=35700, images=118400/128000, train_ce=2.232618
+epoch 9/20: step=35800, images=121600/128000, train_ce=2.232721
+epoch 9/20: step=35900, images=124800/128000, train_ce=2.231845
+epoch 9/20: step=36000, images=128000/128000, train_ce=2.231719
+completed epoch 9: dev_ce=1.811567, dev_top1=57.015, best=False
+epoch 10/20: step=36001, images=32/128000, train_ce=2.202103
+epoch 10/20: step=36100, images=3200/128000, train_ce=2.147416
+epoch 10/20: step=36200, images=6400/128000, train_ce=2.144821
+epoch 10/20: step=36300, images=9600/128000, train_ce=2.153606
+epoch 10/20: step=36400, images=12800/128000, train_ce=2.157142
+epoch 10/20: step=36500, images=16000/128000, train_ce=2.179894
+epoch 10/20: step=36600, images=19200/128000, train_ce=2.180512
+epoch 10/20: step=36700, images=22400/128000, train_ce=2.189082
+epoch 10/20: step=36800, images=25600/128000, train_ce=2.182890
+epoch 10/20: step=36900, images=28800/128000, train_ce=2.184007
+epoch 10/20: step=37000, images=32000/128000, train_ce=2.190386
+epoch 10/20: step=37100, images=35200/128000, train_ce=2.187521
+epoch 10/20: step=37200, images=38400/128000, train_ce=2.191686
+epoch 10/20: step=37300, images=41600/128000, train_ce=2.188068
+epoch 10/20: step=37400, images=44800/128000, train_ce=2.189377
+epoch 10/20: step=37500, images=48000/128000, train_ce=2.195600
+epoch 10/20: step=37600, images=51200/128000, train_ce=2.192903
+epoch 10/20: step=37700, images=54400/128000, train_ce=2.191804
+epoch 10/20: step=37800, images=57600/128000, train_ce=2.189662
+epoch 10/20: step=37900, images=60800/128000, train_ce=2.189342
+epoch 10/20: step=38000, images=64000/128000, train_ce=2.188797
+epoch 10/20: step=38100, images=67200/128000, train_ce=2.193372
+epoch 10/20: step=38200, images=70400/128000, train_ce=2.192132
+epoch 10/20: step=38300, images=73600/128000, train_ce=2.196505
+epoch 10/20: step=38400, images=76800/128000, train_ce=2.199420
+epoch 10/20: step=38500, images=80000/128000, train_ce=2.200198
+epoch 10/20: step=38600, images=83200/128000, train_ce=2.200259
+epoch 10/20: step=38700, images=86400/128000, train_ce=2.198282
+epoch 10/20: step=38800, images=89600/128000, train_ce=2.197409
+epoch 10/20: step=38900, images=92800/128000, train_ce=2.198936
+epoch 10/20: step=39000, images=96000/128000, train_ce=2.197709
+epoch 10/20: step=39100, images=99200/128000, train_ce=2.197403
+epoch 10/20: step=39200, images=102400/128000, train_ce=2.197757
+epoch 10/20: step=39300, images=105600/128000, train_ce=2.198466
+epoch 10/20: step=39400, images=108800/128000, train_ce=2.199476
+epoch 10/20: step=39500, images=112000/128000, train_ce=2.200226
+epoch 10/20: step=39600, images=115200/128000, train_ce=2.198705
+epoch 10/20: step=39700, images=118400/128000, train_ce=2.200422
+epoch 10/20: step=39800, images=121600/128000, train_ce=2.201011
+epoch 10/20: step=39900, images=124800/128000, train_ce=2.201050
+epoch 10/20: step=40000, images=128000/128000, train_ce=2.201710
+completed epoch 10: dev_ce=1.768779, dev_top1=57.740, best=True
+epoch 11/20: step=40001, images=32/128000, train_ce=1.753348
+epoch 11/20: step=40100, images=3200/128000, train_ce=2.114563
+epoch 11/20: step=40200, images=6400/128000, train_ce=2.128987
+epoch 11/20: step=40300, images=9600/128000, train_ce=2.130628
+epoch 11/20: step=40400, images=12800/128000, train_ce=2.127917
+epoch 11/20: step=40500, images=16000/128000, train_ce=2.140907
+epoch 11/20: step=40600, images=19200/128000, train_ce=2.143901
+epoch 11/20: step=40700, images=22400/128000, train_ce=2.154782
+epoch 11/20: step=40800, images=25600/128000, train_ce=2.165005
+epoch 11/20: step=40900, images=28800/128000, train_ce=2.170478
+epoch 11/20: step=41000, images=32000/128000, train_ce=2.173788
+epoch 11/20: step=41100, images=35200/128000, train_ce=2.175240
+epoch 11/20: step=41200, images=38400/128000, train_ce=2.175502
+epoch 11/20: step=41300, images=41600/128000, train_ce=2.172421
+epoch 11/20: step=41400, images=44800/128000, train_ce=2.172916
+epoch 11/20: step=41500, images=48000/128000, train_ce=2.172420
+epoch 11/20: step=41600, images=51200/128000, train_ce=2.173543
+epoch 11/20: step=41700, images=54400/128000, train_ce=2.175671
+epoch 11/20: step=41800, images=57600/128000, train_ce=2.174532
+epoch 11/20: step=41900, images=60800/128000, train_ce=2.173731
+epoch 11/20: step=42000, images=64000/128000, train_ce=2.175798
+epoch 11/20: step=42100, images=67200/128000, train_ce=2.176583
+epoch 11/20: step=42200, images=70400/128000, train_ce=2.176122
+epoch 11/20: step=42300, images=73600/128000, train_ce=2.175748
+epoch 11/20: step=42400, images=76800/128000, train_ce=2.174616
+epoch 11/20: step=42500, images=80000/128000, train_ce=2.175629
+epoch 11/20: step=42600, images=83200/128000, train_ce=2.176297
+epoch 11/20: step=42700, images=86400/128000, train_ce=2.178065
+epoch 11/20: step=42800, images=89600/128000, train_ce=2.176608
+epoch 11/20: step=42900, images=92800/128000, train_ce=2.179127
+epoch 11/20: step=43000, images=96000/128000, train_ce=2.178170
+epoch 11/20: step=43100, images=99200/128000, train_ce=2.178473
+epoch 11/20: step=43200, images=102400/128000, train_ce=2.180026
+epoch 11/20: step=43300, images=105600/128000, train_ce=2.180033
+epoch 11/20: step=43400, images=108800/128000, train_ce=2.179810
+epoch 11/20: step=43500, images=112000/128000, train_ce=2.177459
+epoch 11/20: step=43600, images=115200/128000, train_ce=2.179678
+epoch 11/20: step=43700, images=118400/128000, train_ce=2.177626
+epoch 11/20: step=43800, images=121600/128000, train_ce=2.178025
+epoch 11/20: step=43900, images=124800/128000, train_ce=2.180319
+epoch 11/20: step=44000, images=128000/128000, train_ce=2.181662
+completed epoch 11: dev_ce=1.763022, dev_top1=58.270, best=True
+epoch 12/20: step=44001, images=32/128000, train_ce=2.169834
+epoch 12/20: step=44100, images=3200/128000, train_ce=2.054210
+epoch 12/20: step=44200, images=6400/128000, train_ce=2.083805
+epoch 12/20: step=44300, images=9600/128000, train_ce=2.099023
+epoch 12/20: step=44400, images=12800/128000, train_ce=2.123209
+epoch 12/20: step=44500, images=16000/128000, train_ce=2.124058
+epoch 12/20: step=44600, images=19200/128000, train_ce=2.128819
+epoch 12/20: step=44700, images=22400/128000, train_ce=2.128125
+epoch 12/20: step=44800, images=25600/128000, train_ce=2.133069
+epoch 12/20: step=44900, images=28800/128000, train_ce=2.132205
+epoch 12/20: step=45000, images=32000/128000, train_ce=2.131055
+epoch 12/20: step=45100, images=35200/128000, train_ce=2.138157
+epoch 12/20: step=45200, images=38400/128000, train_ce=2.143188
+epoch 12/20: step=45300, images=41600/128000, train_ce=2.145163
+epoch 12/20: step=45400, images=44800/128000, train_ce=2.143716
+epoch 12/20: step=45500, images=48000/128000, train_ce=2.140027
+epoch 12/20: step=45600, images=51200/128000, train_ce=2.143441
+epoch 12/20: step=45700, images=54400/128000, train_ce=2.143472
+epoch 12/20: step=45800, images=57600/128000, train_ce=2.143165
+epoch 12/20: step=45900, images=60800/128000, train_ce=2.142231
+epoch 12/20: step=46000, images=64000/128000, train_ce=2.145207
+epoch 12/20: step=46100, images=67200/128000, train_ce=2.144341
+epoch 12/20: step=46200, images=70400/128000, train_ce=2.145365
+epoch 12/20: step=46300, images=73600/128000, train_ce=2.146233
+epoch 12/20: step=46400, images=76800/128000, train_ce=2.145810
+epoch 12/20: step=46500, images=80000/128000, train_ce=2.145350
+epoch 12/20: step=46600, images=83200/128000, train_ce=2.143536
+epoch 12/20: step=46700, images=86400/128000, train_ce=2.143079
+epoch 12/20: step=46800, images=89600/128000, train_ce=2.140925
+epoch 12/20: step=46900, images=92800/128000, train_ce=2.140231
+epoch 12/20: step=47000, images=96000/128000, train_ce=2.141077
+epoch 12/20: step=47100, images=99200/128000, train_ce=2.142125
+epoch 12/20: step=47200, images=102400/128000, train_ce=2.143761
+epoch 12/20: step=47300, images=105600/128000, train_ce=2.144652
+epoch 12/20: step=47400, images=108800/128000, train_ce=2.146971
+epoch 12/20: step=47500, images=112000/128000, train_ce=2.148538
+epoch 12/20: step=47600, images=115200/128000, train_ce=2.148869
+epoch 12/20: step=47700, images=118400/128000, train_ce=2.148015
+epoch 12/20: step=47800, images=121600/128000, train_ce=2.149035
+epoch 12/20: step=47900, images=124800/128000, train_ce=2.149156
+epoch 12/20: step=48000, images=128000/128000, train_ce=2.149318
+completed epoch 12: dev_ce=1.748344, dev_top1=58.315, best=True
+epoch 13/20: step=48001, images=32/128000, train_ce=2.757777
+epoch 13/20: step=48100, images=3200/128000, train_ce=2.139807
+epoch 13/20: step=48200, images=6400/128000, train_ce=2.122509
+epoch 13/20: step=48300, images=9600/128000, train_ce=2.090261
+epoch 13/20: step=48400, images=12800/128000, train_ce=2.109445
+epoch 13/20: step=48500, images=16000/128000, train_ce=2.107779
+epoch 13/20: step=48600, images=19200/128000, train_ce=2.107517
+epoch 13/20: step=48700, images=22400/128000, train_ce=2.105631
+epoch 13/20: step=48800, images=25600/128000, train_ce=2.112865
+epoch 13/20: step=48900, images=28800/128000, train_ce=2.110667
+epoch 13/20: step=49000, images=32000/128000, train_ce=2.112565
+epoch 13/20: step=49100, images=35200/128000, train_ce=2.113697
+epoch 13/20: step=49200, images=38400/128000, train_ce=2.118490
+epoch 13/20: step=49300, images=41600/128000, train_ce=2.122715
+epoch 13/20: step=49400, images=44800/128000, train_ce=2.126895
+epoch 13/20: step=49500, images=48000/128000, train_ce=2.121233
+epoch 13/20: step=49600, images=51200/128000, train_ce=2.120773
+epoch 13/20: step=49700, images=54400/128000, train_ce=2.120737
+epoch 13/20: step=49800, images=57600/128000, train_ce=2.122240
+epoch 13/20: step=49900, images=60800/128000, train_ce=2.120851
+epoch 13/20: step=50000, images=64000/128000, train_ce=2.119800
+epoch 13/20: step=50100, images=67200/128000, train_ce=2.120961
+epoch 13/20: step=50200, images=70400/128000, train_ce=2.120108
+epoch 13/20: step=50300, images=73600/128000, train_ce=2.120056
+epoch 13/20: step=50400, images=76800/128000, train_ce=2.122259
+epoch 13/20: step=50500, images=80000/128000, train_ce=2.122268
+epoch 13/20: step=50600, images=83200/128000, train_ce=2.122241
+epoch 13/20: step=50700, images=86400/128000, train_ce=2.123122
+epoch 13/20: step=50800, images=89600/128000, train_ce=2.122449
+epoch 13/20: step=50900, images=92800/128000, train_ce=2.123375
+epoch 13/20: step=51000, images=96000/128000, train_ce=2.121363
+epoch 13/20: step=51100, images=99200/128000, train_ce=2.122662
+epoch 13/20: step=51200, images=102400/128000, train_ce=2.124785
+epoch 13/20: step=51300, images=105600/128000, train_ce=2.122955
+epoch 13/20: step=51400, images=108800/128000, train_ce=2.123092
+epoch 13/20: step=51500, images=112000/128000, train_ce=2.122128
+epoch 13/20: step=51600, images=115200/128000, train_ce=2.121545
+epoch 13/20: step=51700, images=118400/128000, train_ce=2.120471
+epoch 13/20: step=51800, images=121600/128000, train_ce=2.119950
+epoch 13/20: step=51900, images=124800/128000, train_ce=2.121330
+epoch 13/20: step=52000, images=128000/128000, train_ce=2.119972
+completed epoch 13: dev_ce=1.742468, dev_top1=58.600, best=True
+epoch 14/20: step=52001, images=32/128000, train_ce=2.090218
+epoch 14/20: step=52100, images=3200/128000, train_ce=2.113104
+epoch 14/20: step=52200, images=6400/128000, train_ce=2.092518
+epoch 14/20: step=52300, images=9600/128000, train_ce=2.090815
+epoch 14/20: step=52400, images=12800/128000, train_ce=2.084094
+epoch 14/20: step=52500, images=16000/128000, train_ce=2.092956
+epoch 14/20: step=52600, images=19200/128000, train_ce=2.096943
+epoch 14/20: step=52700, images=22400/128000, train_ce=2.089557
+epoch 14/20: step=52800, images=25600/128000, train_ce=2.088210
+epoch 14/20: step=52900, images=28800/128000, train_ce=2.087208
+epoch 14/20: step=53000, images=32000/128000, train_ce=2.088423
+epoch 14/20: step=53100, images=35200/128000, train_ce=2.084584
+epoch 14/20: step=53200, images=38400/128000, train_ce=2.085242
+epoch 14/20: step=53300, images=41600/128000, train_ce=2.080869
+epoch 14/20: step=53400, images=44800/128000, train_ce=2.085360
+epoch 14/20: step=53500, images=48000/128000, train_ce=2.088746
+epoch 14/20: step=53600, images=51200/128000, train_ce=2.086721
+epoch 14/20: step=53700, images=54400/128000, train_ce=2.084992
+epoch 14/20: step=53800, images=57600/128000, train_ce=2.083129
+epoch 14/20: step=53900, images=60800/128000, train_ce=2.082813
+epoch 14/20: step=54000, images=64000/128000, train_ce=2.085319
+epoch 14/20: step=54100, images=67200/128000, train_ce=2.081551
+epoch 14/20: step=54200, images=70400/128000, train_ce=2.086705
+epoch 14/20: step=54300, images=73600/128000, train_ce=2.086153
+epoch 14/20: step=54400, images=76800/128000, train_ce=2.086456
+epoch 14/20: step=54500, images=80000/128000, train_ce=2.086212
+epoch 14/20: step=54600, images=83200/128000, train_ce=2.085705
+epoch 14/20: step=54700, images=86400/128000, train_ce=2.085233
+epoch 14/20: step=54800, images=89600/128000, train_ce=2.085499
+epoch 14/20: step=54900, images=92800/128000, train_ce=2.084988
+epoch 14/20: step=55000, images=96000/128000, train_ce=2.084936
+epoch 14/20: step=55100, images=99200/128000, train_ce=2.085076
+epoch 14/20: step=55200, images=102400/128000, train_ce=2.084233
+epoch 14/20: step=55300, images=105600/128000, train_ce=2.082949
+epoch 14/20: step=55400, images=108800/128000, train_ce=2.082859
+epoch 14/20: step=55500, images=112000/128000, train_ce=2.082495
+epoch 14/20: step=55600, images=115200/128000, train_ce=2.083407
+epoch 14/20: step=55700, images=118400/128000, train_ce=2.082640
+epoch 14/20: step=55800, images=121600/128000, train_ce=2.083266
+epoch 14/20: step=55900, images=124800/128000, train_ce=2.084112
+epoch 14/20: step=56000, images=128000/128000, train_ce=2.084999
+completed epoch 14: dev_ce=1.726560, dev_top1=58.885, best=True
+epoch 15/20: step=56001, images=32/128000, train_ce=1.611514
+epoch 15/20: step=56100, images=3200/128000, train_ce=2.032879
+epoch 15/20: step=56200, images=6400/128000, train_ce=2.058938
+epoch 15/20: step=56300, images=9600/128000, train_ce=2.046670
+epoch 15/20: step=56400, images=12800/128000, train_ce=2.051675
+epoch 15/20: step=56500, images=16000/128000, train_ce=2.046930
+epoch 15/20: step=56600, images=19200/128000, train_ce=2.044545
+epoch 15/20: step=56700, images=22400/128000, train_ce=2.058293
+epoch 15/20: step=56800, images=25600/128000, train_ce=2.055125
+epoch 15/20: step=56900, images=28800/128000, train_ce=2.057143
+epoch 15/20: step=57000, images=32000/128000, train_ce=2.058170
+epoch 15/20: step=57100, images=35200/128000, train_ce=2.061674
+epoch 15/20: step=57200, images=38400/128000, train_ce=2.060679
+epoch 15/20: step=57300, images=41600/128000, train_ce=2.061151
+epoch 15/20: step=57400, images=44800/128000, train_ce=2.058188
+epoch 15/20: step=57500, images=48000/128000, train_ce=2.058803
+epoch 15/20: step=57600, images=51200/128000, train_ce=2.059205
+epoch 15/20: step=57700, images=54400/128000, train_ce=2.059413
+epoch 15/20: step=57800, images=57600/128000, train_ce=2.061575
+epoch 15/20: step=57900, images=60800/128000, train_ce=2.062412
+epoch 15/20: step=58000, images=64000/128000, train_ce=2.061399
+epoch 15/20: step=58100, images=67200/128000, train_ce=2.061781
+epoch 15/20: step=58200, images=70400/128000, train_ce=2.063114
+epoch 15/20: step=58300, images=73600/128000, train_ce=2.064227
+epoch 15/20: step=58400, images=76800/128000, train_ce=2.065295
+epoch 15/20: step=58500, images=80000/128000, train_ce=2.065837
+epoch 15/20: step=58600, images=83200/128000, train_ce=2.066077
+epoch 15/20: step=58700, images=86400/128000, train_ce=2.067176
+epoch 15/20: step=58800, images=89600/128000, train_ce=2.068297
+epoch 15/20: step=58900, images=92800/128000, train_ce=2.067162
+epoch 15/20: step=59000, images=96000/128000, train_ce=2.067216
+epoch 15/20: step=59100, images=99200/128000, train_ce=2.066575
+epoch 15/20: step=59200, images=102400/128000, train_ce=2.065887
+epoch 15/20: step=59300, images=105600/128000, train_ce=2.068643
+epoch 15/20: step=59400, images=108800/128000, train_ce=2.067066
+epoch 15/20: step=59500, images=112000/128000, train_ce=2.068048
+epoch 15/20: step=59600, images=115200/128000, train_ce=2.067872
+epoch 15/20: step=59700, images=118400/128000, train_ce=2.067884
+epoch 15/20: step=59800, images=121600/128000, train_ce=2.067185
+epoch 15/20: step=59900, images=124800/128000, train_ce=2.067348
+epoch 15/20: step=60000, images=128000/128000, train_ce=2.068622
+completed epoch 15: dev_ce=1.720668, dev_top1=59.085, best=True
+epoch 16/20: step=60001, images=32/128000, train_ce=1.948197
+epoch 16/20: step=60100, images=3200/128000, train_ce=2.072953
+epoch 16/20: step=60200, images=6400/128000, train_ce=2.063000
+epoch 16/20: step=60300, images=9600/128000, train_ce=2.049223
+epoch 16/20: step=60400, images=12800/128000, train_ce=2.028175
+epoch 16/20: step=60500, images=16000/128000, train_ce=2.036777
+epoch 16/20: step=60600, images=19200/128000, train_ce=2.043282
+epoch 16/20: step=60700, images=22400/128000, train_ce=2.037747
+epoch 16/20: step=60800, images=25600/128000, train_ce=2.043167
+epoch 16/20: step=60900, images=28800/128000, train_ce=2.042148
+epoch 16/20: step=61000, images=32000/128000, train_ce=2.048123
+epoch 16/20: step=61100, images=35200/128000, train_ce=2.048242
+epoch 16/20: step=61200, images=38400/128000, train_ce=2.046098
+epoch 16/20: step=61300, images=41600/128000, train_ce=2.047570
+epoch 16/20: step=61400, images=44800/128000, train_ce=2.045189
+epoch 16/20: step=61500, images=48000/128000, train_ce=2.047658
+epoch 16/20: step=61600, images=51200/128000, train_ce=2.048968
+epoch 16/20: step=61700, images=54400/128000, train_ce=2.049441
+epoch 16/20: step=61800, images=57600/128000, train_ce=2.050685
+epoch 16/20: step=61900, images=60800/128000, train_ce=2.050730
+epoch 16/20: step=62000, images=64000/128000, train_ce=2.050483
+epoch 16/20: step=62100, images=67200/128000, train_ce=2.049226
+epoch 16/20: step=62200, images=70400/128000, train_ce=2.049266
+epoch 16/20: step=62300, images=73600/128000, train_ce=2.045233
+epoch 16/20: step=62400, images=76800/128000, train_ce=2.042021
+epoch 16/20: step=62500, images=80000/128000, train_ce=2.040705
+epoch 16/20: step=62600, images=83200/128000, train_ce=2.040031
+epoch 16/20: step=62700, images=86400/128000, train_ce=2.039653
+epoch 16/20: step=62800, images=89600/128000, train_ce=2.040751
+epoch 16/20: step=62900, images=92800/128000, train_ce=2.038951
+epoch 16/20: step=63000, images=96000/128000, train_ce=2.039568
+epoch 16/20: step=63100, images=99200/128000, train_ce=2.038642
+epoch 16/20: step=63200, images=102400/128000, train_ce=2.040178
+epoch 16/20: step=63300, images=105600/128000, train_ce=2.039988
+epoch 16/20: step=63400, images=108800/128000, train_ce=2.038980
+epoch 16/20: step=63500, images=112000/128000, train_ce=2.038614
+epoch 16/20: step=63600, images=115200/128000, train_ce=2.040693
+epoch 16/20: step=63676, images=117632/128000, train_ce=2.042251
+epoch 16/20: step=63700, images=118400/128000, train_ce=2.042500
+epoch 16/20: step=63800, images=121600/128000, train_ce=2.039836
+epoch 16/20: step=63900, images=124800/128000, train_ce=2.042038
+epoch 16/20: step=64000, images=128000/128000, train_ce=2.041103
+completed epoch 16: dev_ce=1.704806, dev_top1=59.215, best=True
+epoch 17/20: step=64001, images=32/128000, train_ce=2.242888
+epoch 17/20: step=64100, images=3200/128000, train_ce=1.988420
+epoch 17/20: step=64200, images=6400/128000, train_ce=2.040950
+epoch 17/20: step=64300, images=9600/128000, train_ce=2.041888
+epoch 17/20: step=64400, images=12800/128000, train_ce=2.044183
+epoch 17/20: step=64500, images=16000/128000, train_ce=2.038332
+epoch 17/20: step=64600, images=19200/128000, train_ce=2.032909
+epoch 17/20: step=64700, images=22400/128000, train_ce=2.041114
+epoch 17/20: step=64800, images=25600/128000, train_ce=2.039033
+epoch 17/20: step=64900, images=28800/128000, train_ce=2.041195
+epoch 17/20: step=65000, images=32000/128000, train_ce=2.035547
+epoch 17/20: step=65100, images=35200/128000, train_ce=2.032716
+epoch 17/20: step=65200, images=38400/128000, train_ce=2.028423
+epoch 17/20: step=65300, images=41600/128000, train_ce=2.028411
+epoch 17/20: step=65400, images=44800/128000, train_ce=2.027140
+epoch 17/20: step=65500, images=48000/128000, train_ce=2.029084
+epoch 17/20: step=65600, images=51200/128000, train_ce=2.026596
+epoch 17/20: step=65700, images=54400/128000, train_ce=2.027550
+epoch 17/20: step=65800, images=57600/128000, train_ce=2.024547
+epoch 17/20: step=65900, images=60800/128000, train_ce=2.027897
+epoch 17/20: step=66000, images=64000/128000, train_ce=2.032923
+epoch 17/20: step=66100, images=67200/128000, train_ce=2.034859
+epoch 17/20: step=66200, images=70400/128000, train_ce=2.036394
+epoch 17/20: step=66300, images=73600/128000, train_ce=2.039448
+epoch 17/20: step=66400, images=76800/128000, train_ce=2.041301
+epoch 17/20: step=66500, images=80000/128000, train_ce=2.040750
+epoch 17/20: step=66600, images=83200/128000, train_ce=2.040434
+epoch 17/20: step=66700, images=86400/128000, train_ce=2.039618
+epoch 17/20: step=66800, images=89600/128000, train_ce=2.039105
+epoch 17/20: step=66900, images=92800/128000, train_ce=2.040001
+epoch 17/20: step=67000, images=96000/128000, train_ce=2.040177
+epoch 17/20: step=67100, images=99200/128000, train_ce=2.041642
+epoch 17/20: step=67200, images=102400/128000, train_ce=2.040240
+epoch 17/20: step=67300, images=105600/128000, train_ce=2.039069
+epoch 17/20: step=67400, images=108800/128000, train_ce=2.038190
+epoch 17/20: step=67500, images=112000/128000, train_ce=2.037982
+epoch 17/20: step=67600, images=115200/128000, train_ce=2.037135
+epoch 17/20: step=67700, images=118400/128000, train_ce=2.037031
+epoch 17/20: step=67800, images=121600/128000, train_ce=2.035872
+epoch 17/20: step=67900, images=124800/128000, train_ce=2.036262
+epoch 17/20: step=68000, images=128000/128000, train_ce=2.036240
+completed epoch 17: dev_ce=1.703581, dev_top1=59.505, best=True
+epoch 18/20: step=68001, images=32/128000, train_ce=2.175150
+epoch 18/20: step=68100, images=3200/128000, train_ce=1.974322
+epoch 18/20: step=68200, images=6400/128000, train_ce=1.976239
+epoch 18/20: step=68300, images=9600/128000, train_ce=1.973956
+epoch 18/20: step=68400, images=12800/128000, train_ce=1.987679
+epoch 18/20: step=68500, images=16000/128000, train_ce=2.005222
+epoch 18/20: step=68600, images=19200/128000, train_ce=2.003952
+epoch 18/20: step=68700, images=22400/128000, train_ce=2.014837
+epoch 18/20: step=68800, images=25600/128000, train_ce=2.014403
+epoch 18/20: step=68900, images=28800/128000, train_ce=2.022156
+epoch 18/20: step=69000, images=32000/128000, train_ce=2.018370
+epoch 18/20: step=69100, images=35200/128000, train_ce=2.019938
+epoch 18/20: step=69200, images=38400/128000, train_ce=2.016163
+epoch 18/20: step=69300, images=41600/128000, train_ce=2.017451
+epoch 18/20: step=69400, images=44800/128000, train_ce=2.015461
+epoch 18/20: step=69500, images=48000/128000, train_ce=2.016233
+epoch 18/20: step=69600, images=51200/128000, train_ce=2.015653
+epoch 18/20: step=69700, images=54400/128000, train_ce=2.014176
+epoch 18/20: step=69800, images=57600/128000, train_ce=2.017818
+epoch 18/20: step=69900, images=60800/128000, train_ce=2.017558
+epoch 18/20: step=70000, images=64000/128000, train_ce=2.016779
+epoch 18/20: step=70100, images=67200/128000, train_ce=2.015220
+epoch 18/20: step=70200, images=70400/128000, train_ce=2.014545
+epoch 18/20: step=70300, images=73600/128000, train_ce=2.014789
+epoch 18/20: step=70400, images=76800/128000, train_ce=2.016060
+epoch 18/20: step=70500, images=80000/128000, train_ce=2.016366
+epoch 18/20: step=70600, images=83200/128000, train_ce=2.015822
+epoch 18/20: step=70700, images=86400/128000, train_ce=2.011479
+epoch 18/20: step=70800, images=89600/128000, train_ce=2.011241
+epoch 18/20: step=70900, images=92800/128000, train_ce=2.011856
+epoch 18/20: step=71000, images=96000/128000, train_ce=2.011208
+epoch 18/20: step=71100, images=99200/128000, train_ce=2.011494
+epoch 18/20: step=71200, images=102400/128000, train_ce=2.012932
+epoch 18/20: step=71300, images=105600/128000, train_ce=2.012248
+epoch 18/20: step=71400, images=108800/128000, train_ce=2.012884
+epoch 18/20: step=71500, images=112000/128000, train_ce=2.014350
+epoch 18/20: step=71600, images=115200/128000, train_ce=2.014266
+epoch 18/20: step=71700, images=118400/128000, train_ce=2.013985
+epoch 18/20: step=71800, images=121600/128000, train_ce=2.015669
+epoch 18/20: step=71900, images=124800/128000, train_ce=2.016183
+epoch 18/20: step=72000, images=128000/128000, train_ce=2.015945
+completed epoch 18: dev_ce=1.696698, dev_top1=59.650, best=True
+epoch 19/20: step=72001, images=32/128000, train_ce=1.719013
+epoch 19/20: step=72100, images=3200/128000, train_ce=2.027561
+epoch 19/20: step=72200, images=6400/128000, train_ce=2.006916
+epoch 19/20: step=72300, images=9600/128000, train_ce=1.992879
+epoch 19/20: step=72400, images=12800/128000, train_ce=1.992546
+epoch 19/20: step=72500, images=16000/128000, train_ce=2.008816
+epoch 19/20: step=72600, images=19200/128000, train_ce=2.008633
+epoch 19/20: step=72700, images=22400/128000, train_ce=2.007114
+epoch 19/20: step=72800, images=25600/128000, train_ce=2.004757
+epoch 19/20: step=72900, images=28800/128000, train_ce=2.006228
+epoch 19/20: step=73000, images=32000/128000, train_ce=2.006117
+epoch 19/20: step=73100, images=35200/128000, train_ce=2.007359
+epoch 19/20: step=73200, images=38400/128000, train_ce=2.006997
+epoch 19/20: step=73300, images=41600/128000, train_ce=2.005559
+epoch 19/20: step=73400, images=44800/128000, train_ce=2.004772
+epoch 19/20: step=73500, images=48000/128000, train_ce=2.007341
+epoch 19/20: step=73600, images=51200/128000, train_ce=2.007045
+epoch 19/20: step=73700, images=54400/128000, train_ce=2.007602
+epoch 19/20: step=73800, images=57600/128000, train_ce=2.009828
+epoch 19/20: step=73900, images=60800/128000, train_ce=2.007434
+epoch 19/20: step=74000, images=64000/128000, train_ce=2.007880
+epoch 19/20: step=74100, images=67200/128000, train_ce=2.006932
+epoch 19/20: step=74200, images=70400/128000, train_ce=2.006097
+epoch 19/20: step=74300, images=73600/128000, train_ce=2.005763
+epoch 19/20: step=74400, images=76800/128000, train_ce=2.006059
+epoch 19/20: step=74500, images=80000/128000, train_ce=2.004277
+epoch 19/20: step=74600, images=83200/128000, train_ce=2.004376
+epoch 19/20: step=74700, images=86400/128000, train_ce=2.006615
+epoch 19/20: step=74800, images=89600/128000, train_ce=2.007402
+epoch 19/20: step=74900, images=92800/128000, train_ce=2.008356
+epoch 19/20: step=75000, images=96000/128000, train_ce=2.011581
+epoch 19/20: step=75100, images=99200/128000, train_ce=2.013479
+epoch 19/20: step=75200, images=102400/128000, train_ce=2.014435
+epoch 19/20: step=75300, images=105600/128000, train_ce=2.015589
+epoch 19/20: step=75400, images=108800/128000, train_ce=2.014926
+epoch 19/20: step=75500, images=112000/128000, train_ce=2.014743
+epoch 19/20: step=75600, images=115200/128000, train_ce=2.015493
+epoch 19/20: step=75700, images=118400/128000, train_ce=2.015468
+epoch 19/20: step=75800, images=121600/128000, train_ce=2.016980
+epoch 19/20: step=75900, images=124800/128000, train_ce=2.015039
+epoch 19/20: step=76000, images=128000/128000, train_ce=2.015303
+completed epoch 19: dev_ce=1.697791, dev_top1=59.520, best=False
+epoch 20/20: step=76001, images=32/128000, train_ce=1.035177
+epoch 20/20: step=76100, images=3200/128000, train_ce=2.031648
+epoch 20/20: step=76200, images=6400/128000, train_ce=2.022203
+epoch 20/20: step=76300, images=9600/128000, train_ce=2.023419
+epoch 20/20: step=76400, images=12800/128000, train_ce=2.029777
+epoch 20/20: step=76500, images=16000/128000, train_ce=2.027393
+epoch 20/20: step=76600, images=19200/128000, train_ce=2.017560
+epoch 20/20: step=76700, images=22400/128000, train_ce=2.019774
+epoch 20/20: step=76800, images=25600/128000, train_ce=2.011920
+epoch 20/20: step=76900, images=28800/128000, train_ce=2.018247
+epoch 20/20: step=77000, images=32000/128000, train_ce=2.022679
+epoch 20/20: step=77100, images=35200/128000, train_ce=2.020940
+epoch 20/20: step=77200, images=38400/128000, train_ce=2.015508
+epoch 20/20: step=77300, images=41600/128000, train_ce=2.020300
+epoch 20/20: step=77400, images=44800/128000, train_ce=2.019724
+epoch 20/20: step=77500, images=48000/128000, train_ce=2.019373
+epoch 20/20: step=77600, images=51200/128000, train_ce=2.024646
+epoch 20/20: step=77700, images=54400/128000, train_ce=2.022541
+epoch 20/20: step=77800, images=57600/128000, train_ce=2.022293
+epoch 20/20: step=77900, images=60800/128000, train_ce=2.020335
+epoch 20/20: step=78000, images=64000/128000, train_ce=2.017050
+epoch 20/20: step=78100, images=67200/128000, train_ce=2.015294
+epoch 20/20: step=78200, images=70400/128000, train_ce=2.012335
+epoch 20/20: step=78300, images=73600/128000, train_ce=2.010589
+epoch 20/20: step=78400, images=76800/128000, train_ce=2.007950
+epoch 20/20: step=78500, images=80000/128000, train_ce=2.007556
+epoch 20/20: step=78600, images=83200/128000, train_ce=2.008457
+epoch 20/20: step=78700, images=86400/128000, train_ce=2.008047
+epoch 20/20: step=78800, images=89600/128000, train_ce=2.009402
+epoch 20/20: step=78900, images=92800/128000, train_ce=2.009715
+epoch 20/20: step=79000, images=96000/128000, train_ce=2.007993
+epoch 20/20: step=79100, images=99200/128000, train_ce=2.006511
+epoch 20/20: step=79200, images=102400/128000, train_ce=2.004763
+epoch 20/20: step=79300, images=105600/128000, train_ce=2.003680
+epoch 20/20: step=79400, images=108800/128000, train_ce=2.004757
+epoch 20/20: step=79500, images=112000/128000, train_ce=2.005301
+epoch 20/20: step=79600, images=115200/128000, train_ce=2.005566
+epoch 20/20: step=79700, images=118400/128000, train_ce=2.003731
+epoch 20/20: step=79800, images=121600/128000, train_ce=2.004751
+epoch 20/20: step=79900, images=124800/128000, train_ce=2.002979
+epoch 20/20: step=80000, images=128000/128000, train_ce=2.004637
+completed epoch 20: dev_ce=1.694531, dev_top1=59.585, best=True

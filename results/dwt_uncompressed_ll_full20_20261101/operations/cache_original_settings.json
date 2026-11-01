@@ -1,0 +1,18 @@
+{
+  "settings": {
+    "minimum": 1048576,
+    "maximum": 17592186044416,
+    "flags": 0
+  },
+  "before": {
+    "time": "2026-11-01T01:35:59.063729+08:00",
+    "available_gib": 2.254,
+    "system_cache_gib": 6.08,
+    "nonpaged_pool_gib": 1.215,
+    "cache_settings": {
+      "minimum": 1048576,
+      "maximum": 17592186044416,
+      "flags": 0
+    }
+  }
+}

@@ -1,0 +1,103 @@
+{
+  "common_config_fields": {
+    "handoff_commit": true,
+    "protocol_sha256": true,
+    "manifest_sha256": true,
+    "weights_sha256": true,
+    "training_transform": true,
+    "dev_transform": true,
+    "sources": true,
+    "batch": true,
+    "bn_batch": true,
+    "seed": true,
+    "all_parameters_trainable": true,
+    "loss": true,
+    "optimizer": true,
+    "momentum": true,
+    "weight_decay": true,
+    "peak_lr": true,
+    "warmup_epochs": true,
+    "lr_schedule": true,
+    "early_stop": true,
+    "checkpoint_selection": true,
+    "precision": true,
+    "amp": true,
+    "tf32": true,
+    "train_images": true,
+    "dev_images": true,
+    "storage": true,
+    "versions": true
+  },
+  "rgb_best": {
+    "epoch": "1",
+    "updates": "4000",
+    "training_exposures": "128000",
+    "lr_start": "1.25e-07",
+    "lr_end": "0.000500125",
+    "train_loss": "2.1248325021266936",
+    "train_top1": "52.63046875",
+    "train_top5": "75.59609375",
+    "dev_ce": "1.401724797804721",
+    "dev_top1": "65.63",
+    "dev_top5": "86.605",
+    "selected_best": "True"
+  },
+  "dwt_best": {
+    "epoch": "20",
+    "updates": "80000",
+    "training_exposures": "2560000",
+    "lr_start": "7.592545914293258e-06",
+    "lr_end": "4.759779237417661e-13",
+    "train_loss": "2.0046367461532353",
+    "train_top1": "54.80390625",
+    "train_top5": "77.38125",
+    "dev_ce": "1.694530872966264",
+    "dev_top1": "59.585",
+    "dev_top5": "82.52",
+    "selected_best": "True"
+  },
+  "intended_differences": {
+    "first_conv": {
+      "rgb": {
+        "in_channels": 3,
+        "kernel": [
+          3,
+          3
+        ],
+        "out_channels": 16,
+        "stride": [
+          2,
+          2
+        ]
+      },
+      "dwt": {
+        "in_channels": 3,
+        "initialization": "per-input-channel rank1 SVD; shared LL; added HF PW zero; HF DW copied LL",
+        "out_channels": 16,
+        "rank1_relative_error": [
+          0.8080446571394375,
+          0.7867098885902118,
+          0.7496507036314425
+        ],
+        "stride": [
+          1,
+          1
+        ],
+        "type": "DW3x3 stride1 -> PW1x1 16 -> original BN/ReLU6"
+      }
+    },
+    "normalization": {
+      "rgb": "2*x-1",
+      "dwt": "RGB 2*x-1; Haar LL-1, signed high-frequency 2*HF"
+    },
+    "parameter_count": {
+      "rgb": 729392,
+      "dwt": 729035
+    },
+    "new_wavelet_stem_peak_lr": {
+      "rgb": null,
+      "dwt": 0.005
+    }
+  },
+  "infrastructure": "DWT uses a 30-second guard; original RGB did not; host mitigation and replays disclosed separately"
+}

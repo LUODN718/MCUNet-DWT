@@ -1,0 +1,71 @@
+{
+  "config_sha256": "81ee524370082388775021ccbbcb8d8e4cd4f721973379a77b927dff7455c512",
+  "config_unchanged": true,
+  "trainer_matches_admission": true,
+  "adapter_matches_admission": true,
+  "guard_matches_config": true,
+  "original_cache_settings": {
+    "minimum": 1048576,
+    "maximum": 17592186044416,
+    "flags": 0
+  },
+  "modified_scientific_sources": false,
+  "source_hashes": {
+    "scripts/train_w80_dwt_localcontent.py": "4e37e8be51ab33c721259597bb62880a60cc87f5e7c6b7cd22ae815688c1adc8",
+    "scripts/w80_tar_source.py": "1f8e21469d5a6883becfc286d61c35169f2631e263503287b7bb210b5927c227",
+    "scripts/w80_local_guard.py": "cfb38ba675fdf27e90fd3d4331a7bb543e01a75557b7e4b6271c2665396dad68",
+    "scripts/run_w80_dwt_original_tar.py": "472adb4ead673434d3b58b0e117d9da0193f27f4cbb52e2f34b9e7b1795efe91"
+  },
+  "verified_at": "2026-11-01T01:40:40.074209+08:00",
+  "initial_pause_checkpoint_step": 32467,
+  "verified_checkpoint_step": 32900,
+  "checkpoint_hash_valid": true,
+  "available_gib_min_after_limit": 5.17,
+  "available_gib_max_after_limit": 5.376,
+  "cache_limit_sample_count": 19,
+  "resource": {
+    "time": 1793468439.7572353,
+    "action": "continue",
+    "workers": 0,
+    "prefetch": 1,
+    "microbatch": 32,
+    "bn_batch": 32,
+    "concurrency": 1,
+    "cache_bytes": 0,
+    "driver_event_audit": false,
+    "host_available": 5557481472,
+    "gpu_free": 4502585344,
+    "disk_free": 135596376064
+  },
+  "cache_helper": {
+    "status": "active",
+    "helper_pid": 24724,
+    "controller_pid": 35040,
+    "time": "2026-11-01T01:40:29.471972+08:00",
+    "available_gib": 5.21,
+    "system_cache_gib": 7.176,
+    "nonpaged_pool_gib": 1.212,
+    "cache_settings": {
+      "minimum": 67108864,
+      "maximum": 2147483648,
+      "flags": 1
+    }
+  },
+  "session": {
+    "helper_pid": 21060,
+    "controller_pid": 35040,
+    "epoch": 9,
+    "latest_checkpoint_step": 32900,
+    "progress_step": 32900,
+    "available_gib": 5.219,
+    "resource_sample_age_seconds": 16.3,
+    "resource_action": "continue",
+    "status": "running",
+    "idle_sleep_prevented": true,
+    "time": "2026-11-01T01:40:25.954477+08:00"
+  },
+  "same_controller": true,
+  "same_worker": true,
+  "controller_attempt": 1,
+  "stderr_bytes": 0
+}

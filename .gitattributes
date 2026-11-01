@@ -1,2 +1,3 @@
 # Keep verified experiment bytes identical across Windows and Linux checkouts.
 results/tiny_imagenet/** -text
+results/dwt_uncompressed_ll_full20_20261101/** -text
