@@ -1,0 +1,32 @@
+{
+  "checks": [
+    "frozen pretrained/config/upstream/environment and 128k/20k membership",
+    "LL1/2/3 amplitude, dimensions, average-pool equivalence and gradient",
+    "16 JPEG direct-read identity checks, decoded RGB hash, deterministic augmented view",
+    "unchanged original stem/backbone/head, 729392 parameters, 67287200 CNN MACs",
+    "CPU model/BN failure rollback and exact optimizer/scheduler update replay"
+  ],
+  "conv_linear_macs": 67287200,
+  "cuda_training_updates": 0,
+  "dev_images": 20000,
+  "device": "cpu",
+  "finished_at": 1794296993.5311391,
+  "levels": [
+    1,
+    2,
+    3
+  ],
+  "manifest_sha256": "0c68acdffbec6ec80835561962d94689eff4fdde5a3428858b5a117dd10653a7",
+  "official_val_used": false,
+  "parameter_count": 729392,
+  "sources": {
+    "code/direct_io.py": "c723870f1d3dea22c63d850dca858d99c23d886c6558212181ef81942f11b7e9",
+    "code/lowpass.py": "5abcae965b9920e72da7607ba3dfd71fcedd3449d11d07d7918eaafbf87b551a",
+    "code/preflight.py": "0cb9c414e970a3eaa8947b0e789857b28d8014f56b6fada5823f4f94281d6641",
+    "code/train_ll.py": "75c5813f8dcefbf00825a6487f46fb075ddfcac6535fba1e62973cbd4d015687",
+    "code/w80_tar_source.py": "86e588d8a8325f741d71014a6491bd534c04665d3961498243800e307771a653",
+    "queue.py": "cee906adb3a0fc13fa5d705e18676a3e6929381ff88126067dce2b2d4edfdaf0"
+  },
+  "status": "passed",
+  "train_images": 128000
+}

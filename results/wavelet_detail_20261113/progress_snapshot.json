@@ -1,0 +1,31 @@
+{
+  "captured_at": "2026-11-13T11:51:41+08:00",
+  "status": "snapshot_not_live",
+  "queue_status": "running",
+  "current_experiment": "rgb80_light",
+  "current_progress": {
+    "epoch": 6,
+    "sampler_position": 128000,
+    "status": "evaluating_dev",
+    "step": 24000,
+    "training_exposures": 768000
+  },
+  "best_completed_epoch_so_far": {
+    "epoch": "5",
+    "updates": "20000",
+    "training_exposures": "640000",
+    "lr_start": "0.0009698454812956936",
+    "lr_end": "0.0009330108838042139",
+    "train_loss": "3.0093655976355076",
+    "train_top1": "36.3578125",
+    "train_top5": "61.02265625",
+    "dev_ce": "2.4054823840946558",
+    "dev_top1": "45.605",
+    "dev_top5": "71.33",
+    "selected_best": "True"
+  },
+  "pending_experiments": [
+    "rgb80_plain"
+  ],
+  "supplemental_note": "RGB80-light was restored from update17669 on Nov13 after both Python processes exited; no recorded exit cause."
+}

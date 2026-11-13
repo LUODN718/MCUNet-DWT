@@ -1,0 +1,80 @@
+{
+  "repository": "LUODN718/MCUNet-DWT",
+  "branch": "main",
+  "files": [
+    {
+      "path": "results/tiny_imagenet/all/best.pt",
+      "bytes": 5049984,
+      "sha256": "0a684b852cd246518eb7bcd5400e2e2a189d8839b0c128337f7c1d81a59921de",
+      "git_blob": "5ae10bbd942d7e1f63bdf9e8b708986d1454a555"
+    },
+    {
+      "path": "results/tiny_imagenet/all/last.pt",
+      "bytes": 5049984,
+      "sha256": "f685344169ebd8b7e1bf278d2ce2128488e3408dc17a826fbb4279336618e223",
+      "git_blob": "5fe70bcdcf00256530b0a10613d7fb93c3e99f1c"
+    },
+    {
+      "path": "results/tiny_imagenet/ll/best.pt",
+      "bytes": 5039616,
+      "sha256": "5ae6bab54edefb037035cb8a1c1784275a3f0c6d7f6e91e32980705d3bccd760",
+      "git_blob": "5b5f5cbddcc69e5b348c635de37c922e337f6a55"
+    },
+    {
+      "path": "results/tiny_imagenet/ll/last.pt",
+      "bytes": 5039616,
+      "sha256": "b46a3c3088266e6d0479a97ae8d3402db9eed9082f96a4a1bf459fc337e5ef7b",
+      "git_blob": "dab45d5229f3db436bf5f0f89344b639a810ccab"
+    },
+    {
+      "path": "results/tiny_imagenet/ll_hh/best.pt",
+      "bytes": 5043072,
+      "sha256": "a6288fb43df0d8554d1ba36f1d7fe6b71d500f5cf65f307d3aa0de238fcca4c7",
+      "git_blob": "2d30a64520576e0b8bcb0fbff707e37455784571"
+    },
+    {
+      "path": "results/tiny_imagenet/ll_hh/last.pt",
+      "bytes": 5043072,
+      "sha256": "323aedf4f9423278a0ebd4828f9af8814afd308a55fc4adc450756f8e3dcc4fc",
+      "git_blob": "779809d8f42c90b609481710d434f95f3e645df0"
+    },
+    {
+      "path": "results/tiny_imagenet/ll_hl/best.pt",
+      "bytes": 5043072,
+      "sha256": "90251eae65d7d73403b61b117abe87e895cd12c69ebbc43ebd505b4fae0878a2",
+      "git_blob": "2c533a7ae21bca3d703dc997f7607ad2b87c13a7"
+    },
+    {
+      "path": "results/tiny_imagenet/ll_hl/last.pt",
+      "bytes": 5043072,
+      "sha256": "eec089270ae4b2cff26565775a82808c43527b6f62822d72f7554f005c59f8cb",
+      "git_blob": "e79232b501c966c07c314799d2ab89ba94910139"
+    },
+    {
+      "path": "results/tiny_imagenet/ll_lh/best.pt",
+      "bytes": 5043072,
+      "sha256": "ab290a3fb140a1eba3d6e3c05e0ee7e0363247507c52b3e929a8597da6661dbd",
+      "git_blob": "fddd25dfa0a48e87b90ee416af7fbd3db21bcd4a"
+    },
+    {
+      "path": "results/tiny_imagenet/ll_lh/last.pt",
+      "bytes": 5043072,
+      "sha256": "c86856afd0c215addecd50073e9c61efae7eb4599a716f40aca9110b5d99f711",
+      "git_blob": "731382ab9eb925dd0149df912dbfa0a449cc8e38"
+    },
+    {
+      "path": "results/tiny_imagenet/rgb/best.pt",
+      "bytes": 5039616,
+      "sha256": "22e10d46eeac4a1c16c658857f5f1e42ffe6e61fa8fa24ca98e450589c7f62ef",
+      "git_blob": "cd8660f58a17e26c63f180f17e03fd4064639283"
+    },
+    {
+      "path": "results/tiny_imagenet/rgb/last.pt",
+      "bytes": 5039616,
+      "sha256": "3f345b26be3e361df52fb2923f98685560e286b2733e53d19059df1bd7965c53",
+      "git_blob": "9428304f76c5fd3c7028bf8eddba9dd8a71de0fd"
+    }
+  ],
+  "action": "remove from new tree; preserve Git history and result records",
+  "bytes_in_removed_worktree_files": 60516864
+}

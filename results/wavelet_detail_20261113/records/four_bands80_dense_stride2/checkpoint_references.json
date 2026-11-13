@@ -1,0 +1,9 @@
+{
+  "best": "15540b809288b1bb53662bde8879b161a906ac5fb3bc74cdf33737e5bd49b123.pt",
+  "epoch": 20,
+  "latest": "ed49b841829c7e970253852c3fc28cd0506bd680f016bf540d26b1671d486dc1.pt",
+  "previous": "ed49b841829c7e970253852c3fc28cd0506bd680f016bf540d26b1671d486dc1.pt",
+  "sampler_position": 0,
+  "step": 80000,
+  "updated": 1793631244.5806935
+}

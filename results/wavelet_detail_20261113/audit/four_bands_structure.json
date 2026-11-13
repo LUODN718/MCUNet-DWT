@@ -1,0 +1,1197 @@
+{
+  "status": "passed",
+  "variant": "dwt_all_stride2_full",
+  "initialization": {
+    "all_nonstem_tensors_preserved": true,
+    "inherited_ll_columns_exact": true,
+    "new_hf_columns_zero": true,
+    "inherited_ll_parameters": 432,
+    "new_hf_parameters": 1296
+  },
+  "first_conv_stride": [
+    2,
+    2
+  ],
+  "output_shape": [
+    1,
+    1000
+  ],
+  "stage_shapes": [
+    {
+      "stage": "first_conv",
+      "shape": [
+        1,
+        16,
+        40,
+        40
+      ]
+    },
+    {
+      "stage": "block_0",
+      "shape": [
+        1,
+        8,
+        40,
+        40
+      ]
+    },
+    {
+      "stage": "block_1",
+      "shape": [
+        1,
+        16,
+        20,
+        20
+      ]
+    },
+    {
+      "stage": "block_2",
+      "shape": [
+        1,
+        16,
+        20,
+        20
+      ]
+    },
+    {
+      "stage": "block_3",
+      "shape": [
+        1,
+        16,
+        20,
+        20
+      ]
+    },
+    {
+      "stage": "block_4",
+      "shape": [
+        1,
+        16,
+        20,
+        20
+      ]
+    },
+    {
+      "stage": "block_5",
+      "shape": [
+        1,
+        24,
+        10,
+        10
+      ]
+    },
+    {
+      "stage": "block_6",
+      "shape": [
+        1,
+        24,
+        10,
+        10
+      ]
+    },
+    {
+      "stage": "block_7",
+      "shape": [
+        1,
+        24,
+        10,
+        10
+      ]
+    },
+    {
+      "stage": "block_8",
+      "shape": [
+        1,
+        40,
+        5,
+        5
+      ]
+    },
+    {
+      "stage": "block_9",
+      "shape": [
+        1,
+        40,
+        5,
+        5
+      ]
+    },
+    {
+      "stage": "block_10",
+      "shape": [
+        1,
+        48,
+        5,
+        5
+      ]
+    },
+    {
+      "stage": "block_11",
+      "shape": [
+        1,
+        48,
+        5,
+        5
+      ]
+    },
+    {
+      "stage": "block_12",
+      "shape": [
+        1,
+        48,
+        5,
+        5
+      ]
+    },
+    {
+      "stage": "block_13",
+      "shape": [
+        1,
+        96,
+        3,
+        3
+      ]
+    },
+    {
+      "stage": "block_14",
+      "shape": [
+        1,
+        96,
+        3,
+        3
+      ]
+    },
+    {
+      "stage": "block_15",
+      "shape": [
+        1,
+        96,
+        3,
+        3
+      ]
+    },
+    {
+      "stage": "block_16",
+      "shape": [
+        1,
+        96,
+        3,
+        3
+      ]
+    },
+    {
+      "stage": "block_17",
+      "shape": [
+        1,
+        160,
+        3,
+        3
+      ]
+    }
+  ],
+  "input_after_transform": [
+    12,
+    80,
+    80
+  ],
+  "band_order": [
+    "LL_RGB",
+    "LH_RGB",
+    "HL_RGB",
+    "HH_RGB"
+  ],
+  "inverse_haar_restores_input": true,
+  "band_signs_and_order_verified": true,
+  "initial_logits_match_ll_baseline": true,
+  "initial_logits_max_absolute_difference": 7.62939453125e-06,
+  "all_three_hf_gradients_finite_and_nonzero": true,
+  "plain_dense_convolution_export_exact": true,
+  "inherited_peak_learning_rate": 0.001,
+  "new_hf_peak_learning_rate": 0.005,
+  "new_hf_parameters": 1296,
+  "parameters": 730688,
+  "conv_linear_macs": 20095424,
+  "rgb_baseline_macs": 67287200,
+  "mac_reduction_percent": 70.1348488271172,
+  "mac_increase_vs_ll_stride2_percent": 11.506049554140585,
+  "distillation": false,
+  "cost": {
+    "parameters": 730688,
+    "parameter_bytes_fp32": 2922752,
+    "conv_linear_macs": 20095424,
+    "layers": [
+      {
+        "module": "backbone.first_conv.conv",
+        "input": [
+          1,
+          12,
+          80,
+          80
+        ],
+        "output": [
+          1,
+          16,
+          40,
+          40
+        ],
+        "macs": 2764800,
+        "output_bytes_fp32": 102400
+      },
+      {
+        "module": "backbone.blocks.0.mobile_inverted_conv.depth_conv.conv",
+        "input": [
+          1,
+          16,
+          40,
+          40
+        ],
+        "output": [
+          1,
+          16,
+          40,
+          40
+        ],
+        "macs": 230400,
+        "output_bytes_fp32": 102400
+      },
+      {
+        "module": "backbone.blocks.0.mobile_inverted_conv.point_linear.conv",
+        "input": [
+          1,
+          16,
+          40,
+          40
+        ],
+        "output": [
+          1,
+          8,
+          40,
+          40
+        ],
+        "macs": 204800,
+        "output_bytes_fp32": 51200
+      },
+      {
+        "module": "backbone.blocks.1.mobile_inverted_conv.inverted_bottleneck.conv",
+        "input": [
+          1,
+          8,
+          40,
+          40
+        ],
+        "output": [
+          1,
+          24,
+          40,
+          40
+        ],
+        "macs": 307200,
+        "output_bytes_fp32": 153600
+      },
+      {
+        "module": "backbone.blocks.1.mobile_inverted_conv.depth_conv.conv",
+        "input": [
+          1,
+          24,
+          40,
+          40
+        ],
+        "output": [
+          1,
+          24,
+          20,
+          20
+        ],
+        "macs": 240000,
+        "output_bytes_fp32": 38400
+      },
+      {
+        "module": "backbone.blocks.1.mobile_inverted_conv.point_linear.conv",
+        "input": [
+          1,
+          24,
+          20,
+          20
+        ],
+        "output": [
+          1,
+          16,
+          20,
+          20
+        ],
+        "macs": 153600,
+        "output_bytes_fp32": 25600
+      },
+      {
+        "module": "backbone.blocks.2.mobile_inverted_conv.inverted_bottleneck.conv",
+        "input": [
+          1,
+          16,
+          20,
+          20
+        ],
+        "output": [
+          1,
+          96,
+          20,
+          20
+        ],
+        "macs": 614400,
+        "output_bytes_fp32": 153600
+      },
+      {
+        "module": "backbone.blocks.2.mobile_inverted_conv.depth_conv.conv",
+        "input": [
+          1,
+          96,
+          20,
+          20
+        ],
+        "output": [
+          1,
+          96,
+          20,
+          20
+        ],
+        "macs": 1881600,
+        "output_bytes_fp32": 153600
+      },
+      {
+        "module": "backbone.blocks.2.mobile_inverted_conv.point_linear.conv",
+        "input": [
+          1,
+          96,
+          20,
+          20
+        ],
+        "output": [
+          1,
+          16,
+          20,
+          20
+        ],
+        "macs": 614400,
+        "output_bytes_fp32": 25600
+      },
+      {
+        "module": "backbone.blocks.3.mobile_inverted_conv.inverted_bottleneck.conv",
+        "input": [
+          1,
+          16,
+          20,
+          20
+        ],
+        "output": [
+          1,
+          80,
+          20,
+          20
+        ],
+        "macs": 512000,
+        "output_bytes_fp32": 128000
+      },
+      {
+        "module": "backbone.blocks.3.mobile_inverted_conv.depth_conv.conv",
+        "input": [
+          1,
+          80,
+          20,
+          20
+        ],
+        "output": [
+          1,
+          80,
+          20,
+          20
+        ],
+        "macs": 288000,
+        "output_bytes_fp32": 128000
+      },
+      {
+        "module": "backbone.blocks.3.mobile_inverted_conv.point_linear.conv",
+        "input": [
+          1,
+          80,
+          20,
+          20
+        ],
+        "output": [
+          1,
+          16,
+          20,
+          20
+        ],
+        "macs": 512000,
+        "output_bytes_fp32": 25600
+      },
+      {
+        "module": "backbone.blocks.4.mobile_inverted_conv.inverted_bottleneck.conv",
+        "input": [
+          1,
+          16,
+          20,
+          20
+        ],
+        "output": [
+          1,
+          80,
+          20,
+          20
+        ],
+        "macs": 512000,
+        "output_bytes_fp32": 128000
+      },
+      {
+        "module": "backbone.blocks.4.mobile_inverted_conv.depth_conv.conv",
+        "input": [
+          1,
+          80,
+          20,
+          20
+        ],
+        "output": [
+          1,
+          80,
+          20,
+          20
+        ],
+        "macs": 800000,
+        "output_bytes_fp32": 128000
+      },
+      {
+        "module": "backbone.blocks.4.mobile_inverted_conv.point_linear.conv",
+        "input": [
+          1,
+          80,
+          20,
+          20
+        ],
+        "output": [
+          1,
+          16,
+          20,
+          20
+        ],
+        "macs": 512000,
+        "output_bytes_fp32": 25600
+      },
+      {
+        "module": "backbone.blocks.5.mobile_inverted_conv.inverted_bottleneck.conv",
+        "input": [
+          1,
+          16,
+          20,
+          20
+        ],
+        "output": [
+          1,
+          80,
+          20,
+          20
+        ],
+        "macs": 512000,
+        "output_bytes_fp32": 128000
+      },
+      {
+        "module": "backbone.blocks.5.mobile_inverted_conv.depth_conv.conv",
+        "input": [
+          1,
+          80,
+          20,
+          20
+        ],
+        "output": [
+          1,
+          80,
+          10,
+          10
+        ],
+        "macs": 72000,
+        "output_bytes_fp32": 32000
+      },
+      {
+        "module": "backbone.blocks.5.mobile_inverted_conv.point_linear.conv",
+        "input": [
+          1,
+          80,
+          10,
+          10
+        ],
+        "output": [
+          1,
+          24,
+          10,
+          10
+        ],
+        "macs": 192000,
+        "output_bytes_fp32": 9600
+      },
+      {
+        "module": "backbone.blocks.6.mobile_inverted_conv.inverted_bottleneck.conv",
+        "input": [
+          1,
+          24,
+          10,
+          10
+        ],
+        "output": [
+          1,
+          144,
+          10,
+          10
+        ],
+        "macs": 345600,
+        "output_bytes_fp32": 57600
+      },
+      {
+        "module": "backbone.blocks.6.mobile_inverted_conv.depth_conv.conv",
+        "input": [
+          1,
+          144,
+          10,
+          10
+        ],
+        "output": [
+          1,
+          144,
+          10,
+          10
+        ],
+        "macs": 705600,
+        "output_bytes_fp32": 57600
+      },
+      {
+        "module": "backbone.blocks.6.mobile_inverted_conv.point_linear.conv",
+        "input": [
+          1,
+          144,
+          10,
+          10
+        ],
+        "output": [
+          1,
+          24,
+          10,
+          10
+        ],
+        "macs": 345600,
+        "output_bytes_fp32": 9600
+      },
+      {
+        "module": "backbone.blocks.7.mobile_inverted_conv.inverted_bottleneck.conv",
+        "input": [
+          1,
+          24,
+          10,
+          10
+        ],
+        "output": [
+          1,
+          144,
+          10,
+          10
+        ],
+        "macs": 345600,
+        "output_bytes_fp32": 57600
+      },
+      {
+        "module": "backbone.blocks.7.mobile_inverted_conv.depth_conv.conv",
+        "input": [
+          1,
+          144,
+          10,
+          10
+        ],
+        "output": [
+          1,
+          144,
+          10,
+          10
+        ],
+        "macs": 360000,
+        "output_bytes_fp32": 57600
+      },
+      {
+        "module": "backbone.blocks.7.mobile_inverted_conv.point_linear.conv",
+        "input": [
+          1,
+          144,
+          10,
+          10
+        ],
+        "output": [
+          1,
+          24,
+          10,
+          10
+        ],
+        "macs": 345600,
+        "output_bytes_fp32": 9600
+      },
+      {
+        "module": "backbone.blocks.8.mobile_inverted_conv.inverted_bottleneck.conv",
+        "input": [
+          1,
+          24,
+          10,
+          10
+        ],
+        "output": [
+          1,
+          96,
+          10,
+          10
+        ],
+        "macs": 230400,
+        "output_bytes_fp32": 38400
+      },
+      {
+        "module": "backbone.blocks.8.mobile_inverted_conv.depth_conv.conv",
+        "input": [
+          1,
+          96,
+          10,
+          10
+        ],
+        "output": [
+          1,
+          96,
+          5,
+          5
+        ],
+        "macs": 117600,
+        "output_bytes_fp32": 9600
+      },
+      {
+        "module": "backbone.blocks.8.mobile_inverted_conv.point_linear.conv",
+        "input": [
+          1,
+          96,
+          5,
+          5
+        ],
+        "output": [
+          1,
+          40,
+          5,
+          5
+        ],
+        "macs": 96000,
+        "output_bytes_fp32": 4000
+      },
+      {
+        "module": "backbone.blocks.9.mobile_inverted_conv.inverted_bottleneck.conv",
+        "input": [
+          1,
+          40,
+          5,
+          5
+        ],
+        "output": [
+          1,
+          200,
+          5,
+          5
+        ],
+        "macs": 200000,
+        "output_bytes_fp32": 20000
+      },
+      {
+        "module": "backbone.blocks.9.mobile_inverted_conv.depth_conv.conv",
+        "input": [
+          1,
+          200,
+          5,
+          5
+        ],
+        "output": [
+          1,
+          200,
+          5,
+          5
+        ],
+        "macs": 125000,
+        "output_bytes_fp32": 20000
+      },
+      {
+        "module": "backbone.blocks.9.mobile_inverted_conv.point_linear.conv",
+        "input": [
+          1,
+          200,
+          5,
+          5
+        ],
+        "output": [
+          1,
+          40,
+          5,
+          5
+        ],
+        "macs": 200000,
+        "output_bytes_fp32": 4000
+      },
+      {
+        "module": "backbone.blocks.10.mobile_inverted_conv.inverted_bottleneck.conv",
+        "input": [
+          1,
+          40,
+          5,
+          5
+        ],
+        "output": [
+          1,
+          200,
+          5,
+          5
+        ],
+        "macs": 200000,
+        "output_bytes_fp32": 20000
+      },
+      {
+        "module": "backbone.blocks.10.mobile_inverted_conv.depth_conv.conv",
+        "input": [
+          1,
+          200,
+          5,
+          5
+        ],
+        "output": [
+          1,
+          200,
+          5,
+          5
+        ],
+        "macs": 45000,
+        "output_bytes_fp32": 20000
+      },
+      {
+        "module": "backbone.blocks.10.mobile_inverted_conv.point_linear.conv",
+        "input": [
+          1,
+          200,
+          5,
+          5
+        ],
+        "output": [
+          1,
+          48,
+          5,
+          5
+        ],
+        "macs": 240000,
+        "output_bytes_fp32": 4800
+      },
+      {
+        "module": "backbone.blocks.11.mobile_inverted_conv.inverted_bottleneck.conv",
+        "input": [
+          1,
+          48,
+          5,
+          5
+        ],
+        "output": [
+          1,
+          240,
+          5,
+          5
+        ],
+        "macs": 288000,
+        "output_bytes_fp32": 24000
+      },
+      {
+        "module": "backbone.blocks.11.mobile_inverted_conv.depth_conv.conv",
+        "input": [
+          1,
+          240,
+          5,
+          5
+        ],
+        "output": [
+          1,
+          240,
+          5,
+          5
+        ],
+        "macs": 150000,
+        "output_bytes_fp32": 24000
+      },
+      {
+        "module": "backbone.blocks.11.mobile_inverted_conv.point_linear.conv",
+        "input": [
+          1,
+          240,
+          5,
+          5
+        ],
+        "output": [
+          1,
+          48,
+          5,
+          5
+        ],
+        "macs": 288000,
+        "output_bytes_fp32": 4800
+      },
+      {
+        "module": "backbone.blocks.12.mobile_inverted_conv.inverted_bottleneck.conv",
+        "input": [
+          1,
+          48,
+          5,
+          5
+        ],
+        "output": [
+          1,
+          192,
+          5,
+          5
+        ],
+        "macs": 230400,
+        "output_bytes_fp32": 19200
+      },
+      {
+        "module": "backbone.blocks.12.mobile_inverted_conv.depth_conv.conv",
+        "input": [
+          1,
+          192,
+          5,
+          5
+        ],
+        "output": [
+          1,
+          192,
+          5,
+          5
+        ],
+        "macs": 43200,
+        "output_bytes_fp32": 19200
+      },
+      {
+        "module": "backbone.blocks.12.mobile_inverted_conv.point_linear.conv",
+        "input": [
+          1,
+          192,
+          5,
+          5
+        ],
+        "output": [
+          1,
+          48,
+          5,
+          5
+        ],
+        "macs": 230400,
+        "output_bytes_fp32": 4800
+      },
+      {
+        "module": "backbone.blocks.13.mobile_inverted_conv.inverted_bottleneck.conv",
+        "input": [
+          1,
+          48,
+          5,
+          5
+        ],
+        "output": [
+          1,
+          288,
+          5,
+          5
+        ],
+        "macs": 345600,
+        "output_bytes_fp32": 28800
+      },
+      {
+        "module": "backbone.blocks.13.mobile_inverted_conv.depth_conv.conv",
+        "input": [
+          1,
+          288,
+          5,
+          5
+        ],
+        "output": [
+          1,
+          288,
+          3,
+          3
+        ],
+        "macs": 64800,
+        "output_bytes_fp32": 10368
+      },
+      {
+        "module": "backbone.blocks.13.mobile_inverted_conv.point_linear.conv",
+        "input": [
+          1,
+          288,
+          3,
+          3
+        ],
+        "output": [
+          1,
+          96,
+          3,
+          3
+        ],
+        "macs": 248832,
+        "output_bytes_fp32": 3456
+      },
+      {
+        "module": "backbone.blocks.14.mobile_inverted_conv.inverted_bottleneck.conv",
+        "input": [
+          1,
+          96,
+          3,
+          3
+        ],
+        "output": [
+          1,
+          384,
+          3,
+          3
+        ],
+        "macs": 331776,
+        "output_bytes_fp32": 13824
+      },
+      {
+        "module": "backbone.blocks.14.mobile_inverted_conv.depth_conv.conv",
+        "input": [
+          1,
+          384,
+          3,
+          3
+        ],
+        "output": [
+          1,
+          384,
+          3,
+          3
+        ],
+        "macs": 86400,
+        "output_bytes_fp32": 13824
+      },
+      {
+        "module": "backbone.blocks.14.mobile_inverted_conv.point_linear.conv",
+        "input": [
+          1,
+          384,
+          3,
+          3
+        ],
+        "output": [
+          1,
+          96,
+          3,
+          3
+        ],
+        "macs": 331776,
+        "output_bytes_fp32": 3456
+      },
+      {
+        "module": "backbone.blocks.15.mobile_inverted_conv.inverted_bottleneck.conv",
+        "input": [
+          1,
+          96,
+          3,
+          3
+        ],
+        "output": [
+          1,
+          288,
+          3,
+          3
+        ],
+        "macs": 248832,
+        "output_bytes_fp32": 10368
+      },
+      {
+        "module": "backbone.blocks.15.mobile_inverted_conv.depth_conv.conv",
+        "input": [
+          1,
+          288,
+          3,
+          3
+        ],
+        "output": [
+          1,
+          288,
+          3,
+          3
+        ],
+        "macs": 64800,
+        "output_bytes_fp32": 10368
+      },
+      {
+        "module": "backbone.blocks.15.mobile_inverted_conv.point_linear.conv",
+        "input": [
+          1,
+          288,
+          3,
+          3
+        ],
+        "output": [
+          1,
+          96,
+          3,
+          3
+        ],
+        "macs": 248832,
+        "output_bytes_fp32": 3456
+      },
+      {
+        "module": "backbone.blocks.16.mobile_inverted_conv.inverted_bottleneck.conv",
+        "input": [
+          1,
+          96,
+          3,
+          3
+        ],
+        "output": [
+          1,
+          384,
+          3,
+          3
+        ],
+        "macs": 331776,
+        "output_bytes_fp32": 13824
+      },
+      {
+        "module": "backbone.blocks.16.mobile_inverted_conv.depth_conv.conv",
+        "input": [
+          1,
+          384,
+          3,
+          3
+        ],
+        "output": [
+          1,
+          384,
+          3,
+          3
+        ],
+        "macs": 31104,
+        "output_bytes_fp32": 13824
+      },
+      {
+        "module": "backbone.blocks.16.mobile_inverted_conv.point_linear.conv",
+        "input": [
+          1,
+          384,
+          3,
+          3
+        ],
+        "output": [
+          1,
+          96,
+          3,
+          3
+        ],
+        "macs": 331776,
+        "output_bytes_fp32": 3456
+      },
+      {
+        "module": "backbone.blocks.17.mobile_inverted_conv.inverted_bottleneck.conv",
+        "input": [
+          1,
+          96,
+          3,
+          3
+        ],
+        "output": [
+          1,
+          480,
+          3,
+          3
+        ],
+        "macs": 414720,
+        "output_bytes_fp32": 17280
+      },
+      {
+        "module": "backbone.blocks.17.mobile_inverted_conv.depth_conv.conv",
+        "input": [
+          1,
+          480,
+          3,
+          3
+        ],
+        "output": [
+          1,
+          480,
+          3,
+          3
+        ],
+        "macs": 108000,
+        "output_bytes_fp32": 17280
+      },
+      {
+        "module": "backbone.blocks.17.mobile_inverted_conv.point_linear.conv",
+        "input": [
+          1,
+          480,
+          3,
+          3
+        ],
+        "output": [
+          1,
+          160,
+          3,
+          3
+        ],
+        "macs": 691200,
+        "output_bytes_fp32": 5760
+      },
+      {
+        "module": "backbone.classifier.linear",
+        "input": [
+          1,
+          160
+        ],
+        "output": [
+          1,
+          1000
+        ],
+        "macs": 160000,
+        "output_bytes_fp32": 4000
+      }
+    ],
+    "preprocessing_arithmetic": {
+      "add_sub": 249600,
+      "multiplies": 19200
+    },
+    "extra_backbone_arithmetic": {
+      "bn_elements_unfused": 548736,
+      "relu6_elements": 492640,
+      "residual_adds": 29992,
+      "global_pool_adds": 1280,
+      "global_pool_scales": 640,
+      "bias_adds": 1000
+    },
+    "rgb_input_bytes_fp32": 307200,
+    "normalized_stem_input_bytes_fp32": 307200,
+    "concatenation_copied_elements": 76800,
+    "largest_single_conv_linear_output_bytes_fp32": 153600,
+    "peak_live_activation_bytes": null,
+    "operator_workspace_bytes": null,
+    "memory_scope": "single tensor sizes are not peak live memory; backend arena/workspace unmeasured",
+    "resize_decode_cost": "backend/input dependent, unmeasured; not included in MACs",
+    "int8_accuracy": null,
+    "int8_memory": null,
+    "renode_instructions": null,
+    "preprocessing_scope": "direct formulas: LL 4 add/sub + 1 multiply; each HF 3 add/sub",
+    "band_order": [
+      "LL_RGB",
+      "LH_RGB",
+      "HL_RGB",
+      "HH_RGB"
+    ],
+    "weight_concatenation_copied_elements_per_forward": 1728,
+    "weight_concatenation_scope": "optimizer parametrization only; removable for inference"
+  },
+  "source_sha256": {
+    "check_w80_dwt_local_cuda.py": "ed977a8680270c4c86a60fc44e0030428d82c58b796069993566ba4eb84fd5ec",
+    "fourband_model.py": "4d877757293821ce9d992503d6911af0213aed543f3056ffba64134dcd8f4e75",
+    "run_w80_dwt_original_tar.py": "c4a1c91aabb0335222282677755a036a253906652c80f6175c749736441ca9ca",
+    "run_w80_original_tar.py": "8a3ab860f037f1e3c9450200bd9c3d36945828dcc8e5388471533563c5157a69",
+    "train_w80_dwt_localcontent.py": "825e215835335e03e75233a27c69a38f5cf2ef8cfcd6b2e260372412230a29a3",
+    "w80_local_guard.py": "cfb38ba675fdf27e90fd3d4331a7bb543e01a75557b7e4b6271c2665396dad68",
+    "w80_tar_source.py": "1f8e21469d5a6883becfc286d61c35169f2631e263503287b7bb210b5927c227"
+  }
+}

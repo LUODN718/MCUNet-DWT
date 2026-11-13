@@ -1,0 +1,10 @@
+{
+  "created_at": 1794541698.1626217,
+  "deleting_files": 14,
+  "deleting_bytes": 71968155,
+  "preserved_records": 4090,
+  "active_experiment_excluded_from_hash_freeze": "<FYP>\\MCUNet-DWT\\experiments\\detail_sparsity_lowres_aug_20261112",
+  "original_data_outside_cleanup_scope": true,
+  "official_pretrained_preserved": true,
+  "fixed_full_rgb_checkpoint_sha256": "0e848e571dc25ae09d5160ad756f037e21459b4b60add83e58a3f8f4a5b0a7a7"
+}

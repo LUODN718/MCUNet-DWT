@@ -1,0 +1,2 @@
+model,train_images,epochs,selected_epoch,val_images,val_top1,val_top5,val_ce,parameters,conv_linear_macs,precision,seed
+RGB160 uncompressed MCUNet-in2,1281167,20,20,50000,60.23,82.576,1.6870632535684529,729392,67287200,fp32,2026

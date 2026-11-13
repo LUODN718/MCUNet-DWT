@@ -1,0 +1,7 @@
+{
+  "epoch": 6,
+  "sampler_position": 128000,
+  "status": "evaluating_dev",
+  "step": 24000,
+  "training_exposures": 768000
+}

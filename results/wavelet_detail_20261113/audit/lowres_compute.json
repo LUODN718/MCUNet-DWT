@@ -1,0 +1,41 @@
+{
+  "rows": [
+    {
+      "conv_linear_macs": 67287200,
+      "fraction_of_rgb160": 1.0,
+      "parameters": 729392,
+      "stem_output": [
+        1,
+        16,
+        80,
+        80
+      ],
+      "variant": "rgb160"
+    },
+    {
+      "conv_linear_macs": 18021824,
+      "fraction_of_rgb160": 0.26783435779761977,
+      "parameters": 729392,
+      "stem_output": [
+        1,
+        16,
+        40,
+        40
+      ],
+      "variant": "rgb80"
+    },
+    {
+      "conv_linear_macs": 18021824,
+      "fraction_of_rgb160": 0.26783435779761977,
+      "parameters": 729392,
+      "stem_output": [
+        1,
+        16,
+        40,
+        40
+      ],
+      "variant": "ll80"
+    }
+  ],
+  "scope": "one image Conv/Linear MACs from forward output shapes; Haar/resize/BN/activation/IO excluded"
+}

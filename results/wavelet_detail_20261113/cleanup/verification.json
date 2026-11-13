@@ -1,0 +1,18 @@
+{
+  "status": "passed",
+  "verified_retained_records": 4090,
+  "deleted_files": 14,
+  "deleted_logical_bytes": 71968155,
+  "active_sources_manifest_and_pretrained_hashes_unchanged": true,
+  "active_historical_comparison_evidence_unchanged": true,
+  "fixed_full_rgb_checkpoint_hash_valid": true,
+  "active_progress_snapshot": {
+    "checkpoint_sha256": "a16baab505d9d52ae24bd9f1c70efe8808ecb0d32f55b11f500245c1c3878f0b",
+    "epoch": 6,
+    "sampler_position": 121600,
+    "status": "training",
+    "step": 23800,
+    "training_exposures": 761600
+  },
+  "checked_at": 1794541761.5393577
+}

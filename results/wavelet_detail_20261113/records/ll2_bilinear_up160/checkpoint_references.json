@@ -1,0 +1,9 @@
+{
+  "best": "f92920cc908bf85b4adddaff8091d3250494a57fb8757468d0d83b97f2fbffc7.pt",
+  "epoch": 20,
+  "latest": "91577ac889a1f0848ed989cdba75122897eafa7109cc4fb2099ef5fc091f1351.pt",
+  "previous": "91577ac889a1f0848ed989cdba75122897eafa7109cc4fb2099ef5fc091f1351.pt",
+  "sampler_position": 0,
+  "step": 80000,
+  "updated": 1794368622.4147143
+}

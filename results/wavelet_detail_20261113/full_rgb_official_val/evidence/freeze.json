@@ -1,0 +1,37 @@
+{
+  "schema": 1,
+  "created_at": 1794306784.4538696,
+  "checkpoint_sha256": "0e848e571dc25ae09d5160ad756f037e21459b4b60add83e58a3f8f4a5b0a7a7",
+  "checkpoint_selection": "fixed final epoch20, before reading evaluation pixels or running inference",
+  "training_complete_sha256": "13e45e730ed7fedcb524489ba0bfc340a7660a8c8f2b98acc613c6544553f007",
+  "training_source_freeze_sha256": "9249037ec5fd5a97a79995bff373020a387f27376a11ec34d86c39ab7afd8b14",
+  "selected_epoch": 20,
+  "training_updates": 800740,
+  "train_images": 1281167,
+  "dev_images": 0,
+  "handoff_root": "${FYP_ROOT}\\tmp\\team-w80-432bc728-lf",
+  "mcunet_root": "${MCUNET_ROOT}",
+  "labels_sha256": "ceab5fc68b254932afa9a90a8055b1966f53be196293b6fe2b2cbf874ee35436",
+  "classes_sha256": "2559911847dfd9ece3816eaf4f5fb4372dca5f9f61ffc9b09a4f4d96869959f7",
+  "evaluation_samples": 50000,
+  "batch": 32,
+  "final_batch": 16,
+  "precision": "fp32",
+  "bn_mode": "eval",
+  "amp": false,
+  "tf32": false,
+  "preprocessing": {
+    "resize_short": 182,
+    "center_crop": 160,
+    "interpolation": "bicubic",
+    "antialias": true,
+    "normalization": "2*x-1"
+  },
+  "official_val_used_for_training_or_selection": false,
+  "imagenet_v2_evaluation": false,
+  "sources": {
+    "code\\evaluate.py": "ea9a2b230e869211355593e701fe87178367c9e5e89d712d82ecae100e6db995",
+    "../code/baseline_helpers.py": "57b87ba79934bddbdf49a9302b3f5a7c4f21e968777a997a19111561ac216c96",
+    "../code/full_data.py": "2d2d774757726ae3d3632eeb6880fb12df9df33e5fbfe731ab87a6c1ac0cb269"
+  }
+}

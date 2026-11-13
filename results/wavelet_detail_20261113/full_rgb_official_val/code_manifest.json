@@ -1,0 +1,79 @@
+[
+  {
+    "path": "code/training/baseline_helpers.py",
+    "original_sha256": "57b87ba79934bddbdf49a9302b3f5a7c4f21e968777a997a19111561ac216c96",
+    "published_sha256": "57b87ba79934bddbdf49a9302b3f5a7c4f21e968777a997a19111561ac216c96",
+    "path_adaptation": null,
+    "published_line_endings": "LF"
+  },
+  {
+    "path": "code/training/controller.py",
+    "original_sha256": "5909d8cd40d6512fbafd8c54801b9dec5ee1155d8ad3aac2e1ac81ad0e9068b1",
+    "published_sha256": "5909d8cd40d6512fbafd8c54801b9dec5ee1155d8ad3aac2e1ac81ad0e9068b1",
+    "path_adaptation": null,
+    "published_line_endings": "LF"
+  },
+  {
+    "path": "code/training/full_data.py",
+    "original_sha256": "2d2d774757726ae3d3632eeb6880fb12df9df33e5fbfe731ab87a6c1ac0cb269",
+    "published_sha256": "2d2d774757726ae3d3632eeb6880fb12df9df33e5fbfe731ab87a6c1ac0cb269",
+    "path_adaptation": null,
+    "published_line_endings": "LF"
+  },
+  {
+    "path": "code/training/manual_run.py",
+    "original_sha256": "2c5c32ab06cdd6a7cb4c46816453e1fc26d57483e7b999512f418c1aeb687b47",
+    "published_sha256": "2c5c32ab06cdd6a7cb4c46816453e1fc26d57483e7b999512f418c1aeb687b47",
+    "path_adaptation": null,
+    "published_line_endings": "LF"
+  },
+  {
+    "path": "code/training/preflight.py",
+    "original_sha256": "de956ab77e350271db67416c4cf58181c95aaa83ec093a0fe4cdc236987a772c",
+    "published_sha256": "de956ab77e350271db67416c4cf58181c95aaa83ec093a0fe4cdc236987a772c",
+    "path_adaptation": null,
+    "published_line_endings": "LF"
+  },
+  {
+    "path": "code/training/prepare_index.py",
+    "original_sha256": "3907a5ab99b0945811af28eae92eb220f856287d6224d96a500d5e52f39eb2f6",
+    "published_sha256": "9abb11a8bf432b723d91535f5ea52697ed55c52679be17d9122ec90c9b9d56c9",
+    "path_adaptation": "replace machine-specific index input directories by environment variables",
+    "published_line_endings": "LF"
+  },
+  {
+    "path": "code/training/run_w80_original_tar.py",
+    "original_sha256": "8a3ab860f037f1e3c9450200bd9c3d36945828dcc8e5388471533563c5157a69",
+    "published_sha256": "8a3ab860f037f1e3c9450200bd9c3d36945828dcc8e5388471533563c5157a69",
+    "path_adaptation": null,
+    "published_line_endings": "LF"
+  },
+  {
+    "path": "code/training/train_full.py",
+    "original_sha256": "b71cdf6423c0eb056d40a42e8411620d34afea33b94b2e68c511940bce15c433",
+    "published_sha256": "97b4c50b7e296d4c4348d2c8c837441d9220bb06f74089afd75d60d3fc0ad2a1",
+    "path_adaptation": "replace machine-specific upstream directory by MCUNET_ROOT environment variable",
+    "published_line_endings": "LF"
+  },
+  {
+    "path": "code/training/w80_local_guard.py",
+    "original_sha256": "cfb38ba675fdf27e90fd3d4331a7bb543e01a75557b7e4b6271c2665396dad68",
+    "published_sha256": "cfb38ba675fdf27e90fd3d4331a7bb543e01a75557b7e4b6271c2665396dad68",
+    "path_adaptation": null,
+    "published_line_endings": "LF"
+  },
+  {
+    "path": "code/evaluation/evaluate.py",
+    "original_sha256": "ea9a2b230e869211355593e701fe87178367c9e5e89d712d82ecae100e6db995",
+    "published_sha256": "ea9a2b230e869211355593e701fe87178367c9e5e89d712d82ecae100e6db995",
+    "path_adaptation": null,
+    "published_line_endings": "LF"
+  },
+  {
+    "path": "code/evaluation/audit_overlap.py",
+    "original_sha256": "391eb10b3fa86fc93c7072ae712a65f4d72056f2160e6a121d4a021f4761cc58",
+    "published_sha256": "391eb10b3fa86fc93c7072ae712a65f4d72056f2160e6a121d4a021f4761cc58",
+    "path_adaptation": null,
+    "published_line_endings": "LF"
+  }
+]

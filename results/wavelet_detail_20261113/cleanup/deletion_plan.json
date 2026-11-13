@@ -1,0 +1,114 @@
+{
+  "root": "<FYP>\\MCUNet-DWT",
+  "created_at": 1794541633.8990529,
+  "protected": [
+    "<FYP>\\MCUNet-DWT\\weights",
+    "<FYP>\\MCUNet-DWT\\experiments\\detail_sparsity_lowres_aug_20261112",
+    "<FYP>\\MCUNet-DWT\\runs\\w80_rgb160_original_tar_seal",
+    "<FYP>\\MCUNet-DWT\\experiments\\full_imagenet_rgb160_20261104\\data",
+    "<FYP>\\MCUNet-DWT\\experiments\\full_imagenet_rgb160_20261104\\evaluation_20261110\\chunks",
+    "<FYP>\\MCUNet-DWT\\experiments\\full_imagenet_rgb160_20261104\\run\\checkpoints\\0e848e571dc25ae09d5160ad756f037e21459b4b60add83e58a3f8f4a5b0a7a7.pt"
+  ],
+  "files": [
+    {
+      "relative": "experiments/detail_sparsity_ll_up160_20261110/runs/ll1/checkpoints/9797075f80185c9127ce24868402701c61f8a41a75ac3f62791857b19308327b.pt",
+      "absolute": "<FYP>\\MCUNet-DWT\\experiments\\detail_sparsity_ll_up160_20261110\\runs\\ll1\\checkpoints\\9797075f80185c9127ce24868402701c61f8a41a75ac3f62791857b19308327b.pt",
+      "bytes": 6070823,
+      "sha256": "9797075f80185c9127ce24868402701c61f8a41a75ac3f62791857b19308327b",
+      "reason": "completed historical checkpoint or reproducible Python bytecode"
+    },
+    {
+      "relative": "experiments/detail_sparsity_ll_up160_20261110/runs/ll1/checkpoints/f4f336c473bb3afcd70d46c22e2b967c411bc588b93eec6c49f3c58697803a1d.pt",
+      "absolute": "<FYP>\\MCUNet-DWT\\experiments\\detail_sparsity_ll_up160_20261110\\runs\\ll1\\checkpoints\\f4f336c473bb3afcd70d46c22e2b967c411bc588b93eec6c49f3c58697803a1d.pt",
+      "bytes": 6073895,
+      "sha256": "f4f336c473bb3afcd70d46c22e2b967c411bc588b93eec6c49f3c58697803a1d",
+      "reason": "completed historical checkpoint or reproducible Python bytecode"
+    },
+    {
+      "relative": "experiments/detail_sparsity_ll_up160_20261110/runs/ll2/checkpoints/91577ac889a1f0848ed989cdba75122897eafa7109cc4fb2099ef5fc091f1351.pt",
+      "absolute": "<FYP>\\MCUNet-DWT\\experiments\\detail_sparsity_ll_up160_20261110\\runs\\ll2\\checkpoints\\91577ac889a1f0848ed989cdba75122897eafa7109cc4fb2099ef5fc091f1351.pt",
+      "bytes": 6073767,
+      "sha256": "91577ac889a1f0848ed989cdba75122897eafa7109cc4fb2099ef5fc091f1351",
+      "reason": "completed historical checkpoint or reproducible Python bytecode"
+    },
+    {
+      "relative": "experiments/detail_sparsity_ll_up160_20261110/runs/ll2/checkpoints/f92920cc908bf85b4adddaff8091d3250494a57fb8757468d0d83b97f2fbffc7.pt",
+      "absolute": "<FYP>\\MCUNet-DWT\\experiments\\detail_sparsity_ll_up160_20261110\\runs\\ll2\\checkpoints\\f92920cc908bf85b4adddaff8091d3250494a57fb8757468d0d83b97f2fbffc7.pt",
+      "bytes": 6073575,
+      "sha256": "f92920cc908bf85b4adddaff8091d3250494a57fb8757468d0d83b97f2fbffc7",
+      "reason": "completed historical checkpoint or reproducible Python bytecode"
+    },
+    {
+      "relative": "experiments/detail_sparsity_ll_up160_20261110/runs/ll3/checkpoints/2587c09f77e5684638464f701084ef29dc6e11ea3d0d3727efd8e00774469f17.pt",
+      "absolute": "<FYP>\\MCUNet-DWT\\experiments\\detail_sparsity_ll_up160_20261110\\runs\\ll3\\checkpoints\\2587c09f77e5684638464f701084ef29dc6e11ea3d0d3727efd8e00774469f17.pt",
+      "bytes": 6073767,
+      "sha256": "2587c09f77e5684638464f701084ef29dc6e11ea3d0d3727efd8e00774469f17",
+      "reason": "completed historical checkpoint or reproducible Python bytecode"
+    },
+    {
+      "relative": "experiments/detail_sparsity_ll_up160_20261110/runs/ll3/checkpoints/be3d354930db78f9a6fbd68f6ece872f344499d08d617234cb34a1512274c695.pt",
+      "absolute": "<FYP>\\MCUNet-DWT\\experiments\\detail_sparsity_ll_up160_20261110\\runs\\ll3\\checkpoints\\be3d354930db78f9a6fbd68f6ece872f344499d08d617234cb34a1512274c695.pt",
+      "bytes": 6073575,
+      "sha256": "be3d354930db78f9a6fbd68f6ece872f344499d08d617234cb34a1512274c695",
+      "reason": "completed historical checkpoint or reproducible Python bytecode"
+    },
+    {
+      "relative": "experiments/dwt_all_stride2_full20_20261102/admission/smoke_checkpoints/7c01aee129f82b33442d7c4f1b4fcbcde9143319ef30f8a1c81edeec26925dcc.pt",
+      "absolute": "<FYP>\\MCUNet-DWT\\experiments\\dwt_all_stride2_full20_20261102\\admission\\smoke_checkpoints\\7c01aee129f82b33442d7c4f1b4fcbcde9143319ef30f8a1c81edeec26925dcc.pt",
+      "bytes": 6077795,
+      "sha256": "7c01aee129f82b33442d7c4f1b4fcbcde9143319ef30f8a1c81edeec26925dcc",
+      "reason": "completed historical checkpoint or reproducible Python bytecode"
+    },
+    {
+      "relative": "experiments/dwt_all_stride2_full20_20261102/run/checkpoints/15540b809288b1bb53662bde8879b161a906ac5fb3bc74cdf33737e5bd49b123.pt",
+      "absolute": "<FYP>\\MCUNet-DWT\\experiments\\dwt_all_stride2_full20_20261102\\run\\checkpoints\\15540b809288b1bb53662bde8879b161a906ac5fb3bc74cdf33737e5bd49b123.pt",
+      "bytes": 6084899,
+      "sha256": "15540b809288b1bb53662bde8879b161a906ac5fb3bc74cdf33737e5bd49b123",
+      "reason": "completed historical checkpoint or reproducible Python bytecode"
+    },
+    {
+      "relative": "experiments/dwt_all_stride2_full20_20261102/run/checkpoints/ed49b841829c7e970253852c3fc28cd0506bd680f016bf540d26b1671d486dc1.pt",
+      "absolute": "<FYP>\\MCUNet-DWT\\experiments\\dwt_all_stride2_full20_20261102\\run\\checkpoints\\ed49b841829c7e970253852c3fc28cd0506bd680f016bf540d26b1671d486dc1.pt",
+      "bytes": 6085091,
+      "sha256": "ed49b841829c7e970253852c3fc28cd0506bd680f016bf540d26b1671d486dc1",
+      "reason": "completed historical checkpoint or reproducible Python bytecode"
+    },
+    {
+      "relative": "experiments/full_imagenet_rgb160_20261104/evaluation_20261110/cache/cdn_url.private.json",
+      "absolute": "<FYP>\\MCUNet-DWT\\experiments\\full_imagenet_rgb160_20261104\\evaluation_20261110\\cache\\cdn_url.private.json",
+      "bytes": 1159,
+      "sha256": "ad0f824e236c17a33353808b6ae71b5eed1bf09fb48f0ffa9a176462f8470d02",
+      "reason": "reinstallable wheel or regenerable rendering/font cache"
+    },
+    {
+      "relative": "experiments/full_imagenet_rgb160_20261104/evaluation_20261110/cache/matplotlib/fontlist-v390.json",
+      "absolute": "<FYP>\\MCUNet-DWT\\experiments\\full_imagenet_rgb160_20261104\\evaluation_20261110\\cache\\matplotlib\\fontlist-v390.json",
+      "bytes": 118956,
+      "sha256": "857e1b97db447b27e3a7a3530e42762a5789643d5236a99bc5f10875e405ef42",
+      "reason": "reinstallable wheel or regenerable rendering/font cache"
+    },
+    {
+      "relative": "experiments/full_imagenet_rgb160_20261104/evaluation_20261110/cache/wheels/libtorrent-2.1.1-cp312-cp312-win_amd64.whl",
+      "absolute": "<FYP>\\MCUNet-DWT\\experiments\\full_imagenet_rgb160_20261104\\evaluation_20261110\\cache\\wheels\\libtorrent-2.1.1-cp312-cp312-win_amd64.whl",
+      "bytes": 5018631,
+      "sha256": "493954405d15f14b9d9f9b1762ae78e7fecc5a44699f74cb433a9800fa3a7b45",
+      "reason": "reinstallable wheel or regenerable rendering/font cache"
+    },
+    {
+      "relative": "experiments/full_imagenet_rgb160_20261104/preflight/checkpoints/a89602fd02fad0935cbcee9159e83ce93e00627d153a41c2f4470a4091e6ffb6.pt",
+      "absolute": "<FYP>\\MCUNet-DWT\\experiments\\full_imagenet_rgb160_20261104\\preflight\\checkpoints\\a89602fd02fad0935cbcee9159e83ce93e00627d153a41c2f4470a4091e6ffb6.pt",
+      "bytes": 6069479,
+      "sha256": "a89602fd02fad0935cbcee9159e83ce93e00627d153a41c2f4470a4091e6ffb6",
+      "reason": "disposable full-RGB preflight training state"
+    },
+    {
+      "relative": "experiments/full_imagenet_rgb160_20261104/run/checkpoints/e8362defd83e184d245ec7875d962a5470b1ea63ba2efd01b3bd808d86fed58b.pt",
+      "absolute": "<FYP>\\MCUNet-DWT\\experiments\\full_imagenet_rgb160_20261104\\run\\checkpoints\\e8362defd83e184d245ec7875d962a5470b1ea63ba2efd01b3bd808d86fed58b.pt",
+      "bytes": 6072743,
+      "sha256": "e8362defd83e184d245ec7875d962a5470b1ea63ba2efd01b3bd808d86fed58b",
+      "reason": "superseded full-RGB checkpoint; fixed evaluated final checkpoint retained"
+    }
+  ],
+  "total_files": 14,
+  "total_bytes": 71968155
+}

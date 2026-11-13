@@ -1,5 +1,21 @@
 # MCUNet DWT ImageNet Baseline
 
+## 2026-11-13 小波方法更正 子集结果与后续计划
+
+已核对参考方法为LL补零至原尺寸；此前插值放大和直接80输入均是独立实验，
+新补零混合训练尚未启动。先做RGB-only、LL1-pad-only及混合训练的同预算对照，
+再考虑LL2/3与实际加速；补零本身不会降低稠密CNN计算量。
+
+LL1/2/3插值回160开发Top-1为61.100%/52.520%/40.200%，CNN均67.2872M MAC；
+直接LL80原始/轻量增强为48.305%/48.570%，CNN18.021824M MAC，未证明增强整体改善。
+全量RGB固定20轮官方50k val为60.230%/82.576%，与子集开发成绩分开报告。
+当前RGB80对照为带日期的进度快照，不把未完成值当最终结果。
+
+[实验计划、完整记录、方法更正与清理回执](results/wavelet_detail_20261113/README.md)。
+旧模型/缓存按清单清理，当前训练及全量RGB最终权重保留。旧checkpoint引用可能仅为历史记录。
+自己的仓库移除12个旧Tiny权重文件，SHA256和Git历史保留；不删除历史实验结果。
+
+
 ## Original ImageNet LL-DWT full run (2026-11-01)
 
 The [completed 20-epoch LL-DWT report](results/dwt_uncompressed_ll_full20_20261101/README.md)

@@ -1,0 +1,17 @@
+{
+  "status": "passed",
+  "path": "${FYP_ROOT}\\ILSVRC2012_img_val\\ILSVRC2012_img_val.tar",
+  "bytes": 6744924160,
+  "md5": "29b22e2961454d5413ddabcf34fc5622",
+  "sha256": "c7e06a6c0baccf06d8dbeb6577d71efff84673a5dbdd50633ab44f8ea0456ae0",
+  "images": 50000,
+  "unique_images": 50000,
+  "complete_expected_members": true,
+  "missing": 0,
+  "unexpected": 0,
+  "unchanged_during_check": true,
+  "official_md5_match": true,
+  "mtime_ns": 1794309306271036100,
+  "checked_at": 1794309431.346778,
+  "elapsed_seconds": 16.576643466949463
+}

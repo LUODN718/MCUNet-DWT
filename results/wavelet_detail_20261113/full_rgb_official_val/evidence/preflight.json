@@ -1,0 +1,19 @@
+{
+  "status": "passed",
+  "checkpoint_sha256": "0e848e571dc25ae09d5160ad756f037e21459b4b60add83e58a3f8f4a5b0a7a7",
+  "strict_state_load": true,
+  "synthetic_batches": [
+    32,
+    16
+  ],
+  "batch_consistency": true,
+  "model_and_bn_unchanged": true,
+  "real_validation_images_used": 0,
+  "device": "NVIDIA GeForce RTX 3060 Laptop GPU",
+  "sources": {
+    "code\\evaluate.py": "ea9a2b230e869211355593e701fe87178367c9e5e89d712d82ecae100e6db995",
+    "../code/baseline_helpers.py": "57b87ba79934bddbdf49a9302b3f5a7c4f21e968777a997a19111561ac216c96",
+    "../code/full_data.py": "2d2d774757726ae3d3632eeb6880fb12df9df33e5fbfe731ab87a6c1ac0cb269"
+  },
+  "finished_at": 1794306796.007787
+}

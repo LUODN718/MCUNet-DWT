@@ -1,0 +1,15 @@
+{
+  "status": "passed",
+  "bytes": 6744924160,
+  "md5": "29b22e2961454d5413ddabcf34fc5622",
+  "sha256": "c7e06a6c0baccf06d8dbeb6577d71efff84673a5dbdd50633ab44f8ea0456ae0",
+  "mtime_ns": 1794309306271036100,
+  "archive_path": "${FYP_ROOT}\\ILSVRC2012_img_val\\ILSVRC2012_img_val.tar",
+  "images": 50000,
+  "source": {
+    "kind": "user supplied complete original validation tar",
+    "original_archive_md5_verified": true,
+    "full_expected_membership_verified": true
+  },
+  "finished_at": 1794309593.833737
+}

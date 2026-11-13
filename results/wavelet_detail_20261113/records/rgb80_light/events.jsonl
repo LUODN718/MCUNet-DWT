@@ -1,0 +1,12 @@
+{"event": "start", "step": 0, "time": 1794452131.5738325}
+{"epoch": 1, "event": "dev_start", "order_sha256": "bac3406dba7ad9082c9bc4e2677ce6be591dce905011259dd77b5d38d8cca4eb", "step": 4000, "time": 1794453616.5289078}
+{"dev_ce": 2.4975486039618575, "early_stop": false, "epoch": 1, "event": "dev_complete", "selected_best": true, "step": 4000, "time": 1794453749.3152304}
+{"epoch": 2, "event": "dev_start", "order_sha256": "9ccd008bbde149878b5c91e670b6f7552c871a31ac29636d5676eb417dc0d82a", "step": 8000, "time": 1794455256.2106407}
+{"dev_ce": 2.4794499048948646, "early_stop": false, "epoch": 2, "event": "dev_complete", "selected_best": true, "step": 8000, "time": 1794455403.1474087}
+{"epoch": 3, "event": "dev_start", "order_sha256": "fe34979a2bec9526c0fad43963ef2572875d4e5560c4459cbc854d10206874de", "step": 12000, "time": 1794457322.525468}
+{"dev_ce": 2.4536369823728643, "early_stop": false, "epoch": 3, "event": "dev_complete", "selected_best": true, "step": 12000, "time": 1794457546.581904}
+{"epoch": 4, "event": "dev_start", "order_sha256": "44a5a6a08d2e5355207ef0b5c7ed15911b62f0bed5ef0cecc33969334161c153", "step": 16000, "time": 1794460221.612085}
+{"dev_ce": 2.435291740993455, "early_stop": false, "epoch": 4, "event": "dev_complete", "selected_best": true, "step": 16000, "time": 1794460422.4848926}
+{"epoch": 5, "event": "dev_start", "order_sha256": "1a415d3d25bb08ea755662a06d0b8a125cd44b43e364d38e8fd7f5ca954bd0f4", "step": 20000, "time": 1794540460.1374004}
+{"dev_ce": 2.4054823840946558, "early_stop": false, "epoch": 5, "event": "dev_complete", "selected_best": true, "step": 20000, "time": 1794540587.6336362}
+{"epoch": 6, "event": "dev_start", "order_sha256": "cc23cd5f9e168b574845069028f9b8efe91060f5257540f0d4170f33f70b8366", "step": 24000, "time": 1794541807.3344603}

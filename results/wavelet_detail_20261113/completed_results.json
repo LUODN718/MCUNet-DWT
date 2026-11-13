@@ -1,0 +1,98 @@
+{
+  "captured_at": "2026-11-13T11:51:41+08:00",
+  "selection": "minimum CE on complete 20000-image development set",
+  "train_images": 128000,
+  "dev_images": 20000,
+  "content_matches_teammate_seal": false,
+  "warning": "Arms differ in topology, preprocessing or extra augmentation; not a single-factor ranking.",
+  "results": [
+    {
+      "variant": "rgb160",
+      "completed_epochs": 20,
+      "best_epoch": 1,
+      "dev_ce": 1.401724797804721,
+      "dev_top1": 65.63,
+      "dev_top5": 86.605,
+      "updates": 80000,
+      "conv_linear_macs": 67287200,
+      "official_val_evaluated": false
+    },
+    {
+      "variant": "ll_rank1_stride1",
+      "completed_epochs": 20,
+      "best_epoch": 20,
+      "dev_ce": 1.694530872966264,
+      "dev_top1": 59.585,
+      "dev_top5": 82.52,
+      "updates": 80000,
+      "conv_linear_macs": 65002400,
+      "official_val_evaluated": false
+    },
+    {
+      "variant": "ll80_dense_stride2",
+      "completed_epochs": 20,
+      "best_epoch": 19,
+      "dev_ce": 2.269458461924782,
+      "dev_top1": 48.305,
+      "dev_top5": 73.72,
+      "updates": 80000,
+      "conv_linear_macs": 18021824,
+      "official_val_evaluated": false
+    },
+    {
+      "variant": "four_bands80_dense_stride2",
+      "completed_epochs": 20,
+      "best_epoch": 19,
+      "dev_ce": 2.2536699807112863,
+      "dev_top1": 48.81,
+      "dev_top5": 73.89,
+      "updates": 80000,
+      "conv_linear_macs": 20095424,
+      "official_val_evaluated": false
+    },
+    {
+      "variant": "ll1_bilinear_up160",
+      "completed_epochs": 20,
+      "best_epoch": 1,
+      "dev_ce": 1.593169897846188,
+      "dev_top1": 61.1,
+      "dev_top5": 83.98,
+      "updates": 80000,
+      "conv_linear_macs": 67287200,
+      "official_val_evaluated": false
+    },
+    {
+      "variant": "ll2_bilinear_up160",
+      "completed_epochs": 20,
+      "best_epoch": 19,
+      "dev_ce": 2.0463170282563503,
+      "dev_top1": 52.52,
+      "dev_top5": 77.075,
+      "updates": 80000,
+      "conv_linear_macs": 67287200,
+      "official_val_evaluated": false
+    },
+    {
+      "variant": "ll3_bilinear_up160",
+      "completed_epochs": 20,
+      "best_epoch": 19,
+      "dev_ce": 2.756719110870344,
+      "dev_top1": 40.2,
+      "dev_top5": 65.325,
+      "updates": 80000,
+      "conv_linear_macs": 67287200,
+      "official_val_evaluated": false
+    },
+    {
+      "variant": "ll80_light",
+      "completed_epochs": 20,
+      "best_epoch": 19,
+      "dev_ce": 2.274592504823357,
+      "dev_top1": 48.57,
+      "dev_top5": 73.395,
+      "updates": 80000,
+      "conv_linear_macs": 18021824,
+      "official_val_evaluated": false
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{"event": "start", "step": 0, "time": 1794304380.3036618}
+{"epoch": 1, "event": "dev_start", "order_sha256": "bac3406dba7ad9082c9bc4e2677ce6be591dce905011259dd77b5d38d8cca4eb", "step": 4000, "time": 1794312303.0615335}
+{"dev_ce": 1.593169897846188, "early_stop": false, "epoch": 1, "event": "dev_complete", "selected_best": true, "step": 4000, "time": 1794312424.9981995}
+{"epoch": 2, "event": "dev_start", "order_sha256": "9ccd008bbde149878b5c91e670b6f7552c871a31ac29636d5676eb417dc0d82a", "step": 8000, "time": 1794313669.0597434}
+{"dev_ce": 1.730592012473895, "early_stop": false, "epoch": 2, "event": "dev_complete", "selected_best": false, "step": 8000, "time": 1794313808.6810071}
+{"epoch": 3, "event": "dev_start", "order_sha256": "fe34979a2bec9526c0fad43963ef2572875d4e5560c4459cbc854d10206874de", "step": 12000, "time": 1794315119.411779}
+{"dev_ce": 1.7152336972963498, "early_stop": false, "epoch": 3, "event": "dev_complete", "selected_best": false, "step": 12000, "time": 1794315250.788866}
+{"epoch": 4, "event": "dev_start", "order_sha256": "44a5a6a08d2e5355207ef0b5c7ed15911b62f0bed5ef0cecc33969334161c153", "step": 16000, "time": 1794316563.6842637}
+{"dev_ce": 1.737689053875269, "early_stop": false, "epoch": 4, "event": "dev_complete", "selected_best": false, "step": 16000, "time": 1794316697.8635867}
+{"epoch": 5, "event": "dev_start", "order_sha256": "1a415d3d25bb08ea755662a06d0b8a125cd44b43e364d38e8fd7f5ca954bd0f4", "step": 20000, "time": 1794317989.5894494}
+{"dev_ce": 1.7360569395012317, "early_stop": false, "epoch": 5, "event": "dev_complete", "selected_best": false, "step": 20000, "time": 1794318132.9858491}
+{"epoch": 6, "event": "dev_start", "order_sha256": "cc23cd5f9e168b574845069028f9b8efe91060f5257540f0d4170f33f70b8366", "step": 24000, "time": 1794319420.3557482}
+{"dev_ce": 1.7396021675617659, "early_stop": false, "epoch": 6, "event": "dev_complete", "selected_best": false, "step": 24000, "time": 1794319561.2615862}
+{"epoch": 7, "event": "dev_start", "order_sha256": "7ec72d45a76c58b7a7a354f540aea5e0641d8acdb7674b6198e07a9724bdfa7d", "step": 28000, "time": 1794320856.1651702}
+{"dev_ce": 1.7489195356411622, "early_stop": false, "epoch": 7, "event": "dev_complete", "selected_best": false, "step": 28000, "time": 1794320998.0229902}
+{"epoch": 8, "event": "dev_start", "order_sha256": "016a0f836dca3124fbeb13751b2a2304519ab4c626be66227e4c7b109a4b95a3", "step": 32000, "time": 1794322304.4974496}
+{"dev_ce": 1.7443277415828278, "early_stop": false, "epoch": 8, "event": "dev_complete", "selected_best": false, "step": 32000, "time": 1794322447.290338}
+{"epoch": 9, "event": "dev_start", "order_sha256": "eb17ecaf89dd336bd87f10e778767b451495bce83e812d245271a08ad1474ba0", "step": 36000, "time": 1794323748.0978842}
+{"dev_ce": 1.7459919173348157, "early_stop": false, "epoch": 9, "event": "dev_complete", "selected_best": false, "step": 36000, "time": 1794323897.457802}
+{"epoch": 10, "event": "dev_start", "order_sha256": "700a388d72585e6bf47c99ffbf73551c4035e7f2bfa0113121597610401ffc9c", "step": 40000, "time": 1794325193.4265227}
+{"dev_ce": 1.7316462512532567, "early_stop": false, "epoch": 10, "event": "dev_complete", "selected_best": false, "step": 40000, "time": 1794325341.4247453}
+{"epoch": 11, "event": "dev_start", "order_sha256": "a143edd4dadeae785094fb8cb070fb2a742043238dac2dfa54a58a683aa65298", "step": 44000, "time": 1794326627.141743}
+{"dev_ce": 1.7348911476529196, "early_stop": false, "epoch": 11, "event": "dev_complete", "selected_best": false, "step": 44000, "time": 1794326763.5825517}
+{"epoch": 12, "event": "dev_start", "order_sha256": "95f726a0d2d32344f3f0a23bf2509a263318f5a029b343079349de3d3237fcc7", "step": 48000, "time": 1794328061.996733}
+{"dev_ce": 1.72663586425248, "early_stop": false, "epoch": 12, "event": "dev_complete", "selected_best": false, "step": 48000, "time": 1794328193.088619}
+{"epoch": 13, "event": "dev_start", "order_sha256": "1928d6ad26e0db51621ff3f722a7de146bf167d1c457eddd050f3016d543c6ec", "step": 52000, "time": 1794329488.8257284}
+{"dev_ce": 1.7070322607950588, "early_stop": false, "epoch": 13, "event": "dev_complete", "selected_best": false, "step": 52000, "time": 1794329621.6029224}
+{"epoch": 14, "event": "dev_start", "order_sha256": "1f846ab5466a7a264e8d236d2b8f0ddab4a5e74081441ebe52d0b5092c3dbc31", "step": 56000, "time": 1794330912.2769382}
+{"dev_ce": 1.7050396641016068, "early_stop": false, "epoch": 14, "event": "dev_complete", "selected_best": false, "step": 56000, "time": 1794331064.1060147}
+{"epoch": 15, "event": "dev_start", "order_sha256": "cee9d309ffe7fb13fdcc0c16333af30c6f7ad90bec6b4ea96ab218e70d028a4a", "step": 60000, "time": 1794332370.2807693}
+{"dev_ce": 1.7002983849239544, "early_stop": false, "epoch": 15, "event": "dev_complete", "selected_best": false, "step": 60000, "time": 1794332503.18704}
+{"epoch": 16, "event": "dev_start", "order_sha256": "d83ce215b704a83741c34b88a66947aa66cb132de83763941f912b9098960e75", "step": 64000, "time": 1794333799.4114308}
+{"dev_ce": 1.6901490495960174, "early_stop": false, "epoch": 16, "event": "dev_complete", "selected_best": false, "step": 64000, "time": 1794333933.909536}
+{"epoch": 17, "event": "dev_start", "order_sha256": "2edd5f3e07b7837de02a39d8f90eb0b79181efc3124abfe023ca67e5314f1282", "step": 68000, "time": 1794335235.4837432}
+{"dev_ce": 1.6869355310184193, "early_stop": false, "epoch": 17, "event": "dev_complete", "selected_best": false, "step": 68000, "time": 1794335373.7107806}
+{"epoch": 18, "event": "dev_start", "order_sha256": "60a4c9879ea163f0583f39a915eb03842b38a1dec1f8540a0a5e064ed5ade2f1", "step": 72000, "time": 1794336715.460377}
+{"dev_ce": 1.680643092520615, "early_stop": false, "epoch": 18, "event": "dev_complete", "selected_best": false, "step": 72000, "time": 1794336854.6350098}
+{"epoch": 19, "event": "dev_start", "order_sha256": "c7e4dee5447df33fbbb122e8c76bd218a690a2af6fb011b33dd4955b8abf47a7", "step": 76000, "time": 1794338152.6914358}
+{"dev_ce": 1.679683555345882, "early_stop": false, "epoch": 19, "event": "dev_complete", "selected_best": false, "step": 76000, "time": 1794338284.7153854}
+{"epoch": 20, "event": "dev_start", "order_sha256": "8f07c152d949ec79ee690b55d968ef9fdb1d2653f94772287646082c7b0e759d", "step": 80000, "time": 1794339608.2216058}
+{"dev_ce": 1.678489978569833, "early_stop": false, "epoch": 20, "event": "dev_complete", "selected_best": false, "step": 80000, "time": 1794339748.5666418}

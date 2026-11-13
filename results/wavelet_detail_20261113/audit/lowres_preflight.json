@@ -1,0 +1,56 @@
+{
+  "augmentation": {
+    "application": "TRAIN only, after fixed RGB160 crop/flip, before downsampling",
+    "color_jitter": {
+      "brightness": 0.15,
+      "contrast": 0.15,
+      "hue": 0.02,
+      "probability": 0.8,
+      "saturation": 0.15
+    },
+    "random_erasing": {
+      "probability": 0.1,
+      "ratio": [
+        0.3,
+        3.3
+      ],
+      "scale": [
+        0.02,
+        0.08
+      ],
+      "value_rgb": 0.5
+    },
+    "rng": "SHA256([lowres-extra-augmentation-v1,seed,epoch,image_path]); local CPU fork"
+  },
+  "checks": [
+    "frozen 128k/20k membership, local JPEG/RGB seal, upstream, pretrained and decoder versions",
+    "same historical geometry/plain pixels; deterministic shared augmentation; untouched RNG; no dev augmentation",
+    "exact image/label replay at a resumed loader cursor",
+    "actual 80x80 input; historical normalized LL exact; DC amplitude and RGB range",
+    "unchanged 729392 pretrained parameters and stride2; measured 18.021824M vs 67.2872M CNN MAC",
+    "batch32 CUDA FP32 forward/backward; failed-update BN rollback; exact successful-update resume replay",
+    "GPU forward latency measured separately from MAC; excludes decoding and CPU training augmentation"
+  ],
+  "compute_reduction_percent": 73.21656422023803,
+  "conv_linear_macs_per_image": 18021824,
+  "dev_images": 20000,
+  "disposable_cuda_updates": 2,
+  "finished_at": 1794418312.514776,
+  "formal_training_updates": 0,
+  "manifest_sha256": "0c68acdffbec6ec80835561962d94689eff4fdde5a3428858b5a117dd10653a7",
+  "official_val_used": false,
+  "parameter_count": 729392,
+  "seconds": 15.051376104354858,
+  "sources": {
+    "code/augmentation.py": "5ee39b3b827e3a0fc7105636a608ae3b71d4e35100e17843cdd1f09e4e73c607",
+    "code/direct_io.py": "c723870f1d3dea22c63d850dca858d99c23d886c6558212181ef81942f11b7e9",
+    "code/low_resolution.py": "ffe050ca12cb3b17fe9d2f5f48edbcca98ef8b01a1978bb6dd45a81aa2e6db7a",
+    "code/preflight.py": "003f810d1c85b1c704c6a4e2d94b336f76fef90177fa024abf9077888ee93bd6",
+    "code/train_lowres.py": "33eb1b7cfe57b8dac283f2caca7d3bc20a85194013c9802078f449c5cf31f4b3",
+    "code/w80_tar_source.py": "30104cd543df6c728151206ef90c72a7e9f0255acdb82a3949b7fd9e945815bf",
+    "prepare.py": "371e0eddef91756165c6391253e434b872ca27102263953527fc3425fde9f1fa",
+    "queue.py": "ba8b784e95493190cb26be85b207c8b70344076a0efe1740e1ded41a5dd22f87"
+  },
+  "status": "passed",
+  "train_images": 128000
+}

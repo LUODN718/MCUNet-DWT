@@ -1,0 +1,8 @@
+{
+  "url": "https://raw.githubusercontent.com/soumith/imagenetloader.torch/master/valprep.sh",
+  "sha256": "dc5a6a8ac37f33adfb6e949b7b2fa42fd84600f38c58089e60a674f2a289d67d",
+  "images": 50000,
+  "classes": 1000,
+  "images_per_class": 50,
+  "downloaded_at": 1794306191.2465413
+}

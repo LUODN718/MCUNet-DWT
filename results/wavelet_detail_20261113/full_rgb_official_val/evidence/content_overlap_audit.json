@@ -1,0 +1,14 @@
+{
+  "scope": "exact raw JPEG SHA256 and decoded size+RGB SHA256, saved records only",
+  "training_images": 1281167,
+  "val_images": 50000,
+  "val_duplicate_byte_rows": 29,
+  "val_duplicate_rgb_rows": 29,
+  "val_rows_matching_train_bytes": 799,
+  "val_rows_matching_train_rgb": 799,
+  "perceptual_near_duplicate_audit": false,
+  "removed_or_reassigned_images": 0,
+  "evaluation_rerun": false,
+  "checkpoint_unchanged": true,
+  "finished_at": 1794310119.3497038
+}

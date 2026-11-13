@@ -1,0 +1,12 @@
+{
+  "status": "complete_and_verified",
+  "finished_at": "2026-11-13T11:48:43.6031949+08:00",
+  "deleted_files": 14,
+  "deleted_logical_bytes": 71968155.0,
+  "root": "<FYP>\\MCUNet-DWT",
+  "active_training_preserved": true,
+  "fixed_full_rgb_checkpoint_preserved": true,
+  "original_datasets_preserved": true,
+  "verified_retained_records": 4090,
+  "verification_file": "verification.json"
+}

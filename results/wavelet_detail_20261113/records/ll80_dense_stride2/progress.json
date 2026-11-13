@@ -1,0 +1,10 @@
+{
+  "best_dev_ce": 2.269458461924782,
+  "checkpoint_sha256": "bd3eec4f2ec6398ecdaff7300b0b2ae40fb72c3fd503dcc6c926899803cad575",
+  "epoch": 20,
+  "sampler_position": 0,
+  "status": "complete",
+  "step": 80000,
+  "stop_reason": "maximum20epochs",
+  "training_exposures": 2560000
+}

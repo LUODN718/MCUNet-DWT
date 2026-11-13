@@ -1,0 +1,12 @@
+{
+  "captured_at": "2026-11-13T11:51:41+08:00",
+  "mixed_padding_training_started": false,
+  "official_val_used_for_new_model_selection": false,
+  "checkpoints_published": false,
+  "original_images_published": false,
+  "reference_docx_published": false,
+  "per_image_predictions_published": false,
+  "local_paths_redacted": true,
+  "original_runtime_hashes_preserved_as_provenance": true,
+  "source_snapshot_use": "audit/source evidence; requires user data paths and original source hashes for actual checkpoint resume"
+}
