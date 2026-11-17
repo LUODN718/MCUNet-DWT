@@ -1,0 +1,38 @@
+{
+  "active_run": "mix224_rgb33_ll67_b64",
+  "batch": 64,
+  "experiments": [
+    {
+      "batch": 64,
+      "name": "mix224_rgb33_ll67_b64",
+      "variant": "rgb33_ll67"
+    },
+    {
+      "batch": 64,
+      "name": "rgb224_only_b64",
+      "variant": "rgb_only"
+    },
+    {
+      "batch": 32,
+      "name": "mix224_rgb33_ll67_b32",
+      "variant": "rgb33_ll67"
+    }
+  ],
+  "progress": {
+    "checkpoint_sha256": "8bbe223413de0aa264c29831026ed76fc98a14a919a42ad9d7384c0400e8080b",
+    "epoch": 1,
+    "sampler_position": 44800,
+    "status": "training",
+    "step": 700,
+    "train_ll1_pad_samples": 29867,
+    "train_rgb_samples": 14933,
+    "training_exposures": 44800
+  },
+  "queue_pid": 27960,
+  "resource_watermark_pause": false,
+  "status": "training",
+  "stderr": "C:\\Users\\33581\\Desktop\\fyp\\MCUNet-DWT\\experiments\\pad224_mix_20261117\\logs\\mix224_rgb33_ll67_b64_1794927912336500300.stderr.log",
+  "stdout": "C:\\Users\\33581\\Desktop\\fyp\\MCUNet-DWT\\experiments\\pad224_mix_20261117\\logs\\mix224_rgb33_ll67_b64_1794927912336500300.stdout.log",
+  "updated_at": 1794928332.617982,
+  "worker_pid": 28712
+}

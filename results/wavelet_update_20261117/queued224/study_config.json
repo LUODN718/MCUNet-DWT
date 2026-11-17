@@ -1,0 +1,56 @@
+{
+  "assumptions": [
+    "document does not specify original dataset/model/training recipe",
+    "1:2 mixture requested by user; center placement retained; normalized LL uses DC correction",
+    "same .001 peak LR at batch32/64; epoch-based2warmup+18cosine; no linear LR scaling"
+  ],
+  "batch_decision": "64: faster synthetic throughput than32 with GPU headroom;128 OOM at80% probe cap",
+  "canvas": 224,
+  "coefficient": 112,
+  "dev_images": 20000,
+  "dev_resize_reason": "round(182*224/160); same relative crop extent as160 recipe",
+  "dev_resize_short_edge": 255,
+  "experiments": [
+    {
+      "batch": 64,
+      "name": "mix224_rgb33_ll67_b64",
+      "variant": "rgb33_ll67"
+    },
+    {
+      "batch": 64,
+      "name": "rgb224_only_b64",
+      "variant": "rgb_only"
+    },
+    {
+      "batch": 32,
+      "name": "mix224_rgb33_ll67_b32",
+      "variant": "rgb33_ll67"
+    }
+  ],
+  "handoff_root": "C:\\Users\\33581\\Desktop\\fyp\\tmp\\team-w80-432bc728-lf",
+  "manifest": "C:\\Users\\33581\\Desktop\\fyp\\MCUNet-DWT\\experiments\\pad_mix_ratio_study_20261115\\data\\seal\\manifest.local_accepted.tsv",
+  "manifest_sha256": "0c68acdffbec6ec80835561962d94689eff4fdde5a3428858b5a117dd10653a7",
+  "maximum_epochs": 20,
+  "mcunet_root": "C:\\Users\\33581\\Desktop\\Mcunet\\mcunet-w80-clean",
+  "official_val_used": false,
+  "placement": "centered56px",
+  "pretrained_sha256": "63565b5773a8aa70d75baf5a349f5f384da649804c48a5e7af1f655460158c7d",
+  "primary_selection": "LL-pad224 CE for mixtures; RGB224 CE for RGB-only control",
+  "python": "C:\\Users\\33581\\anaconda3\\envs\\fyp-w80-rgb\\python.exe",
+  "resource_watermark_pause": false,
+  "seal_dir": "C:\\Users\\33581\\Desktop\\fyp\\MCUNet-DWT\\experiments\\pad_mix_ratio_study_20261115\\data\\seal",
+  "source_experiment": "C:\\Users\\33581\\Desktop\\fyp\\MCUNet-DWT\\experiments\\pad_mix_ratio_study_20261115",
+  "sources": {
+    "batch_probe.py": "dd714285db49f4d7c38ee6f396d8dc8c6eea5d73111311235e20fd52970b1bad",
+    "code/direct_io.py": "c723870f1d3dea22c63d850dca858d99c23d886c6558212181ef81942f11b7e9",
+    "code/ratio_input.py": "a5013646940e52291b5c19c0c07bb067232af40e492ed6cc9df4ff76e3ae2a24",
+    "code/train_ratio.py": "1ae0e0707a2eea52eb2660be1ee57faebb474b894e7e4e4e2b3d3f848966aaa3",
+    "code/w80_tar_source.py": "7e5fff57aaa6544f6e575fbc1bb6daab145bd9a8ce8cce7cec753a725f39cfdd",
+    "preflight.py": "e92515b067e070bad0b99e176916131c21c9684982e9e1a0225dee09535d49d5",
+    "prepare.py": "2974c375f9f8b1d4c7e52e8ad0e716eadc2d1bd28ff4353d40b692245936a2ea",
+    "run_queue.py": "bb0534cbec6f0b91ccfad5e8e9f9e2ee321c451948b804a82817f6d03431c1c1"
+  },
+  "train_images": 128000,
+  "train_tar": "C:\\Users\\33581\\Desktop\\fyp\\ILSVRC2012_img_train\\ILSVRC2012_img_train\\ILSVRC2012_img_train.tar",
+  "weights": "C:\\Users\\33581\\Desktop\\fyp\\MCUNet-DWT\\weights\\mcunet-256kb-1mb_imagenet.pth"
+}

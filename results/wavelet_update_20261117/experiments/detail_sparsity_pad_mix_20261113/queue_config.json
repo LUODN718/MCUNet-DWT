@@ -1,0 +1,50 @@
+{
+  "schema": 3,
+  "created_at": 1794570642.1487713,
+  "train_images": 128000,
+  "dev_images": 20000,
+  "maximum_epochs": 20,
+  "resource_watermark_pause": false,
+  "full_training_launch_allowed": false,
+  "python": "C:\\Users\\33581\\anaconda3\\envs\\fyp-w80-rgb\\python.exe",
+  "handoff_root": "C:\\Users\\33581\\Desktop\\fyp\\tmp\\team-w80-432bc728-lf",
+  "train_tar": "C:\\Users\\33581\\Desktop\\fyp\\ILSVRC2012_img_train\\ILSVRC2012_img_train\\ILSVRC2012_img_train.tar",
+  "seal_dir": "C:\\Users\\33581\\Desktop\\fyp\\MCUNet-DWT\\experiments\\detail_sparsity_pad_mix_20261113\\data\\seal",
+  "manifest": "C:\\Users\\33581\\Desktop\\fyp\\MCUNet-DWT\\experiments\\detail_sparsity_pad_mix_20261113\\data\\seal\\manifest.local_accepted.tsv",
+  "manifest_sha256": "0c68acdffbec6ec80835561962d94689eff4fdde5a3428858b5a117dd10653a7",
+  "weights": "C:\\Users\\33581\\Desktop\\fyp\\MCUNet-DWT\\weights\\mcunet-256kb-1mb_imagenet.pth",
+  "pretrained_sha256": "63565b5773a8aa70d75baf5a349f5f384da649804c48a5e7af1f655460158c7d",
+  "mcunet_root": "C:\\Users\\33581\\Desktop\\Mcunet\\mcunet-w80-clean",
+  "run_root": "C:\\Users\\33581\\Desktop\\fyp\\MCUNet-DWT\\experiments\\detail_sparsity_pad_mix_20261113\\runs",
+  "cache_root": "C:\\Users\\33581\\Desktop\\fyp\\MCUNet-DWT\\experiments\\detail_sparsity_pad_mix_20261113\\cache",
+  "sources": {
+    "code/direct_io.py": "c723870f1d3dea22c63d850dca858d99c23d886c6558212181ef81942f11b7e9",
+    "code/padded_input.py": "63a85cfb4cd7d2d0a9491a810d45c0251048a7372736ad4a0368bc4a42e016e2",
+    "code/preflight.py": "cea02728ed5df298c5f571e6e4ebae7183c7035bc59bf14da94f56878e7af15b",
+    "code/train_pad_mix.py": "a3141046ca647e18fec9594bac95e10cbbb1a019d0f12713b9636ca5c5869a53",
+    "code/w80_tar_source.py": "86e588d8a8325f741d71014a6491bd534c04665d3961498243800e307771a653",
+    "queue.py": "76231c8ac9f2154d04d4344e01414fd4025f38788af4ead4be7c95c9042e4a7c",
+    "prepare.py": "7f314ae1295e0ea4df0375a5ebbf32e430c67e4c11cd82fae66a8fb2933fa564"
+  },
+  "experiments": [
+    {
+      "name": "p2_rgb_ll1_pad_mix",
+      "variant": "rgb_ll1_pad_mix"
+    },
+    {
+      "name": "p0_rgb_only",
+      "variant": "rgb_only"
+    },
+    {
+      "name": "p1_ll1_pad_only",
+      "variant": "ll1_pad_only"
+    }
+  ],
+  "conv_linear_macs": 67287200,
+  "wait_for_run": "C:\\Users\\33581\\Desktop\\fyp\\MCUNet-DWT\\experiments\\detail_sparsity_lowres_aug_20261112\\runs\\rgb80_light",
+  "previous_queue": "C:\\Users\\33581\\Desktop\\fyp\\MCUNet-DWT\\experiments\\detail_sparsity_lowres_aug_20261112",
+  "cancelled_previous_experiment": "rgb80_plain",
+  "reference_method": "independent160 adaptation; top-left corrected Haar LL, zero before normalization",
+  "primary_metric": "minimum complete LL1-pad160 development CE",
+  "user_request": "2026-11-13: finish current run; cancel RGB80-plain; then start today padded-LL mixed plan"
+}

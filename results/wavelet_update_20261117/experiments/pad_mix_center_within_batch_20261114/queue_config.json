@@ -1,0 +1,45 @@
+{
+  "schema": 1,
+  "created_at": 1794635015.49476,
+  "train_images": 128000,
+  "dev_images": 20000,
+  "maximum_epochs": 20,
+  "resource_watermark_pause": false,
+  "full_training_launch_allowed": false,
+  "python": "C:\\Users\\33581\\anaconda3\\envs\\fyp-w80-rgb\\python.exe",
+  "handoff_root": "C:\\Users\\33581\\Desktop\\fyp\\tmp\\team-w80-432bc728-lf",
+  "train_tar": "C:\\Users\\33581\\Desktop\\fyp\\ILSVRC2012_img_train\\ILSVRC2012_img_train\\ILSVRC2012_img_train.tar",
+  "seal_dir": "C:\\Users\\33581\\Desktop\\fyp\\MCUNet-DWT\\experiments\\pad_mix_center_within_batch_20261114\\data\\seal",
+  "manifest": "C:\\Users\\33581\\Desktop\\fyp\\MCUNet-DWT\\experiments\\pad_mix_center_within_batch_20261114\\data\\seal\\manifest.local_accepted.tsv",
+  "manifest_sha256": "0c68acdffbec6ec80835561962d94689eff4fdde5a3428858b5a117dd10653a7",
+  "weights": "C:\\Users\\33581\\Desktop\\fyp\\MCUNet-DWT\\weights\\mcunet-256kb-1mb_imagenet.pth",
+  "pretrained_sha256": "63565b5773a8aa70d75baf5a349f5f384da649804c48a5e7af1f655460158c7d",
+  "mcunet_root": "C:\\Users\\33581\\Desktop\\Mcunet\\mcunet-w80-clean",
+  "run_root": "C:\\Users\\33581\\Desktop\\fyp\\MCUNet-DWT\\experiments\\pad_mix_center_within_batch_20261114\\runs",
+  "cache_root": "C:\\Users\\33581\\Desktop\\fyp\\MCUNet-DWT\\experiments\\pad_mix_center_within_batch_20261114\\cache",
+  "sources": {
+    "code/direct_io.py": "c723870f1d3dea22c63d850dca858d99c23d886c6558212181ef81942f11b7e9",
+    "code/preflight.py": "9d20cfb57fcbfb7080bb1b7e05dfebf78e098d6ba8aca0c076a8f00072ffb789",
+    "code/train_within_batch.py": "79077d7d9e0f11994bbc7e134a970ec9e5434f14b5cbb8d3654395522bb01f74",
+    "code/w80_tar_source.py": "86e588d8a8325f741d71014a6491bd534c04665d3961498243800e307771a653",
+    "code/within_batch_input.py": "adb3a4151c8c2b2b57e5061351dc0acc5ad2fb064d3f5e17e35a420b535d0672",
+    "prepare.py": "3bb84877b57f77ee72b54159e2aef96626771c3a237b6fa296aa1f9242e11cea",
+    "queue.py": "cb24f0e75ac4c9683d4340f7878db74550ebec1a09454585bffba4b8c1055c70"
+  },
+  "experiments": [
+    {
+      "name": "rgb_ll1_center_within_batch",
+      "variant": "rgb_ll1_center_within_batch"
+    }
+  ],
+  "conv_linear_macs": 67287200,
+  "wait_for_run": "C:\\Users\\33581\\Desktop\\fyp\\MCUNet-DWT\\experiments\\pad_mix_within_batch_20261114\\runs\\rgb_ll1_within_batch",
+  "primary_metric": "minimum complete LL1-pad160 development CE",
+  "wait_for_queue": "C:\\Users\\33581\\Desktop\\fyp\\MCUNet-DWT\\experiments\\pad_mix_within_batch_20261114",
+  "wait_for_diagnostic": "C:\\Users\\33581\\Desktop\\fyp\\MCUNet-DWT\\experiments\\bn_diagnostic_pad_mix_20261114",
+  "original_p1_held": true,
+  "reference_method": "placement-only ablation: centered40pixel pad vs top-left; same16RGB+16LL batch schedule",
+  "selection": "lowest full20k LL1-pad development CE; same-epoch RGB secondary",
+  "only_scientific_change": "LL80 placement: top-left[0:80,0:80] -> center[40:120,40:120]",
+  "reference_config_sha256": "415c2c0ebab51b2045b836f3468de72bccf7fc5c242363356536b8eeeeb7744c"
+}

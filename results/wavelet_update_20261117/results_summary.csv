@@ -1,0 +1,10 @@
+best_epoch,completed_epochs,conv_linear_macs,experiment,ll_pad160_top1,native80_conv_linear_macs,native80_top1,primary_ce,rgb160_top1,run,selection
+19,20,18021824,detail_sparsity_lowres_aug_20261112,,,48.57,2.274592504823357,,ll80_light,minimum full native80 dev CE
+19,20,18021824,detail_sparsity_lowres_aug_20261112,,,48.37,2.2809362352982694,,rgb80_light,minimum full native80 dev CE
+18,20,67287200,detail_sparsity_pad_mix_20261113,43.09,,,2.5706474790062486,58.65,p2_rgb_ll1_pad_mix,minimum full LL-pad160 dev CE; RGB same epoch
+3,20,67287200,detail_sparsity_pad_mix_20261113,21.925,,,4.0410287914058935,62.385,p0_rgb_only,minimum full LL-pad160 dev CE; RGB same epoch
+19,20,67287200,pad_mix_within_batch_20261114,46.565,,,2.358551428690127,61.835,rgb_ll1_within_batch,minimum full LL-pad160 dev CE; RGB same epoch
+19,20,67287200,pad_mix_center_within_batch_20261114,47.415,,,2.3349442788906383,61.62,rgb_ll1_center_within_batch,minimum full LL-pad160 dev CE; RGB same epoch
+19,20,67287200,pad_mix_ratio_study_20261115,47.34,18021824,37.08,2.3324075127698443,61.71,rgb50_ll50,minimum full LL-pad160 dev CE; RGB same epoch
+19,20,67287200,pad_mix_ratio_study_20261115,48.22,18021824,37.315,2.2982505349666185,60.925,rgb33_ll67,minimum full LL-pad160 dev CE; RGB same epoch
+20,20,67287200,pad_mix_ratio_study_20261115,47.96,18021824,37.275,2.2885670100150115,60.79,rgb25_ll75,minimum full LL-pad160 dev CE; RGB same epoch

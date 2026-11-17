@@ -1,0 +1,44 @@
+{
+  "status": "complete",
+  "results": [
+    {
+      "variant": "rgb50_ll50",
+      "best_epoch": 19,
+      "ll_center_ce": 2.3324075127698443,
+      "ll_center_top1": 47.34,
+      "ll_center_top5": 72.615,
+      "rgb_ce": 1.588815703453523,
+      "rgb_top1": 61.71,
+      "rgb_top5": 84.005,
+      "updates": 80000,
+      "conv_linear_macs": 67287200
+    },
+    {
+      "variant": "rgb33_ll67",
+      "best_epoch": 19,
+      "ll_center_ce": 2.2982505349666185,
+      "ll_center_top1": 48.22,
+      "ll_center_top5": 73.015,
+      "rgb_ce": 1.6227456171928394,
+      "rgb_top1": 60.925,
+      "rgb_top5": 83.575,
+      "updates": 80000,
+      "conv_linear_macs": 67287200
+    },
+    {
+      "variant": "rgb25_ll75",
+      "best_epoch": 20,
+      "ll_center_ce": 2.2885670100150115,
+      "ll_center_top1": 47.96,
+      "ll_center_top5": 73.09,
+      "rgb_ce": 1.637552088480822,
+      "rgb_top1": 60.79,
+      "rgb_top5": 83.215,
+      "updates": 80000,
+      "conv_linear_macs": 67287200
+    }
+  ],
+  "selection": "minimum complete centered LL1-pad CE; RGB recorded same epoch",
+  "official_val_used": false,
+  "imagenet_v2_used": false
+}

@@ -1,0 +1,10 @@
+{
+  "checkpoint_sha256": "8bbe223413de0aa264c29831026ed76fc98a14a919a42ad9d7384c0400e8080b",
+  "epoch": 1,
+  "sampler_position": 44800,
+  "status": "training",
+  "step": 700,
+  "train_ll1_pad_samples": 29867,
+  "train_rgb_samples": 14933,
+  "training_exposures": 44800
+}

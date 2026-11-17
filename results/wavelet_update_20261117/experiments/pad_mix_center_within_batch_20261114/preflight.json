@@ -1,0 +1,28 @@
+{
+  "checks": [
+    "fixed128k/20k cohort, accepted local content seal, official pretrained and pinned upstream",
+    "Haar LL unchanged; exact center80 block and40pixel zero border; pad normalizes to-1",
+    "all80000 steps exactly16RGB+16LL with local RNG; resumable deterministic masks",
+    "TRAIN JPEG/RGB verification and deterministic crop/flip survive cursor resume",
+    "all official pretrained tensors inherited; dual-view eval leaves BN unchanged;67287200MAC each",
+    "real32-image mixed optimizer update; exact16/16 input routing; failure rollback and exact resume replay"
+  ],
+  "dev_images": 20000,
+  "device": "CPU",
+  "disposable_optimizer_updates": 2,
+  "finished_at": 1794635083.9765077,
+  "formal_training_updates": 0,
+  "schedule_sha256": "b2f49b4950cd489b9c2f9e36750eb55799c5ae51b54bb5d8a91de05d38796988",
+  "seconds": 19.2566556930542,
+  "sources": {
+    "code/direct_io.py": "c723870f1d3dea22c63d850dca858d99c23d886c6558212181ef81942f11b7e9",
+    "code/preflight.py": "9d20cfb57fcbfb7080bb1b7e05dfebf78e098d6ba8aca0c076a8f00072ffb789",
+    "code/train_within_batch.py": "79077d7d9e0f11994bbc7e134a970ec9e5434f14b5cbb8d3654395522bb01f74",
+    "code/w80_tar_source.py": "86e588d8a8325f741d71014a6491bd534c04665d3961498243800e307771a653",
+    "code/within_batch_input.py": "adb3a4151c8c2b2b57e5061351dc0acc5ad2fb064d3f5e17e35a420b535d0672",
+    "prepare.py": "3bb84877b57f77ee72b54159e2aef96626771c3a237b6fa296aa1f9242e11cea",
+    "queue.py": "cb24f0e75ac4c9683d4340f7878db74550ebec1a09454585bffba4b8c1055c70"
+  },
+  "status": "passed",
+  "train_images": 128000
+}

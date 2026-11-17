@@ -1,0 +1,8 @@
+{
+  "best_dev_ce": 2.3349442788906383,
+  "epoch": 20,
+  "status": "complete",
+  "step": 80000,
+  "stop_reason": "maximum20epochs",
+  "training_exposures": 2560000
+}

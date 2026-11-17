@@ -1,0 +1,27 @@
+{
+  "source_experiment": "C:\\Users\\33581\\Desktop\\fyp\\MCUNet-DWT\\experiments\\pad_mix_within_batch_20261114",
+  "source_config_sha256": "415c2c0ebab51b2045b836f3468de72bccf7fc5c242363356536b8eeeeb7744c",
+  "source_sources": {
+    "code/direct_io.py": "c723870f1d3dea22c63d850dca858d99c23d886c6558212181ef81942f11b7e9",
+    "code/preflight.py": "8d4bfa37d934b61fe2418e5b210b6327ab32248c239441004de9bd87fbd82d34",
+    "code/train_within_batch.py": "b82b26c3b5cb9bd8168ade40b3b60979cc1435915f0f8dc539214169d44b3696",
+    "code/w80_tar_source.py": "86e588d8a8325f741d71014a6491bd534c04665d3961498243800e307771a653",
+    "code/within_batch_input.py": "f88e7ec7ea43291f21cf2823382e6c178a68c6c84dbafc59bf378e1ed4d1dd6c",
+    "prepare.py": "d720a05f392d37574e665dc2bd8a94881c9521ba1ce69f81f287e19acc888a5d",
+    "queue.py": "3a05e902986e7f81f372af97ba19a9802d99b0e7b511e4b081a8e07d97d1f954"
+  },
+  "derived_sources": {
+    "code/direct_io.py": "c723870f1d3dea22c63d850dca858d99c23d886c6558212181ef81942f11b7e9",
+    "code/preflight.py": "9d20cfb57fcbfb7080bb1b7e05dfebf78e098d6ba8aca0c076a8f00072ffb789",
+    "code/train_within_batch.py": "79077d7d9e0f11994bbc7e134a970ec9e5434f14b5cbb8d3654395522bb01f74",
+    "code/w80_tar_source.py": "86e588d8a8325f741d71014a6491bd534c04665d3961498243800e307771a653",
+    "code/within_batch_input.py": "adb3a4151c8c2b2b57e5061351dc0acc5ad2fb064d3f5e17e35a420b535d0672",
+    "prepare.py": "3bb84877b57f77ee72b54159e2aef96626771c3a237b6fa296aa1f9242e11cea",
+    "queue.py": "cb24f0e75ac4c9683d4340f7878db74550ebec1a09454585bffba4b8c1055c70"
+  },
+  "scientific_change": "LL80 placement: top-left[0:80,0:80] -> center[40:120,40:120]",
+  "exact_trainer_diff_checked": true,
+  "exact_adapter_diff_checked": true,
+  "mixture_rng_salt_unchanged": true,
+  "all_new_outputs_under_fyp": true
+}

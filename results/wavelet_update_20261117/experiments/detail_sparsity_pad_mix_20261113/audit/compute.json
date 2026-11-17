@@ -1,0 +1,28 @@
+{
+  "rows": [
+    {
+      "conv_linear_macs": 67287200,
+      "parameters": 729392,
+      "stem_output": [
+        1,
+        16,
+        80,
+        80
+      ],
+      "view": "rgb"
+    },
+    {
+      "conv_linear_macs": 67287200,
+      "parameters": 729392,
+      "stem_output": [
+        1,
+        16,
+        80,
+        80
+      ],
+      "view": "ll1_pad"
+    }
+  ],
+  "scope": "actual forward-hook Conv/Linear MACs; excludes Haar/pad/normalization/BN/activation/decode",
+  "sparse_acceleration": false
+}

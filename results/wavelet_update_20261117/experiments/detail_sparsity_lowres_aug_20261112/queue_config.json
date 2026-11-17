@@ -1,0 +1,58 @@
+{
+  "schema": 2,
+  "created_at": 1794418158.2126899,
+  "train_images": 128000,
+  "dev_images": 20000,
+  "maximum_epochs": 20,
+  "resource_watermark_pause": false,
+  "full_training_launch_allowed": false,
+  "python": "C:\\Users\\33581\\anaconda3\\envs\\fyp-w80-rgb\\python.exe",
+  "handoff_root": "C:\\Users\\33581\\Desktop\\fyp\\tmp\\team-w80-432bc728-lf",
+  "train_tar": "C:\\Users\\33581\\Desktop\\fyp\\ILSVRC2012_img_train\\ILSVRC2012_img_train\\ILSVRC2012_img_train.tar",
+  "seal_dir": "C:\\Users\\33581\\Desktop\\fyp\\MCUNet-DWT\\experiments\\detail_sparsity_lowres_aug_20261112\\data\\seal",
+  "manifest": "C:\\Users\\33581\\Desktop\\fyp\\MCUNet-DWT\\experiments\\detail_sparsity_lowres_aug_20261112\\data\\seal\\manifest.local_accepted.tsv",
+  "manifest_sha256": "0c68acdffbec6ec80835561962d94689eff4fdde5a3428858b5a117dd10653a7",
+  "weights": "C:\\Users\\33581\\Desktop\\fyp\\MCUNet-DWT\\weights\\mcunet-256kb-1mb_imagenet.pth",
+  "pretrained_sha256": "63565b5773a8aa70d75baf5a349f5f384da649804c48a5e7af1f655460158c7d",
+  "mcunet_root": "C:\\Users\\33581\\Desktop\\Mcunet\\mcunet-w80-clean",
+  "run_root": "C:\\Users\\33581\\Desktop\\fyp\\MCUNet-DWT\\experiments\\detail_sparsity_lowres_aug_20261112\\runs",
+  "cache_root": "C:\\Users\\33581\\Desktop\\fyp\\MCUNet-DWT\\experiments\\detail_sparsity_lowres_aug_20261112\\cache",
+  "sources": {
+    "code/augmentation.py": "5ee39b3b827e3a0fc7105636a608ae3b71d4e35100e17843cdd1f09e4e73c607",
+    "code/direct_io.py": "c723870f1d3dea22c63d850dca858d99c23d886c6558212181ef81942f11b7e9",
+    "code/low_resolution.py": "ffe050ca12cb3b17fe9d2f5f48edbcca98ef8b01a1978bb6dd45a81aa2e6db7a",
+    "code/preflight.py": "003f810d1c85b1c704c6a4e2d94b336f76fef90177fa024abf9077888ee93bd6",
+    "code/train_lowres.py": "33eb1b7cfe57b8dac283f2caca7d3bc20a85194013c9802078f449c5cf31f4b3",
+    "code/w80_tar_source.py": "30104cd543df6c728151206ef90c72a7e9f0255acdb82a3949b7fd9e945815bf",
+    "queue.py": "ba8b784e95493190cb26be85b207c8b70344076a0efe1740e1ded41a5dd22f87",
+    "prepare.py": "371e0eddef91756165c6391253e434b872ca27102263953527fc3425fde9f1fa"
+  },
+  "experiments": [
+    {
+      "name": "ll80_light",
+      "variant": "ll80",
+      "augmentation": "light"
+    },
+    {
+      "name": "rgb80_light",
+      "variant": "rgb80",
+      "augmentation": "light"
+    },
+    {
+      "name": "rgb80_plain",
+      "variant": "rgb80",
+      "augmentation": "plain"
+    }
+  ],
+  "reused_ll80_plain": "C:\\Users\\33581\\Desktop\\fyp\\MCUNet-DWT\\experiments\\dwt_ll_stride2_full20_20261101\\run",
+  "reused_rgb160_plain": "C:\\Users\\33581\\Desktop\\fyp\\MCUNet-DWT\\runs\\w80_rgb160_localcontent_128k",
+  "conv_linear_macs": 18021824,
+  "reused_evidence": {
+    "C:\\Users\\33581\\Desktop\\fyp\\MCUNet-DWT\\experiments\\dwt_ll_stride2_full20_20261101\\run\\complete.json": "b6caf7b97f8ed995293e22fbd513f16e94443a91b156216faa16e5a0dbd74fa6",
+    "C:\\Users\\33581\\Desktop\\fyp\\MCUNet-DWT\\experiments\\dwt_ll_stride2_full20_20261101\\run\\history.csv": "df428533bcf752718f88e0c84986d06918831d29bbcfc43bf37ee4d9e48a40b8",
+    "C:\\Users\\33581\\Desktop\\fyp\\MCUNet-DWT\\experiments\\dwt_ll_stride2_full20_20261101\\run\\config.json": "fb882649e2a6ea85f1aa96b7f060e2f145c05b0594e7cb08fda7cb8114328da7",
+    "C:\\Users\\33581\\Desktop\\fyp\\MCUNet-DWT\\runs\\w80_rgb160_localcontent_128k\\complete.json": "0a4bb6a25a62310be0d4bcaa7ad0e3a2e8d0b12e992d8306080cf36abaf81514",
+    "C:\\Users\\33581\\Desktop\\fyp\\MCUNet-DWT\\runs\\w80_rgb160_localcontent_128k\\history.csv": "02d03614912a68952bcd516eefeea82046f229710f644967b161b39889a7895d",
+    "C:\\Users\\33581\\Desktop\\fyp\\MCUNet-DWT\\runs\\w80_rgb160_localcontent_128k\\config.json": "61408a10650244fdc62d5e177612fdc1a7331cfb84c056aedfed20beb0ae5053"
+  }
+}

@@ -1,0 +1,18 @@
+[
+  {
+    "role": "best",
+    "file": "88afd75913caa3f2b19ffcd835ada0a0c31f570c2f4df6e801d500d3def1a557.pt",
+    "sha256": "88afd75913caa3f2b19ffcd835ada0a0c31f570c2f4df6e801d500d3def1a557",
+    "bytes": 6076071,
+    "weight_uploaded": false,
+    "availability": "retained locally at export time"
+  },
+  {
+    "role": "latest",
+    "file": "aa2ce5a633d0df19f7854708d1de95caf32e2d05433152685b48bb809c0a035d.pt",
+    "sha256": "aa2ce5a633d0df19f7854708d1de95caf32e2d05433152685b48bb809c0a035d",
+    "bytes": 6076263,
+    "weight_uploaded": false,
+    "availability": "retained locally at export time"
+  }
+]

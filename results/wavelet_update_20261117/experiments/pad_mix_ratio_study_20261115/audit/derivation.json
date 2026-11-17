@@ -1,0 +1,14 @@
+{
+  "base_experiment": "C:\\Users\\33581\\Desktop\\fyp\\MCUNet-DWT\\experiments\\pad_mix_center_within_batch_20261114",
+  "base_trainer_sha256": "79077d7d9e0f11994bbc7e134a970ec9e5434f14b5cbb8d3654395522bb01f74",
+  "base_adapter_sha256": "adb3a4151c8c2b2b57e5061351dc0acc5ad2fb064d3f5e17e35a420b535d0672",
+  "changed": "sample mixture ratio only; centered LL block retained",
+  "rgb_fraction_by_arm": {
+    "rgb50_ll50": "1/2",
+    "rgb33_ll67": "1/3",
+    "rgb25_ll75": "1/4"
+  },
+  "rgb11ratio_cycle": "11,11,10 RGB samples/update gives exact 1:2 over full80k updates",
+  "both_eval_views": true,
+  "all_outputs_under_fyp": true
+}

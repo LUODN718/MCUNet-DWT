@@ -1,0 +1,13 @@
+{
+  "base": "C:\\Users\\33581\\Desktop\\fyp\\MCUNet-DWT\\experiments\\pad_mix_ratio_study_20261115",
+  "base_trainer_sha256": "459cd8c98eef27ffe521dc812012f8d9232298a0fb745bbd2687d65392faa6df",
+  "base_loader_sha256": "86e588d8a8325f741d71014a6491bd534c04665d3961498243800e307771a653",
+  "changes": [
+    "224 crop;112LL;56centerpad",
+    "Resize255 dev",
+    "batch64 with32 comparison",
+    "epoch-based scheduler scaled to actual updates/epoch",
+    "RGB224 control selects RGB CE"
+  ],
+  "original160_sources_unchanged": true
+}

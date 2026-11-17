@@ -1,0 +1,15 @@
+{
+  "parameters": 729392,
+  "results": [
+    {
+      "conv_linear_macs": 67287200,
+      "view": "rgb"
+    },
+    {
+      "conv_linear_macs": 67287200,
+      "view": "ll1_pad"
+    }
+  ],
+  "scope": "Conv/Linear only; excludes preprocessing/BN/activation",
+  "sparse_acceleration": false
+}

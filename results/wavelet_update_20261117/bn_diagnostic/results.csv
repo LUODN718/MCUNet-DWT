@@ -1,0 +1,9 @@
+epoch,condition,view,top1,top5,ce
+18,original,rgb,58.65,81.77,1.7887359727866352
+18,original,ll1_pad,43.09,68.395,2.5706474790062486
+18,train_only_bn_recalibrated,rgb,61.57,83.86,1.6023516080875089
+18,train_only_bn_recalibrated,ll1_pad,46.555,71.785,2.3784590987545804
+20,original,rgb,60.955,83.31,1.6429833168565804
+20,original,ll1_pad,36.635,61.935,2.944660565749344
+20,train_only_bn_recalibrated,rgb,61.645,83.87,1.6016466294962577
+20,train_only_bn_recalibrated,ll1_pad,46.625,71.875,2.3758656765605823

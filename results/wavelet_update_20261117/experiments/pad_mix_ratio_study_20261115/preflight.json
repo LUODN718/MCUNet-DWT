@@ -1,0 +1,35 @@
+{
+  "status": "passed",
+  "formal_training_updates": 0,
+  "train_images": 128000,
+  "dev_images": 20000,
+  "maximum_epochs": 20,
+  "checks": [
+    "all three80k-step schedules have deterministic exact global ratios",
+    "all arms share same centered LL80 preprocessing and160 input canvas",
+    "each trained model is configured for separate RGB160 and centered LL evaluation"
+  ],
+  "schedules": {
+    "rgb50_ll50": {
+      "rgb_samples": 1280000,
+      "ll_samples": 1280000,
+      "ratio": "1280000:1280000",
+      "sha256": "0fbd03a546b1047a130afb7bc1575d6d10c92f915e9d1ab8905db9981233b2e7"
+    },
+    "rgb33_ll67": {
+      "rgb_samples": 853334,
+      "ll_samples": 1706666,
+      "ratio": "853334:1706666",
+      "sha256": "63cf8fa264dbbc5403cd54da9e32dfc2bddef2f909333e48ab95e450530a8738"
+    },
+    "rgb25_ll75": {
+      "rgb_samples": 640000,
+      "ll_samples": 1920000,
+      "ratio": "640000:1920000",
+      "sha256": "072d684796f48fc2b3a5a6f2446f323017ba082cf97e1d865c7c5a876ac2a1c2"
+    }
+  },
+  "actual_conv_linear_macs_per_view": 67287200,
+  "mac_reduction": false,
+  "finished_at": 1794754721.712655
+}

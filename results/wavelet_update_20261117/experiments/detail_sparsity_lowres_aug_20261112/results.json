@@ -1,0 +1,51 @@
+{
+  "results": [
+    {
+      "variant": "rgb160_plain_reused",
+      "completed_epochs": 20,
+      "best_epoch": 1,
+      "dev_ce": 1.401724797804721,
+      "dev_top1": 65.63,
+      "dev_top5": 86.605,
+      "updates": 80000,
+      "conv_linear_macs": 67287200,
+      "reused": true
+    },
+    {
+      "variant": "ll80_plain_reused",
+      "completed_epochs": 20,
+      "best_epoch": 19,
+      "dev_ce": 2.269458461924782,
+      "dev_top1": 48.305,
+      "dev_top5": 73.72,
+      "updates": 80000,
+      "conv_linear_macs": 18021824,
+      "reused": true
+    },
+    {
+      "variant": "ll80_light",
+      "completed_epochs": 20,
+      "best_epoch": 19,
+      "dev_ce": 2.274592504823357,
+      "dev_top1": 48.57,
+      "dev_top5": 73.395,
+      "updates": 80000,
+      "conv_linear_macs": 18021824,
+      "reused": false
+    },
+    {
+      "variant": "rgb80_light",
+      "completed_epochs": 20,
+      "best_epoch": 19,
+      "dev_ce": 2.2809362352982694,
+      "dev_top1": 48.37,
+      "dev_top5": 73.25,
+      "updates": 80000,
+      "conv_linear_macs": 18021824,
+      "reused": false
+    }
+  ],
+  "official_val_used": false,
+  "mac_scope": "CNN Conv/Linear only; preprocessing excluded",
+  "caveat": "RGB160 historical control has no extra augmentation"
+}

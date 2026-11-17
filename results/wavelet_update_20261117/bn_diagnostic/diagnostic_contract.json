@@ -1,0 +1,20 @@
+{
+  "calibration_members_sha256": "16d368689a6d503088962508b6d16639b354095e2713110dceee55d0cee16468",
+  "calibration_transform": "original train RRC160+flip at epoch0; separately each view",
+  "calibration_views": [
+    "rgb",
+    "ll1_pad"
+  ],
+  "epochs": {
+    "18": "8629d120a32790cce04a8184830b16f2784cfd6ab9fc7b269fd26919bd38262b.pt",
+    "20": "2ec655ed73c55045f36f19d0e5fc0876eef42c19c550ce2be5cc89a9bf2ae2e0.pt"
+  },
+  "evaluation": "full20000 dev, both original routes; recalibrated model eval only on its corresponding route",
+  "frozen_source_sha256": "2b6e70ea87f010d235e7f76c992313da21651b66aba3e115c969715a21ff79e4",
+  "no_official_val": true,
+  "no_parameter_changes": true,
+  "recalibration": "reset BN stats, momentum=None,500 batches32; only BN modules train mode; no gradients/optimizer",
+  "schema": 1,
+  "source_run_config_sha256": "510ff9be3357750d2db0f99e643566f8ee5ac1a916f0afbedee07ea994e4c927",
+  "train_images": 16000
+}

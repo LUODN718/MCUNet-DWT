@@ -1,0 +1,32 @@
+{
+  "checks": [
+    "32/64 exact epoch cardinality; near1:2 global mixtures; deterministic masks; epoch-scaled warmup/cosine",
+    "real TRAIN/dev byte and RGB identity checks;224 crop;112LL; centered56px padding before normalization",
+    "FP32 batch64 real-data SGD steps finite; resumed next step exactly reproduces weights,BN,loss and LR",
+    "both eval views support final32-image remainder at batch64"
+  ],
+  "classes": 1000,
+  "conv_linear_macs_224": 131729312,
+  "conv_linear_macs_native112": 34525088,
+  "dev_images": 20000,
+  "disposable_preflight_updates": 3,
+  "finished_at": 1794927849.8899941,
+  "formal_training_updates": 0,
+  "preprocessing_cost_included": false,
+  "schedules": {
+    "32": {
+      "ll_samples": 1706666,
+      "maximum_updates": 80000,
+      "rgb_samples": 853334,
+      "steps_per_epoch": 4000
+    },
+    "64": {
+      "ll_samples": 1706667,
+      "maximum_updates": 40000,
+      "rgb_samples": 853333,
+      "steps_per_epoch": 2000
+    }
+  },
+  "status": "passed",
+  "train_images": 128000
+}

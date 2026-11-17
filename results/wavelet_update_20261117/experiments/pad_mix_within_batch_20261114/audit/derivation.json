@@ -1,0 +1,8 @@
+{
+  "source": "C:\\Users\\33581\\Desktop\\fyp\\MCUNet-DWT\\experiments\\detail_sparsity_pad_mix_20261113\\code\\train_pad_mix.py",
+  "source_sha256": "a3141046ca647e18fec9594bac95e10cbbb1a019d0f12713b9636ca5c5869a53",
+  "derived_sha256": "b82b26c3b5cb9bd8168ade40b3b60979cc1435915f0f8dc539214169d44b3696",
+  "intended_change": "whole-batch randomized domains -> exact16/16 domains within each32 batch",
+  "inherited": "data/augment/initial weights/shared BN/optimizer/budget/dual dev/selection/recovery",
+  "frozen_original_unchanged": true
+}

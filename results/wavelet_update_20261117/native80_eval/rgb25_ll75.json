@@ -1,0 +1,40 @@
+{
+  "bn": "shared checkpoint running statistics; eval mode; no recalibration; buffers verified unchanged",
+  "checkpoint_epoch": 20,
+  "checkpoint_selection": "existing minimum full LL-pad160 dev CE; no reselection",
+  "checkpoint_sha256": "15c43bcf16a1c826990d31f38aa5cf4cf782e4cd7f40d5f320c435c11ff311d1",
+  "evaluator_sha256": "61f55bf999a0eed6a6e382ac8a7082c54e13c381135ebbc0b627e15fbe858c5d",
+  "existing_ll_pad160": {
+    "ce": 2.2885670100150115,
+    "top1": 47.96,
+    "top5": 73.09
+  },
+  "existing_rgb160": {
+    "ce": 1.637552088480822,
+    "top1": 60.79,
+    "top5": 83.215
+  },
+  "finished_at": 1794866746.2962945,
+  "imagenet_v2_used": false,
+  "mac_scope": "CNN Conv/Linear only; excludes decoding, geometric preprocessing, Haar and normalization",
+  "manifest_sha256": "0c68acdffbec6ec80835561962d94689eff4fdde5a3428858b5a117dd10653a7",
+  "native_ll80": {
+    "ce": 3.67954639186723,
+    "conv_linear_macs": 18021824,
+    "images": 20000,
+    "input_shape": [
+      3,
+      80,
+      80
+    ],
+    "top1": 37.275,
+    "top5": 62.715
+  },
+  "native_to_160_mac_ratio": 0.26783435779761977,
+  "official_val_used": false,
+  "precision": "FP32; AMP and TF32 disabled",
+  "preprocessing": "same dev Resize182 bicubic antialias + CenterCrop160 -> Haar LL1 / 2 DC correction -> 2*x-1; no padding or upsampling",
+  "reference160_conv_linear_macs": 67287200,
+  "seconds": 275.58096146583557,
+  "variant": "rgb25_ll75"
+}

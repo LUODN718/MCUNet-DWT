@@ -1,0 +1,33 @@
+{
+  "results": [
+    {
+      "variant": "p2_rgb_ll1_pad_mix",
+      "completed_epochs": 20,
+      "best_epoch": 18,
+      "ll1_pad_dev_ce": 2.5706474790062486,
+      "ll1_pad_dev_top1": 43.09,
+      "ll1_pad_dev_top5": 68.395,
+      "rgb_dev_ce": 1.7887359727866352,
+      "rgb_dev_top1": 58.65,
+      "rgb_dev_top5": 81.77,
+      "updates": 80000,
+      "conv_linear_macs": 67287200
+    },
+    {
+      "variant": "p0_rgb_only",
+      "completed_epochs": 20,
+      "best_epoch": 3,
+      "ll1_pad_dev_ce": 4.0410287914058935,
+      "ll1_pad_dev_top1": 21.925,
+      "ll1_pad_dev_top5": 43.115,
+      "rgb_dev_ce": 1.5560143693492534,
+      "rgb_dev_top1": 62.385,
+      "rgb_dev_top5": 84.385,
+      "updates": 80000,
+      "conv_linear_macs": 67287200
+    }
+  ],
+  "official_val_used": false,
+  "selection": "lowest complete LL1-pad160 development CE for every arm; RGB metrics at that same epoch",
+  "expected_acceleration": false
+}

@@ -1,0 +1,20 @@
+{
+  "exported_at_shanghai": "2026-11-17T23:12:26.262552+08:00",
+  "previous_own_commit": "d6b0fe5d67533c35fe476d681a554b286b7ffb70",
+  "previous_team_commit": "471d148a0f9a3690d3c8f2e6122e18f87e0d87ad",
+  "fixed_data": {
+    "train": 128000,
+    "dev": 20000,
+    "classes": 1000,
+    "same_teammate_members": true,
+    "matches_teammate_content_seal": false,
+    "local_manifest_sha256": "0c68acdffbec6ec80835561962d94689eff4fdde5a3428858b5a117dd10653a7"
+  },
+  "pinned_handoff_commit": "432bc72840dbe01820e4eefbcda710a16fb73f0d",
+  "pinned_mcunet_commit": "9c164f8483003a5c6445871d94d30720aecc5918",
+  "training_weights_uploaded": false,
+  "imagenet_images_uploaded": false,
+  "original_docx_uploaded": false,
+  "official_val_used_for_these_experiments": false,
+  "source_path_note": "archived scripts/configs include historical local paths; supply corresponding local CLI paths to reproduce; snapshots are read-only evidence"
+}

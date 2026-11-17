@@ -1,0 +1,119 @@
+{
+  "best_dev_ce": 2.5706474790062486,
+  "best_epoch": 18,
+  "completed_epochs": 20,
+  "contract": {
+    "additional_augmentation": null,
+    "all_parameters_trainable": true,
+    "amp": false,
+    "batch": 32,
+    "batch_norm_running_stats": "updated in training mode with microbatch 32",
+    "batch_norm_sharing": "one shared pretrained BN set; no split BN or recalibration",
+    "bn_batch": 32,
+    "checkpoint_interval_seconds": 60,
+    "checkpoint_interval_updates": 100,
+    "checkpoint_selection": "lowest complete LL1-pad160 development CE; first exact tie; RGB metrics secondary",
+    "config_sha256": "bf1dcb428e0bc21ad102463ee4764eefddaf4151363f8d43898a1e2e52f80485",
+    "dataset_alignment": {
+      "local_manifest_sha256": "0c68acdffbec6ec80835561962d94689eff4fdde5a3428858b5a117dd10653a7",
+      "matches_teammate_content_seal": false,
+      "reference_manifest_sha256": "c3e2d54e9bcd5d5d1e03b96be5f45ad04fa384fad2d1cdf4878296e215f80179",
+      "same_frozen_membership": true,
+      "user_accepted_local_content": true
+    },
+    "early_stop": {
+      "maximum_absolute_ols_slope": 0.001,
+      "maximum_ce_range": 0.005,
+      "minimum_ce_improvement": 0.001,
+      "patience": 4,
+      "plateau_window": 4
+    },
+    "entrypoint_sha256": "a3141046ca647e18fec9594bac95e10cbbb1a019d0f12713b9636ca5c5869a53",
+    "epochs_max": 20,
+    "execution_scope": "reference-inspired 160 adaptation with explicit assumptions; not exact224 reproduction or frozen teammate recipe",
+    "experiment_sources": {
+      "direct_io.py": "c723870f1d3dea22c63d850dca858d99c23d886c6558212181ef81942f11b7e9",
+      "padded_input.py": "63a85cfb4cd7d2d0a9491a810d45c0251048a7372736ad4a0368bc4a42e016e2",
+      "w80_tar_source.py": "86e588d8a8325f741d71014a6491bd534c04665d3961498243800e307771a653"
+    },
+    "gradient_accumulation": 1,
+    "handoff_commit": "432bc72840dbe01820e4eefbcda710a16fb73f0d",
+    "imagenet_v2_used": false,
+    "input_processing": {
+      "canvas_size": [
+        160,
+        160
+      ],
+      "coefficient_size": [
+        80,
+        80
+      ],
+      "inference_skip_zero_regions": false,
+      "normalization_order": "RGB geometric view -> corrected LL -> zero-pad -> 2*x-1; pad becomes -1",
+      "placement": "top-left; right and bottom zero in [0,1] domain",
+      "upsampling": false,
+      "wavelet": "orthonormal Haar, level1 LL only, divide coefficient by2 for DC correction"
+    },
+    "loss": "cross_entropy_only",
+    "lr_schedule": "linear warmup for 2 epochs, then cosine decay to zero by epoch 20",
+    "manifest_sha256": "0c68acdffbec6ec80835561962d94689eff4fdde5a3428858b5a117dd10653a7",
+    "mcunet_commit": "9c164f8483003a5c6445871d94d30720aecc5918",
+    "minimum_epochs_before_early_stop": 6,
+    "momentum": 0.9,
+    "official_val_used": false,
+    "optimizer": "SGD",
+    "peak_lr": 0.001,
+    "precision": "fp32",
+    "primary_development_view": "ll1_pad",
+    "protocol_sha256": "0f414ee9a709cbca507b29d36f6cc77cf77b47a0039b8aad1474211d2f8d33b8",
+    "resource_watermark_pause": false,
+    "secondary_development_view": "rgb",
+    "seed": 2026,
+    "sources": {
+      "__init__.py": "27b6d47cd463fe9495ef9a2da30e93610c8ac088fd24371ee506c6b1960c18f9",
+      "admission.py": "606c817b6beb326568a7135dcbbcb86af368da44e7b5982a2d529b667b658c17",
+      "calibrate.py": "e00742be8e224a94025bacd285655f714fcafda86238ea0ca3d3772b8104e971",
+      "content_audit.py": "44215d368e208895b21cfa2a46c758259f2630a56a51f3c2a3b5916d5c9767c1",
+      "cuda_checks.py": "1e553bac63c83c0b7c6d2d68f35486b08a9bf40c1eb93c70659f6ff9c2521f92",
+      "data.py": "95333a6619b3729f457cf9986264707a478856e58f6ffc73b1cd6b3e2fb378a3",
+      "execution.py": "04afcae1daa3b3685d50b687a47b9a7c8bafd66fbdd77c3e6117314b46a5497f",
+      "model.py": "3c5ad41656f7663047c1fc2ddbb537499e1f62920d0b95f0395072dba37a1e11",
+      "pipeline.py": "54ebd30260ac75713dcf5d899615d44a9cb89133f7331ad6bf35eaab4af55f05",
+      "resources.py": "be17a46b7959823e488ddf514da6f795dd858e1fa2ce33488699584a540dfad1",
+      "review.py": "23e6c8d0b8d8772f44dd6de40888726d17012b4589015e25a5765c8eb4976910",
+      "runtime.py": "1fd57e505168ce2bbed7bc501d705c88f7b9deefd8a4a1d06be0b5eeee8090b2",
+      "train.py": "fa8a07a360e16f46206d7ccd138212f16614431917825f5d6261b94a7725c330"
+    },
+    "storage": {
+      "adapter_sha256": "86e588d8a8325f741d71014a6491bd534c04665d3961498243800e307771a653",
+      "archive": {
+        "bytes": 147897477120,
+        "mtime_ns": 1793352793645938800,
+        "path": "C:\\Users\\33581\\Desktop\\fyp\\ILSVRC2012_img_train\\ILSVRC2012_img_train\\ILSVRC2012_img_train.tar"
+      },
+      "index_sha256": "84a75782bec465614954d3f391eb83227a1b7ef0ac276e14977705e8fe7c9126",
+      "type": "tar"
+    },
+    "tf32": false,
+    "train_root": null,
+    "training_mixture": {
+      "extra_updates_or_duplicates": false,
+      "mixed_counts_per_epoch": {
+        "ll1_pad": 2000,
+        "rgb": 2000
+      },
+      "schedule": "sha256 pad-mix-v1:2026:epoch -> local torch Generator randperm4000",
+      "schedule_note": "mixture schedule applies only to rgb_ll1_pad_mix; controls use their sole view",
+      "unit": "whole microbatch32",
+      "variant": "rgb_ll1_pad_mix"
+    },
+    "variant": "rgb_ll1_pad_mix",
+    "warmup_epochs": 2,
+    "weight_decay": 4e-05,
+    "weights_sha256": "63565b5773a8aa70d75baf5a349f5f384da649804c48a5e7af1f655460158c7d"
+  },
+  "stop_reason": "maximum20epochs",
+  "training_exposures": 2560000,
+  "updates": 80000,
+  "variant": "rgb_ll1_pad_mix"
+}

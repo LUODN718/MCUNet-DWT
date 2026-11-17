@@ -1,0 +1,116 @@
+{
+  "exported_at_shanghai": "2026-11-17T23:12:26.262552+08:00",
+  "rows": [
+    {
+      "experiment": "detail_sparsity_lowres_aug_20261112",
+      "run": "ll80_light",
+      "completed_epochs": 20,
+      "best_epoch": 19,
+      "rgb160_top1": null,
+      "ll_pad160_top1": null,
+      "native80_top1": 48.57,
+      "primary_ce": 2.274592504823357,
+      "conv_linear_macs": 18021824,
+      "selection": "minimum full native80 dev CE"
+    },
+    {
+      "experiment": "detail_sparsity_lowres_aug_20261112",
+      "run": "rgb80_light",
+      "completed_epochs": 20,
+      "best_epoch": 19,
+      "rgb160_top1": null,
+      "ll_pad160_top1": null,
+      "native80_top1": 48.37,
+      "primary_ce": 2.2809362352982694,
+      "conv_linear_macs": 18021824,
+      "selection": "minimum full native80 dev CE"
+    },
+    {
+      "experiment": "detail_sparsity_pad_mix_20261113",
+      "run": "p2_rgb_ll1_pad_mix",
+      "completed_epochs": 20,
+      "best_epoch": 18,
+      "rgb160_top1": 58.65,
+      "ll_pad160_top1": 43.09,
+      "native80_top1": null,
+      "primary_ce": 2.5706474790062486,
+      "conv_linear_macs": 67287200,
+      "selection": "minimum full LL-pad160 dev CE; RGB same epoch"
+    },
+    {
+      "experiment": "detail_sparsity_pad_mix_20261113",
+      "run": "p0_rgb_only",
+      "completed_epochs": 20,
+      "best_epoch": 3,
+      "rgb160_top1": 62.385,
+      "ll_pad160_top1": 21.925,
+      "native80_top1": null,
+      "primary_ce": 4.0410287914058935,
+      "conv_linear_macs": 67287200,
+      "selection": "minimum full LL-pad160 dev CE; RGB same epoch"
+    },
+    {
+      "experiment": "pad_mix_within_batch_20261114",
+      "run": "rgb_ll1_within_batch",
+      "completed_epochs": 20,
+      "best_epoch": 19,
+      "rgb160_top1": 61.835,
+      "ll_pad160_top1": 46.565,
+      "native80_top1": null,
+      "primary_ce": 2.358551428690127,
+      "conv_linear_macs": 67287200,
+      "selection": "minimum full LL-pad160 dev CE; RGB same epoch"
+    },
+    {
+      "experiment": "pad_mix_center_within_batch_20261114",
+      "run": "rgb_ll1_center_within_batch",
+      "completed_epochs": 20,
+      "best_epoch": 19,
+      "rgb160_top1": 61.62,
+      "ll_pad160_top1": 47.415,
+      "native80_top1": null,
+      "primary_ce": 2.3349442788906383,
+      "conv_linear_macs": 67287200,
+      "selection": "minimum full LL-pad160 dev CE; RGB same epoch"
+    },
+    {
+      "experiment": "pad_mix_ratio_study_20261115",
+      "run": "rgb50_ll50",
+      "completed_epochs": 20,
+      "best_epoch": 19,
+      "rgb160_top1": 61.71,
+      "ll_pad160_top1": 47.34,
+      "native80_top1": 37.08,
+      "primary_ce": 2.3324075127698443,
+      "conv_linear_macs": 67287200,
+      "selection": "minimum full LL-pad160 dev CE; RGB same epoch",
+      "native80_conv_linear_macs": 18021824
+    },
+    {
+      "experiment": "pad_mix_ratio_study_20261115",
+      "run": "rgb33_ll67",
+      "completed_epochs": 20,
+      "best_epoch": 19,
+      "rgb160_top1": 60.925,
+      "ll_pad160_top1": 48.22,
+      "native80_top1": 37.315,
+      "primary_ce": 2.2982505349666185,
+      "conv_linear_macs": 67287200,
+      "selection": "minimum full LL-pad160 dev CE; RGB same epoch",
+      "native80_conv_linear_macs": 18021824
+    },
+    {
+      "experiment": "pad_mix_ratio_study_20261115",
+      "run": "rgb25_ll75",
+      "completed_epochs": 20,
+      "best_epoch": 20,
+      "rgb160_top1": 60.79,
+      "ll_pad160_top1": 47.96,
+      "native80_top1": 37.275,
+      "primary_ce": 2.2885670100150115,
+      "conv_linear_macs": 67287200,
+      "selection": "minimum full LL-pad160 dev CE; RGB same epoch",
+      "native80_conv_linear_macs": 18021824
+    }
+  ]
+}

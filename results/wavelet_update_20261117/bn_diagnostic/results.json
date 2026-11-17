@@ -1,0 +1,75 @@
+{
+  "all_nonbn_tensors_unchanged": true,
+  "calibration_train_only": true,
+  "developer_set_not_used_for_bn": true,
+  "experiment": "posthoc diagnostic; does not replace original experiment",
+  "original_metrics_reproduced": true,
+  "results": [
+    {
+      "ce": 1.7887359727866352,
+      "condition": "original",
+      "epoch": 18,
+      "top1": 58.65,
+      "top5": 81.77,
+      "view": "rgb"
+    },
+    {
+      "ce": 2.5706474790062486,
+      "condition": "original",
+      "epoch": 18,
+      "top1": 43.09,
+      "top5": 68.395,
+      "view": "ll1_pad"
+    },
+    {
+      "ce": 1.6023516080875089,
+      "condition": "train_only_bn_recalibrated",
+      "epoch": 18,
+      "top1": 61.57,
+      "top5": 83.86,
+      "view": "rgb"
+    },
+    {
+      "ce": 2.3784590987545804,
+      "condition": "train_only_bn_recalibrated",
+      "epoch": 18,
+      "top1": 46.555,
+      "top5": 71.785,
+      "view": "ll1_pad"
+    },
+    {
+      "ce": 1.6429833168565804,
+      "condition": "original",
+      "epoch": 20,
+      "top1": 60.955,
+      "top5": 83.31,
+      "view": "rgb"
+    },
+    {
+      "ce": 2.944660565749344,
+      "condition": "original",
+      "epoch": 20,
+      "top1": 36.635,
+      "top5": 61.935,
+      "view": "ll1_pad"
+    },
+    {
+      "ce": 1.6016466294962577,
+      "condition": "train_only_bn_recalibrated",
+      "epoch": 20,
+      "top1": 61.645,
+      "top5": 83.87,
+      "view": "rgb"
+    },
+    {
+      "ce": 2.3758656765605823,
+      "condition": "train_only_bn_recalibrated",
+      "epoch": 20,
+      "top1": 46.625,
+      "top5": 71.875,
+      "view": "ll1_pad"
+    }
+  ],
+  "status": "complete",
+  "updated_at": 1794631474.4432042
+}

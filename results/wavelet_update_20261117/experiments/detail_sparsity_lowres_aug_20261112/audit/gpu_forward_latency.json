@@ -1,0 +1,45 @@
+{
+  "caveat": "10 samples after 5 warmups; laptop GPU frequency/load may vary; not MCU latency",
+  "device": "NVIDIA GeForce RTX 3060 Laptop GPU",
+  "precision": "FP32",
+  "rows": [
+    {
+      "batch": 1,
+      "mean_ms": 6.557072019577026,
+      "median_ms": 6.6935200691223145,
+      "variant": "rgb160"
+    },
+    {
+      "batch": 32,
+      "mean_ms": 12.427206325531007,
+      "median_ms": 12.420975685119629,
+      "variant": "rgb160"
+    },
+    {
+      "batch": 1,
+      "mean_ms": 6.75895357131958,
+      "median_ms": 6.793103933334351,
+      "variant": "rgb80"
+    },
+    {
+      "batch": 32,
+      "mean_ms": 7.497007942199707,
+      "median_ms": 7.3420960903167725,
+      "variant": "rgb80"
+    },
+    {
+      "batch": 1,
+      "mean_ms": 6.666947221755981,
+      "median_ms": 6.585360050201416,
+      "variant": "ll80"
+    },
+    {
+      "batch": 32,
+      "mean_ms": 7.100767993927002,
+      "median_ms": 7.015856027603149,
+      "variant": "ll80"
+    }
+  ],
+  "scope": "GPU resident RGB160 -> downsample/normalize -> CNN; excludes disk/decode/crop/CPU augmentation/transfers",
+  "tf32": false
+}
